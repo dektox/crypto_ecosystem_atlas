@@ -1,0 +1,8 @@
+id,lastname,edate,twitter,link,incdate,cdate,creason,creasonx,cryptonative,verified,comments
+10000,previous name,01.01.2017,,https://example.com,01.10.2017,01.06.2019,bankrupted,R,native,TRUE,Like it
+10001,1BTCXE,01.11.2014,@1btcxe,https://1btcxe.com,01.01.2014,,N/A,,native,TRUE,
+10002,1EX.Trade,01.01.2015,@1extrade,https://1ex.trade/index.php,01.01.2015,,N/A,,native,TRUE,
+10003,earn.com,01.01.2014,@earndotcom,earn.com,01.05.2013,01.04.2018,Acquired by Coinbase (as earn.com),A,native,TRUE,
+10004,247Exchange,01.08.2014,,https://247exchange.com/,01.01.2014,01.07.2018,Not clear,R,native,TRUE,"""hey guys dont use this exchange i have lost 5K here no support no reply"""
+10005,37coins,01.12.2013,@37Coins,37coins.com,01.01.2013,01.08.2015,Failed to meet market demands and expectations,R,native,TRUE,
+10006,99Bitcoins,01.04.2013,@99BitcoinsHQ,https://99bitcoins.com/,01.01.2013,,N/A,,native,TRUE,

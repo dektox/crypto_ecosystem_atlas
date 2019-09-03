@@ -1,0 +1,6 @@
+atlas:
+    dbname: atlas
+    user: postgres
+    password: minerscash
+    host: 127.0.0.1
+    port: 5432

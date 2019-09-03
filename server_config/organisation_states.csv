@@ -1,0 +1,22 @@
+id,organisation_id,year,name,type,incnum,ophqcity,ophq,leghqcity,leghq,arbjur,desc,fte
+1,10000,2017,previous name,private,FA525252,Vilnius,118,Panama City,152,USA,investment fund,500
+2,10000,2018,previous name,private,FA525253,Vilnius,118,Road Town,30,USA,investment fund,500
+3,10000,2019,EXAMPLE,public,6756453653,Bucharest,162,Road Town,30,Germany,investment fund,500
+4,10001,2014,1BTCXE,Private,,Panama City,152,Panama City,152,Panama,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+5,10001,2015,1BTCXE,Private,,Panama City,152,Panama City,152,Panama,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+6,10001,2016,1BTCXE,Private,,Panama City,152,Panama City,152,Panama,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+7,10001,2017,1BTCXE,Private,,Panama City,152,Panama City,152,Panama,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+8,10001,2018,1BTCXE,Private,,Panama City,152,Panama City,152,Panama,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+9,10001,2019,1BTCXE,Private,,Panama City,152,Panama City,152,Panama,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+10,10002,2014,1EX.Trade,Private,,Unidentified,190,Unidentified,190,Switzerland,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+11,10002,2015,1EX.Trade,Private,,Unidentified,190,Unidentified,190,Switzerland,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+12,10002,2016,1EX.Trade,Private,,Unidentified,190,Unidentified,190,Switzerland,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+13,10002,2017,1EX.Trade,Private,,Unidentified,190,Unidentified,190,Switzerland,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+14,10002,2018,1EX.Trade,Private,,Unidentified,190,Unidentified,190,Switzerland,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+15,10002,2019,1EX.Trade,Private,,Unidentified,190,Unidentified,190,Switzerland,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",
+16,10003,2014,earn.com,,,"San Francisco, California",208,"San Francisco, California",208,USA,Microtask crypto payment platform,
+17,10003,2015,earn.com,,,"San Francisco, California",208,"San Francisco, California",208,USA,Microtask crypto payment platform,
+18,10003,2016,earn.com,,,"San Francisco, California",208,"San Francisco, California",208,USA,Microtask crypto payment platform,
+19,10003,2017,earn.com,,,"San Francisco, California",208,"San Francisco, California",208,USA,Microtask crypto payment platform,
+20,10003,2018,earn.com,,,"San Francisco, California",208,"San Francisco, California",208,USA,Microtask crypto payment platform,
+21,10003,2019,earn.com,,,"San Francisco, California",208,"San Francisco, California",208,USA,Microtask crypto payment platform,

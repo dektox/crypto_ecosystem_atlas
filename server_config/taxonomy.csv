@@ -1,0 +1,97 @@
+id,segment,description,s_id,category,c_id,subcategory,b_id,Examples
+101001000,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Trading,100,Order-book,1000,"Binance, Bittrex, Kraken"
+101001001,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Trading,100,DEX relayer,1001,"Paradex (acquired by Coinbase, 2019), Radar relay"
+101001002,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Trading,100,Market Making,1002,"Global Star, FBG"
+101001003,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Trading,100,3rd Party Trading Services,1003,"Coinigy, 3 commas, HODLbot, Crypton"
+101001004,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Trading,100,HFT services,1004,Coinbase Markets (shutdown in April 2019)
+101011100,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Intermediation & Brokerage,101,Brokerage services,1100,"Coinbase, eToro, Cash App, bitcoin sussie"
+101011101,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Intermediation & Brokerage,101,OTC services,1101,"Genesis, Cumberland"
+101021200,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Other transaction processing,102,Bitcoin Teller Machines (BTM),1200,Bitaccess
+101021201,Exchange,Activities related to the exchange of cryptoassets for other assets,10,Other transaction processing,102,P2P marketplaces,1201,"LocalBitcoins, Paxful"
+111301200,Payments,Activities concerning the use of cryptoassets for payments,11,Consumer payments,130,Merchant services,1200,"BitPay, Coinbase"
+111301201,Payments,Activities concerning the use of cryptoassets for payments,11,Consumer payments,130,Bill payments,1201,Volabit
+111301202,Payments,Activities concerning the use of cryptoassets for payments,11,Consumer payments,130,Spending - Proxy-buyer service,1202,"Purse, BitRefill"
+111301203,Payments,Activities concerning the use of cryptoassets for payments,11,Consumer payments,130,Spending - Crypto-only marketplace,1203,"OpenBazaar shop, Silk Road"
+111301204,Payments,Activities concerning the use of cryptoassets for payments,11,Consumer payments,130,Spending - Debit card,1204,"Wirex, Revolut, Skrill, Coinbase"
+111311300,Payments,Activities concerning the use of cryptoassets for payments,11,Cross-border payments,131,Payroll,1300,Bitwage
+111311301,Payments,Activities concerning the use of cryptoassets for payments,11,Cross-border payments,131,B2B,1301,Paylance
+111311302,Payments,Activities concerning the use of cryptoassets for payments,11,Cross-border payments,131,Remittances,1302,"BitPesa, Remitano"
+111321400,Payments,Activities concerning the use of cryptoassets for payments,11,Other,132,M2M payments,1400,
+111321401,Payments,Activities concerning the use of cryptoassets for payments,11,Other,132,Micropayments,1401,ProTip
+121601500,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service,12,Third-party custody,160,Software wallets,1500,"Trustwallet, Jaxx"
+121601501,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service,12,Third-party custody,160,Vault services,1501,"Xapo, Fidelity"
+121611600,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service,12,Self-custody,161,Key management services (e.g. recovery),1600,"Casa, BitGo"
+121611601,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service,12,Self-custody,161,Software wallets,1601,Blockchain
+121611602,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service,12,Self-custody,161,Hardware wallets,1602,"Ledger, Trezor"
+121611603,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service,12,Self-custody,161,Paper wallets,1603,Prasos
+131901700,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Hardware manufacturing - ASIC mining,1700,"Bitmain, Ebang, Canaan, Wattminer"
+131901701,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Hardware manufacturing - GPU mining,1701,"Nvidia, AMD"
+131901702,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Remote hosting services,1702,BitFury
+131901703,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Cloud mining,1703,Genesis Mining
+131901704,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Proprietary hashing,1704,NiceHash
+131901705,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Pool operation,1705,Antpool
+131901706,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Hardware procurement (resale),1706,Blockware Solutions
+131901707,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,PoW mining,190,Firmware development,1707,Braiins
+131911800,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,Staking,191,Proprietary (individual),1800,"Certus One, Staking Facilities"
+131911801,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer ,13,Staking,191,Staking-as-a-Service,1801,"Bitcoin suisse, Staking Lab"
+142201900,Alternative capital raising,Activities that provide access to capital to firms operating in the space,14,Token issuance (ICO),220,N/A,1900,
+142212000,Alternative capital raising,Activities that provide access to capital to firms operating in the space,14,Token sale hosting (IEO),221,N/A,2000,Binance Launchpad
+142222100,Alternative capital raising,Activities that provide access to capital to firms operating in the space,14,Initial lock offering (ILO),222,N/A,2100,
+152502200,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Analytics,250,Blockchain forensics,2200,"Chainalysis, Elliptic"
+152502201,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Analytics,250,Market surveillance,2201,Solidus Lab
+152512300,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Data services,251,Directories,2300,"CryptoCompare, Messari"
+152512301,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Data services,251,Market data,2301,Brave New Coin
+152512302,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Data services,251,Data aggregation,2302,Mosaic
+152512303,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Data services,251,Block explorers,2303,Blockchain.info
+152512304,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Data services,251,Network statistics,2304,Coinmetrics.io
+152522400,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Rating,252,N/A,2400,"CryptoCompare, ICO Bench, ICOholder"
+152532500,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Research,253,Industry,2500,"Circle Research, Binance Info, BitMEX Research"
+152532501,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data",15,Research,253,Academia,2501,"CCAF, UCL"
+162802600,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Social media,280,Forums,2600,"bitcointalk.org, nimses"
+162812700,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,News,281,Online newspaper,2700,"Coindesk, The Block"
+162812701,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,News,281,TV,2701,Block.TV
+162812702,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,News,281,Radio,2702,Crypto24Radio
+162822800,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Entertainment,282,Shows,2800,"What Bitcoin Did, Epicentre, Blockchain Insider"
+162822801,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Entertainment,282,Events,2801,CoinDesk
+162822802,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Entertainment,282,Gaming,2802,Gamerholic
+162822803,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Entertainment,282,Media,2803,PopChest
+162822804,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Entertainment,282,Collectible Production,2804,Denarium
+162822805,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem,16,Entertainment,282,Gambling,2805,Primedice
+173103000,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens,17,Lending,310,Lending/Borrowing,3000,"ETHLend, SALT"
+173103001,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens,17,Lending,310,Credit,3001,Ripio Credit Network
+173103002,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens,17,Lending,310,Margin lending,3002,Fulcrum
+173113100,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens,17,Savings,311,Interest-bearing account,3100,BlockFi Interest Account
+173123200,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens,17,Insurance,312,N/A,3200,"Etherisc, iXLedger"
+183403300,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Project maintenance,340,Sub-segment protocols/construction,3300,0x Lightning Labs
+183403301,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Project maintenance,340,Application development,3301,Forecast Foundation (Augur)
+183403302,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Project maintenance,340,Main chain maintenance,3302,"Block.one, Chaincode Labs, Bitstream, Ethereum Foundation, Parity"
+183403303,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Project maintenance,340,Cross-chain project ,3303,"Polkadot, Cosmos"
+183413400,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Cybersecurity,341,Security auditing,3400,"ZeppelinOS, Crystal Blockchain"
+183423500,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Oracle,342,Software oracle,3500,Provable (former Oracalize)
+183423501,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Oracle,342,Hardware oracle,3501,Ledger IoT
+183423502,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications ",18,Oracle,342,Consensus-based oracle,3502,
+193703600,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Legal & regulatory,370,Legal,3600,"Simmons & Simmons, Perkins Cooley, IG partners"
+193703601,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Legal & regulatory,370,Taxation,3601,CoinTracking
+193703602,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Legal & regulatory,370,Regulatory,3602,
+193703603,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Legal & regulatory,370,KYC & AML,3603,"Civic, SelfKey, Onfido"
+193703604,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Legal & regulatory,370,Compliance,3604,"Coinfirm, Harbor, Polymath"
+193713700,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Professional services,371,Business consulting,3700,
+193713701,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Professional services,371,Investment advisory,3701,CoinFund
+193713702,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Professional services,371,Education and Training,3702,Bitcoin Designer
+193723800,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Marketing & Communication,372,Public Relations,3800,Wachsmann
+193723801,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Marketing & Communication,372,Marketing services,3801,CPA-networks?
+193723802,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens,19,Marketing & Communication,372,Community management,3802,"Amazix, Bountyhive"
+204003900,MISC,Activities that do not fit any of the above categories,20,Other services,400,Notarisation and Timestamping,3900,Stampify
+204003901,MISC,Activities that do not fit any of the above categories,20,Other services,400,Mixing services,3901,Helix
+204014000,MISC,Activities that do not fit any of the above categories,20,Industry initiatives,401,Standard-setting,4000,Global Digital Finance (GDF)
+204014001,MISC,Activities that do not fit any of the above categories,20,Industry initiatives,401,Self-regulatory,4001,JVCEA
+204014002,MISC,Activities that do not fit any of the above categories,20,Industry initiatives,401,Advocacy,4002,"Fleishmann Hillard, Coin Center"
+214304100,Investment services,N/A,21,Investment management,430,N/A,4100,"Digital Currency Group, Blockchain Capital"
+214604200,Investment services,N/A,21,Financial product issuance,460,ETP/ETF,4200,SIX
+214604201,Investment services,N/A,21,Financial product issuance,460,STO,4201,Archax
+214604202,Investment services,N/A,21,Financial product issuance,460,Derivatives issuance,4202,Amun Crypto Basket Index ETP
+214604203,Investment services,N/A,21,Financial product issuance,460,Futures contracts issuance,4203,"CME Group, BitMEX, OKEx Futures"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,"""+30 increment after each segment (strict)",,"""+100 increment after each category (not strict)",
