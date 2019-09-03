@@ -22,22 +22,32 @@ c = conn.cursor()
 
 with psycopg2.connect(**config['atlas']) as connection:
     c = connection.cursor()
-    data = pd.read_csv("organisations.csv") 
-    organisation_id = list(data['id'])
-    lastname = list(map(str, list(data['lastname'])))
+    data = pd.read_csv("source_table.csv") 
+    source_id = list(data['id'])
+    name = list(map(str, list(data['name'])))
     edate = list(map(str, list(data['edate'])))
+    ctype = list(map(str, list(data['ctype'])))
     twitter = list(map(str, list(data['twitter'])))
     link = list(map(str, list(data['link'])))
     incdate = list(map(str, list(data['incdate'])))
+    incnum = list(map(str, list(data['incnum'])))
     cdate = list(map(str, list(data['cdate'])))
     creason = list(map(str, list(data['creason'])))
     creasonx = list(map(str, list(data['creasonx'])))
+    ophqcity = list(map(str, list(data['ophqcity'])))
+    ophq = list(map(str, list(data['ophq'])))
+    leghqcity = list(map(str, list(data['leghqcity'])))
+    leghq = list(map(str, list(data['leghq'])))
+    arbjur = list(map(str, list(data['arbjur'])))
     cryptonative = list(map(str, list(data['cryptonative'])))
+    classifier = list(map(str, list(data['classifier'])))
+    desc = list(map(str, list(data['desc'])))
+    fte = list(map(str, list(data['fte'])))
     verified = list(map(str, list(data['verified'])))
     comments = list(map(str, list(data['comments'])))
-    c.execute("CREATE TABLE IF NOT EXISTS organisations (id INT PRIMARY KEY, lastname VARCHAR(255) NOT NULL, edate DATE, twitter VARCHAR(63), link VARCHAR(255), incdate DATE, cdate VARCHAR(10), creason VARCHAR(255), creasonx VARCHAR(3), cryptonative VARCHAR(63), verified BOOL, comments VARCHAR(2000));")
-    insert_sql = "INSERT INTO organisations (id, lastname, edate, twitter, link, incdate, cdate, creason, creasonx, cryptonative, verified, comments) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"
-    for item in zip(organisation_id, lastname, edate, twitter, link, incdate, cdate, creason, creasonx, cryptonative, verified, comments):
+    c.execute("CREATE TABLE IF NOT EXISTS source_table (id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, edate DATE, ctype VARCHAR(255), twitter VARCHAR(63), link VARCHAR(255), incdate DATE, incnum VARCHAR(255), cdate VARCHAR(10), creason VARCHAR(255), creasonx VARCHAR(3), ophqcity VARCHAR(999), ophq VARCHAR(511) NOT NULL, leghqcity VARCHAR(999), leghq VARCHAR(511) NOT NULL, arbjur VARCHAR(999), cryptonative VARCHAR(63), classifier VARCHAR(2000), desc VARCHAR(2000), fte VARCHAR(511), verified BOOL, comments VARCHAR(2000));")
+    insert_sql = "INSERT INTO source_table (id, name, edate, ctype, twitter, link, incdate, incnum, cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur, cryptonative, classifier, desc, fte, verified, comments) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"
+    for item in zip(source_id, name, edate, ctype, twitter, link, incdate, incnum, cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur, cryptonative, classifier, desc, fte, verified, comments):
         c.execute(insert_sql, item)
 
 # =============================================================================

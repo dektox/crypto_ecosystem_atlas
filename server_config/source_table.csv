@@ -1,4 +1,4 @@
-id,name,edate,type,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,ophq,leghqcity,leghq,arbjur,cryptoNative,class,desc,fte,verified,comments
+id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,ophq,leghqcity,leghq,arbjur,cryptonative,classifier,desc,fte,verified,comments
 10000,"01.10.2017:""previous name"";
 01.01.2019:""EXAMPLE""",01.01.2017,"01.10.2017:""private"";
 01.11.2019:""public""",,https://example.com,01.10.2017,"01.10.2017:525252;
@@ -119,7 +119,7 @@ Partnership with LendingBlock:https://lendingblock.com/news/lendingblock/"
 10472,Skyhook,01.05.2014,Private,,,01.01.2013,854876-93,01.01.2015,Project not maintained/supported anymore,R,"Portland, Oregon",United States,"Portland, Oregon",United States,,Native,101011102,Open-Source Portable Bitcoin ATM Manufacturer,,TRUE,"Legal name: SKYHOOK, LLC"
 10473,"01.12.2010:""Bitcoin.cz"";
 01.06.2014:""Slush Pool""",01.12.2010,,@slushpool,https://slushpool.com/,01.01.2010,,01.04.2013,"now owned by ""SatoshiLabs"", but still operating under own brand",,Prague,Czech Republic,Prague,Czech Republic,,Native,131901705,Mining Pool,,TRUE,Slushpool is not actually a legal entity but shifted hands from SatoshiLabs to Braiins
-10474,Smartbit,05.07.2015,Private,@smartbithq,https://www.smartbit.com.au/,N/A,,,,,Melbourne,Australia,N/A,N/A,"Victoria, Australia",Native,152512303,Block Explorer (including scripts and OP_Returns); Blockchain Data Provider (Stats and Charts),,TRUE,
+10474,Smartbit,05.07.2015,Private,@smartbithq,https://www.smartbit.com.au/,,,,,,Melbourne,Australia,N/A,N/A,"Victoria, Australia",Native,152512303,Block Explorer (including scripts and OP_Returns); Blockchain Data Provider (Stats and Charts),,TRUE,
 10475,"01.11.2013:""Snapcard"";
 01.04.2017:""Wyre""",19.11.2013,Private,@sendwyre,https://www.sendwyre.com/,19.11.2013,5435000,,,,"San Francisco, California",United States,Delaware,United States,United States,Native,"19.11.2013:111301202;
 06.10.2014:111301200;
