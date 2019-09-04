@@ -24,7 +24,7 @@ with psycopg2.connect(**config['atlas']) as connection:
     c = connection.cursor()
     d = pd.read_csv("source_table.csv") 
     c.execute("CREATE TABLE IF NOT EXISTS source_table (id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, "
-              "edate DATE, ctype VARCHAR(255), twitter VARCHAR(63), link VARCHAR(255), incdate VARCHAR(10), "
+              "edate VARCHAR(10), ctype VARCHAR(255), twitter VARCHAR(63), link VARCHAR(255), incdate VARCHAR(10), "
               "incnum VARCHAR(255), cdate VARCHAR(10), creason VARCHAR(255), creasonx VARCHAR(3), "
               "ophqcity VARCHAR(999), ophq VARCHAR(511) NOT NULL, "
               "leghqcity VARCHAR(999), leghq VARCHAR(511) NOT NULL, arbjur VARCHAR(999), "
