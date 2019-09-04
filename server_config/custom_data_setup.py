@@ -45,10 +45,37 @@ with psycopg2.connect(**config['atlas']) as connection:
     fte = list(map(str, list(data['fte'])))
     verified = list(map(str, list(data['verified'])))
     comments = list(map(str, list(data['comments'])))
-    c.execute("CREATE TABLE IF NOT EXISTS source_table (id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, edate DATE, ctype VARCHAR(255), twitter VARCHAR(63), link VARCHAR(255), incdate DATE, incnum VARCHAR(255), cdate VARCHAR(10), creason VARCHAR(255), creasonx VARCHAR(3), ophqcity VARCHAR(999), ophq VARCHAR(511) NOT NULL, leghqcity VARCHAR(999), leghq VARCHAR(511) NOT NULL, arbjur VARCHAR(999), cryptonative VARCHAR(63), classifier VARCHAR(2000), desc VARCHAR(2000), fte VARCHAR(511), verified BOOL, comments VARCHAR(2000));")
-    insert_sql = "INSERT INTO source_table (id, name, edate, ctype, twitter, link, incdate, incnum, cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur, cryptonative, classifier, desc, fte, verified, comments) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"
-    for item in zip(source_id, name, edate, ctype, twitter, link, incdate, incnum, cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur, cryptonative, classifier, desc, fte, verified, comments):
+    c.execute("CREATE TABLE IF NOT EXISTS source_table (id INT PRIMARY KEY, "
+              "name VARCHAR(255) NOT NULL, "
+              "edate DATE, ctype VARCHAR(255), "
+              "twitter VARCHAR(63), "
+              "link VARCHAR(255), "
+              "incdate VARCHAR(10), "
+              "incnum VARCHAR(255), "
+              "cdate VARCHAR(10), "
+              "creason VARCHAR(255), "
+              "creasonx VARCHAR(3), "
+              "ophqcity VARCHAR(999), "
+              "ophq VARCHAR(511) NOT NULL, "
+              "leghqcity VARCHAR(999), "
+              "leghq VARCHAR(511) NOT NULL, "
+              "arbjur VARCHAR(999), "
+              "cryptonative VARCHAR(63), "
+              "classifier VARCHAR(2000), "
+              "description VARCHAR(2000), "
+              "fte VARCHAR(511), "
+              "verified BOOL, "
+              "comments VARCHAR(2000));")
+    insert_sql = "INSERT INTO source_table (id, name, edate, ctype, twitter, link, incdate, incnum, " \
+                 "cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur, " \
+                 "cryptonative, classifier, description, fte, verified, comments) " \
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"
+    for item in zip(source_id, name, edate, ctype, twitter, link, incdate, incnum,
+                    cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur,
+                    cryptonative, classifier, desc, fte, verified, comments):
         c.execute(insert_sql, item)
+
+
 
 # =============================================================================
 # with psycopg2.connect(**config['atlas']) as c:
