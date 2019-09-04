@@ -1,4 +1,4 @@
-id,organisation_id,year,name,type,incnum,ophqcity,ophq,leghqcity,leghq,arbjur,desc,fte
+id,organisation_id,year,name,type,incnum,ophqcity,ophq,leghqcity,leghq,arbjur,description,fte
 1,10000,2017,previous name,private,FA525252,Vilnius,118,Panama City,152,USA,investment fund,500
 2,10000,2018,previous name,private,FA525253,Vilnius,118,Road Town,30,USA,investment fund,500
 3,10000,2019,EXAMPLE,public,6756453653,Bucharest,162,Road Town,30,Germany,investment fund,500
