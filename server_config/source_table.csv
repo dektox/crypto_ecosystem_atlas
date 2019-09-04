@@ -1,4 +1,4 @@
-id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,ophq,leghqcity,leghq,arbjur,cryptonative,classifier,desc,fte,verified,comments
+id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,ophq,leghqcity,leghq,arbjur,cryptonative,classifier,description,fte,verified,comments
 10000,"01.10.2017:""previous name"";
 01.01.2019:""EXAMPLE""",01.01.2017,"01.10.2017:""private"";
 01.11.2019:""public""",,https://example.com,01.10.2017,"01.10.2017:525252;
