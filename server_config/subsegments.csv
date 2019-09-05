@@ -1,0 +1,34 @@
+id,seg_id,subsegment
+10100,10,Trading
+10101,10,Intermediation & Brokerage
+10102,10,Other transaction processing
+11130,11,Consumer payments
+11131,11,Cross-border payments
+11132,11,Other
+12160,12,Third-party custody
+12161,12,Self-custody
+13190,13,PoW mining
+13191,13,Staking
+14220,14,Token issuance (ICO)
+14221,14,Token sale hosting (IEO)
+14222,14,Initial lock offering (ILO)
+15250,15,Analytics
+15251,15,Data services
+15252,15,Rating
+15253,15,Research
+16280,16,Social media
+16281,16,News
+16282,16,Entertainment
+17310,17,Lending
+17311,17,Savings
+17312,17,Insurance
+18340,18,Project maintenance
+18341,18,Cybersecurity
+18342,18,Oracle
+19370,19,Legal & regulatory
+19371,19,Professional services
+19372,19,Marketing & Communication
+20400,20,Other services
+20401,20,Industry initiatives
+21430,21,Investment management
+21460,21,Financial product issuance

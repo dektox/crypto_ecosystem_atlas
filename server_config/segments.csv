@@ -1,0 +1,13 @@
+id,segment,description
+10,Exchange,Activities related to the exchange of cryptoassets for other assets
+11,Payments,Activities concerning the use of cryptoassets for payments
+12,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service
+13,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer 
+14,Alternative capital raising,Activities that provide access to capital to firms operating in the space
+15,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data"
+16,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem
+17,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens
+18,Infrastructure,"Activities related to the design, development, and maintenance of the codebases of cryptoasset networks and related applications "
+19,Advisory,Activities related to the provision of consultancy and advisory services with regards to cryptoasset networks and tokens
+20,MISC,Activities that do not fit any of the above categories
+21,Investment services,N/A
