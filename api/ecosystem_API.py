@@ -81,8 +81,8 @@ def before_request():
             lastupdate = time.time()
 
 
-@app.route("/api/countries", methods=['GET', 'POST'])
-def countries():
+@app.route("/api/geo", methods=['GET', 'POST'])
+def countries_atlas():
     response = []
     for item in countries:
          response.append({
