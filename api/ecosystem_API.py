@@ -29,19 +29,23 @@ def load_data():
         c = conn.cursor()
         c.execute('SELECT * FROM countries')
         countries = c.fetchall()
-        c.execute('SELECT * FROM taxonomy')
-        taxonomy = c.fetchall()
+        c.execute('SELECT * FROM segments')
+        seg = c.fetchall()
+        c.execute('SELECT * FROM subsegments')
+        subseg = c.fetchall()
+        c.execute('SELECT * FROM categories')
+        cat = c.fetchall()
         c.execute('SELECT * FROM organisations')
         orgs = c.fetchall()
         c.execute('SELECT * FROM organisation_states')
-        states = c.fetchall()
-        c.execute('SELECT * FROM categories')
-        categories = c.fetchall()
-        c.execute("SELECT * FROM organisations as o "
-                  "INNER JOIN organisation_states as os ON os.organisation_id = o.id "
-                  "INNER JOIN categories as c ON c.organisation_state_id = os.id")
+        org_states = c.fetchall()
+        c.execute('SELECT * FROM states_categories')
+        states_cat = c.fetchall()
+        c.execute('SELECT * FROM all_data')
         all_data = c.fetchall()
-    return countries, taxonomy, orgs, states, categories, all_data
+        c.execute('SELECT * FROM taxonomy')
+        taxonomy = c.fetchall()
+    return countries, seg, subseg, cat, orgs, org_states, states_cat, all_data, taxonomy
 
 
 def send_err_to_slack(err, name):
@@ -59,17 +63,18 @@ CORS(app)
 app.config["DEBUG"] = True
 
 # initialisation of cache vars:
-countries, taxonomy, orgs, states, categories, all_data = load_data()
+countries, seg, subseg, cat, orgs, org_states, states_cat, all_data, taxonomy = load_data()
 lastupdate = time.time()
 cache = {}
-
 # cache:
+
+
 @app.before_request
 def before_request():
-    global lastupdate, countries, taxonomy, orgs, states, categories, all_data, cache
+    global lastupdate, countries, seg, subseg, cat, orgs, org_states, states_cat, all_data, taxonomy, cache
     if time.time() - lastupdate > 7200:
         try:
-            countries, taxonomy, orgs, states, categories, all_data = load_data()
+            countries, seg, subseg, cat, orgs, org_states, states_cat, all_data, taxonomy = load_data()
         except Exception as err:
             app.logger.exception(f"Getting data from DB err: {str(err)}")
             send_err_to_slack(err, 'DB')
@@ -77,32 +82,83 @@ def before_request():
             cache = {}
             lastupdate = time.time()
 
+
 @app.route("/api/countries", methods=['GET', 'POST'])
-def countries_btc():
+def countries():
     response = []
     for item in countries:
          response.append({
-            'id': item[0],
-            'code': item[1],
-            'name': item[2],
+             'id': item[0],
+             'code': item[1],
+             'name': item[2],
             })
     return jsonify(response)
 
+
+@app.route("/api/segments", methods=['GET', 'POST'])
+def segments():
+    response = []
+    for item in seg:
+         response.append({
+             'id': item[0],
+             'seg': item[1],
+             'desc': item[2],
+            })
+    return jsonify(response)
+
+
+@app.route("/api/subsegments", methods=['GET', 'POST'])
+def subsegments():
+    response = []
+    for item in subseg:
+         response.append({
+             'id': item[0],
+             'subseg': item[2],
+            })
+    return jsonify(response)
+
+
+@app.route("/api/categories", methods=['GET', 'POST'])
+def categories():
+    response = []
+    for item in cat:
+         response.append({
+             'id': item[0],
+             'cat': item[2],
+            })
+    return jsonify(response)
+
+
 @app.route("/api/taxonomy", methods=['GET', 'POST'])
-def taxonomy_btc():
+def taxonomy_func():
     response = []
     for item in taxonomy:
          response.append({
-            'id': item[0],
-            'segm': item[1],
-            'desc': item[2],
-            's_id': item[3],
-            'cat': item[4],
-            'c_id': item[5],
-            'subcat': item[6]
+             'id': item[0],
+             'seg': item[1],
+             'subseg_id': item[3],
+             'subseg': item[4],
+             'c_id': item[5],
+             'cat': item[6],
             })
     return jsonify(response)
 
+
+@app.route("/api/all", methods=['GET', 'POST'])
+def all_data_func():
+    response = []
+    for item in all_data:
+         response.append({
+             'id': item[0],
+             'name': item[14],
+             'os_id': item[12],
+             'year': item[13],
+             'ophq': item[18],
+             'leghq': item[20],
+             'weight': 1,
+             'identifier': item[25],
+            })
+    return jsonify(response)
 # =============================================================================
 # @app.route("/api/all", methods=['GET', 'POST'])
 # def countries_btc():
