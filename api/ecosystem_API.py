@@ -5,11 +5,9 @@ Created on Thu May 16 14:24:16 2019
 @author: Anton
 """
 from flask import Flask, jsonify
-import pandas as pd
 from datetime import datetime
 import flask
 import requests
-import logging
 import time
 from flask_cors import CORS
 import psycopg2
