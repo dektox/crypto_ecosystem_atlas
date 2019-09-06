@@ -157,6 +157,48 @@ def all_data_func():
              'identifier': item[25],
             })
     return jsonify(response)
+
+
+@app.route("/api/getorg/<value>")
+def get_org(value):
+    try:
+        org_id = int(value)
+    except ValueError:
+        return jsonify("company ID should be INT")
+
+    with psycopg2.connect(**config['atlas']) as conn:
+        c = conn.cursor()
+        c.execute('SELECT * FROM all_data WHERE id = {}'.format(org_id))
+        company = c.fetchall()
+    response = []
+    for item in company:
+         response.append({
+             'id': item[0],
+             'edate': item[2],
+             'twitter': item[3],
+             'link': item[4],
+             'incdate': item[5],
+             'cdate': item[6],
+             'creason': item[7],
+             'creasonx': item[8],
+             'cryptonative': item[9],
+             'os_id': item[12],
+             'year': item[13],
+             'name': item[14],
+             'type': item[15],
+             'incnum': item[16],
+             'ophqcity': item[17],
+             'ophq': item[18],
+             'leghqcity': item[19],
+             'leghq': item[20],
+             'arbjur': item[21],
+             'desc': item[22],
+             'fte': item[23],
+             'cat_id': item[24],
+             'identifier': item[25],
+            })
+    return jsonify(response)
+
 # =============================================================================
 # @app.route("/api/all", methods=['GET', 'POST'])
 # def countries_btc():
