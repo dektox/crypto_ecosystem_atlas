@@ -75,7 +75,7 @@ countries_data = pd.read_csv("countries.csv")
 countries_data.to_sql('countries', con=engine, if_exists='append', index=False)
     
 # Filling in segments, subsegment, categories tables
-segments_data = pd.read_csv("segments.csv") 
+    Q
 segments_data.to_sql('segments', con=engine, if_exists='append', index=False)
 
 subsegments_data = pd.read_csv("subsegments.csv") 
