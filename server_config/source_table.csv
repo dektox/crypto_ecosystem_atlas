@@ -13,7 +13,7 @@ id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,
 2018-11-01:""investment fund""","2017-10-01:900;
 2018-11-01:500",TRUE,Like it
 10001,1BTCXE,01/11/2014,Private,@1btcxe,https://1btcxe.com,01/01/2014,,,,,Panama City,Panama,Panama City,Panama,Panama,Native,2014-01-01:101001000,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",,TRUE,
-10002,1EX.Trade,,Private,@1extrade,https://1ex.trade/index.php,01/01/2015,,,,,Unidentified,Switzerland,Unidentified,Switzerland,Switzerland,Native,2015-01-01:101001000,Exchange,,TRUE,
+10002,1EX.Trade,01/01/2015,Private,@1extrade,https://1ex.trade/index.php,01/01/2015,,,,,Unidentified,Switzerland,Unidentified,Switzerland,Switzerland,Native,2015-01-01:101001000,Exchange,,TRUE,
 10003,"2014-01-01 ""21 Inc."";
 2018-04-01 ""earn.com""",01/01/2014,Private,@earndotcom,earn.com,01/05/2013,,01/04/2018,Acquired by Coinbase (as earn.com),A,"San Francisco, California",United States,"San Francisco, California",United States,United States,Native,2013-05-01:111301201,"2015-01-01 ""Microtask crypto payment platform""",,TRUE,
 10004,247Exchange,01/08/2014,Private,,,01/01/2014,IFSC/60/310/IME/14.,,Not clear,R,Unidentified,Unidentified,Belize City,Belize,Belize,Native,2014-01-01:101011100,"2014-01-01 ""Multi-Coin Brokerage Services""",,TRUE,"""hey guys dont use this exchange i have lost 5K here no support no reply"""
