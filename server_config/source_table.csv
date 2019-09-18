@@ -1,6 +1,7 @@
 id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,ophq,leghqcity,leghq,arbjur,cryptonative,classifier,description,fte,verified,comments
 10000,"2017-10-01:""previous name"";
-2019-01-01:""EXAMPLE""",2017-01-01,"2017-10-01:""private"";
+2019-01-01:""EXAMPLE"";
+2020-01-01:""EXdddAMPLE""",2017-01-01,"2017-10-01:""private"";
 2019-11-01:""public""",,https://example.com,2017-10-01,"2017-10-01:525252;
 2019-11-01:""FTE448""",2019-06-01,bankrupted,R,"2017-01-01:""Vilnius"";
 2019-01-01:""Bucharest""","2017-01-01:""Lithuania"";
@@ -14,8 +15,8 @@ id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,
 2018-11-01:500",TRUE,Like it
 10001,1BTCXE,2014-11-01,Private,@1btcxe,https://1btcxe.com,2014-01-01,,,,,Panama City,Panama,Panama City,Panama,Panama,Native,2014-01-01:101001000,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",,TRUE,
 10002,1EX.Trade,2015-01-01,Private,@1extrade,https://1ex.trade/index.php,2015-01-01,,,,,Unidentified,Switzerland,Unidentified,Switzerland,Switzerland,Native,2015-01-01:101001000,Exchange,,TRUE,
-10003,"2014-01-01 ""21 Inc."";
-2018-04-01 ""earn.com""",2014-01-01,Private,@earndotcom,earn.com,2013-05-01,,2018-04-01,Acquired by Coinbase (as earn.com),A,"San Francisco, California",United States,"San Francisco, California",United States,United States,Native,2013-05-01:111301201,"2015-01-01 ""Microtask crypto payment platform""",,TRUE,
+10003,"2014-01-01:""21 Inc."";
+2018-04-01:""earn.com""",2014-01-01,Private,@earndotcom,earn.com,2013-05-01,,2018-04-01,Acquired by Coinbase (as earn.com),A,"San Francisco, California",United States,"San Francisco, California",United States,United States,Native,2013-05-01:111301201,"2015-01-01 ""Microtask crypto payment platform""",,TRUE,
 10004,247Exchange,2014-08-01,Private,,,2014-01-01,IFSC/60/310/IME/14.,,Not clear,R,Unidentified,Unidentified,Belize City,Belize,Belize,Native,2014-01-01:101011100,"2014-01-01 ""Multi-Coin Brokerage Services""",,TRUE,"""hey guys dont use this exchange i have lost 5K here no support no reply"""
 10005,37coins,2013-12-01,Private,@37Coins,,2013-01-01,,2015-08-01,Failed to meet market demands and expectations,R,"Sunnyvale, California",United States,"Sunnyvale, California",United States,United States,Native,2013-01-01:121601500,"2013-01-01 ""SMS-Wallet; Remittances""",2015-01-01: 1-10,TRUE,
 10006,99Bitcoins,2013-04-01,Private,@99BitcoinsHQ,https://99bitcoins.com/,2013-01-01,201843058E,,,,Tel Aviv,Israel,Singapore,Singapore,Singapore,Native,"2013-01-01:111311302,
@@ -66,7 +67,7 @@ Hold DABA Class F (Bermuda) license"
 https://hkg.databasesets.com/gongsimingdan/number/2421531"
 10442,ProTip,2015-07-20,Private,@ProTipHQ,https://protip.is/,,,,,,,,,,,Native,111321401,Open-Source P2P Micropayment Chrome Browser Extension (plug-in) for automatically tipping content creators,,TRUE,
 10443,Purse,2013-10-09,Private,@PurseIO,https://purse.io/,2014-01-01,09/04/2014,,,,"San Francisco, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2014-06-01:111301202,121601500",Marketplace for Amazon Gift Cards; Escrow Service,2018-01-01:19,TRUE,
-10444,Quadriga CX,2013-12-01,Private,,www.quadrigacx.com,0214-11-12,74736Q,2019-02-05,"Very famous exit, Co-founder dead with private key, supposedly unfortunate coincidence",,"Vamcouver, British Columbia",Canada,"Vancouver, British Columbia",Canada,"British Columbia, Alberta",Native,"2013-12-01:101001000;
+10444,Quadriga CX,2013-12-01,Private,,www.quadrigacx.com,2014-11-12,74736Q,2019-02-05,"Very famous exit, Co-founder dead with private key, supposedly unfortunate coincidence",,"Vamcouver, British Columbia",Canada,"Vancouver, British Columbia",Canada,"British Columbia, Alberta",Native,"2013-12-01:101001000;
 2014-01-30:101001000,101011102,111301200,111311302",Exchange; Marchant services and Remittances (2014); Bitcoin ATM Operator (2014-01-30),,TRUE,More information about its current status here: https://www.quadrigacxtrustee.com/
 10445,Quickwallet,2014-07-15,Private,,,2014-01-01,,2014-08-01,"Acquired by ""Huobi""",A,,China,,China,,Native,121601500,Wallet,,TRUE,
 10446,Qukuai.com,2014-07-01,Private,,,2014-01-01,,2014-08-01,"Acquired by ""Huobi""",A,,China,,China,,Native,152512303,Block Explorer,,TRUE,
@@ -109,8 +110,7 @@ Partnership with LendingBlock:https://lendingblock.com/news/lendingblock/"
 10462,Seals with Clubs,2011-08-01,,@SealsWithClubs,sealswithclubs.eu,2011-01-01,,2015-02-01,"Shut down after regulatory issues in the end of 2014/beginning 2015, reopened as ""SwC Poker"" in February 2015",R,N/A,N/A,N/A,N/A,N/A,Native,162822805,Bitcoin Poker Casino,,TRUE,Seems to have resume activities in November 2018
 10463,"2014-09-01:""DigitalTangible"";
 2015-04-01:""Serica""",2014-09-01,,,,2014-01-01,,2016-01-01,Defunct,R,"San Francisco, California",United States,N/A,N/A,N/A,Native,,"Decentralized Gold-Bitcoin Marketplace on Counterparty; since 2015 global marketplace/trading platform for any digital asset --> however in 2016, seems like switch towards healthcare payment platform?",,TRUE,
-10464,"SFOX
-",2014-07-01,Private,@SFox,https://www.sfox.com/,2015-05-05,802208789,,,,"Los Angeles, California",United States,"Austin, Texas",United States,"California, United States",Native,"101011100,152512301,101001003","Brokerage, 3rd party Trading Platform,Market Data","2016-01-01:3;
+10464,SFOX,2014-07-01,Private,@SFox,https://www.sfox.com/,2015-05-05,802208789,,,,"Los Angeles, California",United States,"Austin, Texas",United States,"California, United States",Native,"101011100,152512301,101001003","Brokerage, 3rd party Trading Platform,Market Data","2016-01-01:3;
 2017-01-01:6;
 2018-01-01:17",TRUE,Entire name: San Francisco Open Exchange (SFOX)
 10465,ShapeShift.io,2014-08-01,Private,,https://shapeshift.io/#/coins,2017-04-21,CHE-367.039.468,,,,New York,United States,Zug,Switzerland,United Kingdom,Native,"2014-08-01:101001000;
