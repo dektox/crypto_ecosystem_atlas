@@ -7,6 +7,7 @@ import psycopg2
 import yaml
 import pandas as pd
 from sqlalchemy import create_engine
+from datetime import datetime as dt
 
 # Reading CONFIG file with DB credentials
 config_path = '../CONFIG.yml'
@@ -70,12 +71,16 @@ with psycopg2.connect(**config['atlas']) as connection:
               "INNER JOIN categories AS c "
               "ON c.subseg_id = subseg.id;")
 
+organisation = source_data[['id', 'edate']]
+organisation['lastname']=1
+organisations.to_sql
+
 # Filling in countries table from countries.csv
 countries_data = pd.read_csv("countries.csv") 
 countries_data.to_sql('countries', con=engine, if_exists='append', index=False)
     
 # Filling in segments, subsegment, categories tables
-    Q
+segments_data = pd.read_csv("segments.csv") 
 segments_data.to_sql('segments', con=engine, if_exists='append', index=False)
 
 subsegments_data = pd.read_csv("subsegments.csv") 
@@ -102,3 +107,25 @@ states_categories_data.to_sql('states_categories', con=engine, if_exists='append
 #            d["cryptonative"], d["classifier"], d["description"], d["fte"], d["verified"], d["comments"]):
 #         c.execute(insert_sql, item)
 # =============================================================================
+
+sd=source_data
+sd['edate'] = pd.to_datetime(sd['edate'])
+sd['cdate'] = pd.to_datetime(sd['cdate'])
+sd['incdate'] = pd.to_datetime(sd['incdate'])
+for i, row in enumerate(sd['name']):
+    # if row doesn't contain neither \n nor semicolon:
+    if sd['cdate'][i]="":sd['cdate'][i]=
+    if '\n' and ':' not in sd['name'][i]:
+        print(sd['id'][i],sd['edate'][i].strftime("%Y"),row.strip())
+    # this strip here ensures we removed extra \n at the end ^^
+    else:
+        for state in sd['name'][i].strip().split('\n'):
+            # ensures we don't have \n at the end ^^ and splits dates from each other
+            date, data = state.split(':') #split date from data
+            date = dt.strptime(date,'%Y-%m-%d')
+            year = date.strftime("%Y")
+            data = data.strip(';"') #remove extra ; and " from name
+            print(sd['id'][i],year,data)
+
+
+    
