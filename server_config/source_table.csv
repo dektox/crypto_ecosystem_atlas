@@ -1,16 +1,15 @@
 id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,ophq,leghqcity,leghq,arbjur,cryptonative,classifier,description,fte,verified,comments
 10000,"2017-10-01:""previous name"";
-2019-01-01:""EXAMPLE"";
-2020-01-01:""EXdddAMPLE""",2017-01-01,"2017-10-01:""private"";
+2019-01-01:""EXAMPLE""",2017-01-01,"2017-10-01:""private"";
 2019-11-01:""public""",,https://example.com,2017-10-01,"2017-10-01:525252;
 2019-11-01:""FTE448""",2019-06-01,bankrupted,R,"2017-01-01:""Vilnius"";
 2019-01-01:""Bucharest""","2017-01-01:""Lithuania"";
 2019-01-01:""Romania""","2017-01-01:""Panama City"";
 2018-01-01:""Road Town""","2017-01-01:""Panama"";
-2018-01-01:""BVI""","2017-01-01:""United States"";
-2019-01-01:""Germany""",Native,"2017-01-01:101001001,101011052,111211151;
-2018-01-01:101001001,111211152;
-2019-01-01:101001001,101011052,182602200","2017-10-01:""exchange, wallet in one place"";
+2018-01-01:""British Virgin Islands""","2017-01-01:""United States"";
+2019-01-01:""Germany""",Native,"2017-01-01:101001001,101011101;
+2018-01-01:101001001,101011101;
+2019-01-01:101001001,101011101,111301201","2017-10-01:""exchange, wallet in one place"";
 2018-11-01:""investment fund""","2017-10-01:900;
 2018-11-01:500",TRUE,Like it
 10001,1BTCXE,2014-11-01,Private,@1btcxe,https://1btcxe.com,2014-01-01,,,,,Panama City,Panama,Panama City,Panama,Panama,Native,2014-01-01:101001000,"Bitcoin Exchange supporting over 30 fiat currencies through partnership with ""Crypto Capital""",,TRUE,
@@ -18,23 +17,23 @@ id,name,edate,ctype,twitter,link,incdate,incnum,cdate,creason,creasonx,ophqcity,
 10003,"2014-01-01:""21 Inc."";
 2018-04-01:""earn.com""",2014-01-01,Private,@earndotcom,earn.com,2013-05-01,,2018-04-01,Acquired by Coinbase (as earn.com),A,"San Francisco, California",United States,"San Francisco, California",United States,United States,Native,2013-05-01:111301201,"2015-01-01 ""Microtask crypto payment platform""",,TRUE,
 10004,247Exchange,2014-08-01,Private,,,2014-01-01,IFSC/60/310/IME/14.,,Not clear,R,Unidentified,Unidentified,Belize City,Belize,Belize,Native,2014-01-01:101011100,"2014-01-01 ""Multi-Coin Brokerage Services""",,TRUE,"""hey guys dont use this exchange i have lost 5K here no support no reply"""
-10005,37coins,2013-12-01,Private,@37Coins,,2013-01-01,,2015-08-01,Failed to meet market demands and expectations,R,"Sunnyvale, California",United States,"Sunnyvale, California",United States,United States,Native,2013-01-01:121601500,"2013-01-01 ""SMS-Wallet; Remittances""",2015-01-01: 1-10,TRUE,
-10006,99Bitcoins,2013-04-01,Private,@99BitcoinsHQ,https://99bitcoins.com/,2013-01-01,201843058E,,,,Tel Aviv,Israel,Singapore,Singapore,Singapore,Native,"2013-01-01:111311302,
-2018-01-01:111311302, 193723801","Bitcoin Education & News, Marketing and advertising services related to cryptocurrenies (2018)",,TRUE,
+10005,37coins,2013-12-01,Private,@37Coins,,2013-01-01,,2015-08-01,Failed to meet market demands and expectations,R,"Sunnyvale, California",United States,"Sunnyvale, California",United States,United States,Native,2013-01-01:121601500,"2013-01-01 ""SMS-Wallet; Remittances""",2015-01-01:10,TRUE,
+10006,99Bitcoins,2013-04-01,Private,@99BitcoinsHQ,https://99bitcoins.com/,2013-01-01,201843058E,,,,Tel Aviv,Israel,Singapore,Singapore,Singapore,Native,"2013-01-01:111311302
+2018-01-01:111311302,193723801","Bitcoin Education & News, Marketing and advertising services related to cryptocurrenies (2018)",,TRUE,
 10427,"2015-11-01:""Oraclize"";
 2019-03-07:""Provable""
-",2015-11-04,Private,@provablethings,http://provable.xyz/,2016-08-18,10334939,2019-05-09,Acquired by Poseidon Group,A,London,UK,Wimbledon,UK,England and Wales,Native,183423500,Provably-honest Oracles Service for smart contracts (Bitcoin and Ethereum),,TRUE,
+",2015-11-04,Private,@provablethings,http://provable.xyz/,2016-08-18,10334939,2019-05-09,Acquired by Poseidon Group,A,London,United Kingdom,Wimbledon,United Kingdom,England and Wales,Native,183423500,Provably-honest Oracles Service for smart contracts (Bitcoin and Ethereum),,TRUE,
 10428,Orisi,2014-06-01,Private,,https://orisi.org/,2014-03-01,,2015-06-01,"Project is ""on pause"" for some years now",R,,Poland,,,,Native,183423500,Open-Source Distributed Oracle Service for smart contracts on Bitcoin,,TRUE,
 10429,Pandora,2013-10-01,Private,,,,,2014-11-01,Exit Scam,R,,,,,,,111301203,Online Black Market,,TRUE,
-10430,Paxful,2014-06-01,Private,@paxful,https://paxful.com/,2015-07-17,5786843,,,,New York,United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2014-06-01:101011103
-2016-04-01:101011103,111301200
-2019-07-01:101011103,111301200,121611601","P2P Marketplace for Buying And Selling bitcoins; Payment Processor (but already discontinued in 2014/15), Merchant services (Pay with Paxful, April 2016), Mobile Wallet (Paxful Bitcoin Wallet App, July 2019)",2019-01-01:100,TRUE,"over 100 employees around the world with offices in New York City USA, Hong Kong, Tallinn Estonia and Manila Philippines"
-10431,"Paylance, Inc",2014-01-01,Private,@PaylancePH,https://paylance.com/,2013-01-01,,,,,Quezon City,Philippines,Taguig City,Philippines,"Quezon City, Philippines",Native,"2014-01-01:,111311300,111311301,111311302,101011100",Brokerage Services; Remittances/Money Transfer Platform; Local Bitcoin Shopping; Merchant services; Payroll,,TRUE,
+10430,Paxful,2014-06-01,Private,@paxful,https://paxful.com/,2015-07-17,5786843,,,,New York,United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2014-06-01:101011101
+2016-04-01:101011101,111301200
+2019-07-01:101011101,111301200,121611601","P2P Marketplace for Buying And Selling bitcoins; Payment Processor (but already discontinued in 2014/15), Merchant services (Pay with Paxful, April 2016), Mobile Wallet (Paxful Bitcoin Wallet App, July 2019)",2019-01-01:100,TRUE,"over 100 employees around the world with offices in New York City USA, Hong Kong, Tallinn Estonia and Manila Philippines"
+10431,"Paylance, Inc",2014-01-01,Private,@PaylancePH,https://paylance.com/,2013-01-01,,,,,Quezon City,Philippines,Taguig City,Philippines,"Quezon City, Philippines",Native,"2014-01-01:111311300,111311301,111311302,101011100",Brokerage Services; Remittances/Money Transfer Platform; Local Bitcoin Shopping; Merchant services; Payroll,,TRUE,
 10432,Paymium,2010-12-29,Private,@paymium,https://www.paymium.com/,2011-07-01,53 326 480 000 012,,,,Paris,France,Boulogne-Billancourt,France,France,Native,"2010-12-29:101001000;
 2012-04-06:101001000,121611601;
 2013-04-26:101001000;
 2014-06-30:101001000,111301200;
-2019-01-01:101001000,101001002","Exchange ""Bitcoin-Central.net"" ; Wallet ""Paytunia"" (April 2012, inactive since April 2013); Payment Processor (2014-06-30), Trading platform (October 2018), Market Making (2019 Q1)","2016-01-01:8;
+2019-01-01:101001000,101001002","Exchange ""Bitcoin-Central.net"" ; Wallet ""Paytunia"" (April 2012, inactive since April 2013); Payment Processor (2014-06-30), Trading platform (October 2018), Market Making (2019 Q1)","2016-01-01:8
 2017-01-01:10;
 2018-01-01:15",TRUE,
 10433,PeerNova,2014-05-01,Private,@Peernovainc,https://peernova.com/,2014-05-19,5521581,2014-12-17,Pivot towards Enterprise Blockchain Solution,P,"San Jose, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2014-05-01:131901700,131901703","Mining Hardware; Cloud Mining ""HashCloud"" (both until 2015 included); Pivot towards blockchain-based financial platform (2015). Although indicated maintaining their mining activities.",,TRUE,"Emerged in May 2014 from the merger of CloudHashing, which offers cloud mining contracts, and enterprise ASIC hardware designer HighBitcoin"
@@ -53,22 +52,22 @@ Hold DABA Class F (Bermuda) license"
 2018-11-15:""Estonia""","2014-01-01:""Unidentified""
 2018-11-15:""Tallinn""","2014-01-01:""Unidentified""
 2018-11-15:""Estonia""",Estonia,Native,"2014-01-01:111301200;
-2015-06-01:111301200,2014-01-01:111301200;","Payment Processor, then in mid-2015 focus on Blockchain Compliance (still offering merchant services), followed by a pivot towards ""Smart Contracts based on Blockchain technology"" in the beginning of 2016 (?); Back to trading in 2018",10,TRUE,
+2015-06-01:111301200","Payment Processor, then in mid-2015 focus on Blockchain Compliance (still offering merchant services), followed by a pivot towards ""Smart Contracts based on Blockchain technology"" in the beginning of 2016 (?); Back to trading in 2018",10,TRUE,
 10437,PopChest,2015-01-01,Private,@_popnetwork,https://thepopnetwork.org/,2015-04-01,,,,,"Venice, California",United States,Grand Cayman,Cayman Islands,,,162822803,Media Distribution Platform powered by Bitcoin micropayments,,TRUE,"Still in private beta, but platform is working. Legal name: The Pop Network Foundation Ltd"
 10438,Prasos,2012-01-01,Private,@prasosltd,https://prasos.fi/,2012-01-01,2469683-1,,,,Jyväskylä,Finland,Jyväskylä,Finland,Finland,Native,"2012-01-01:101011100,162812700;
-2013-01-01:101011100,162812700,101011102,121611603;
-2015-01-01:101011100,162812700,101011102,162822804,121611603;
-2016-02-01:101011100,162812700,101011102,101001000,111301200,162822804,121611603;
-2016-10-01:101011100,162812700,101011102,101001000,111301200,162822804;
-2017-08-03:101011100,162812700,101011102,101001000,111301200,121601501,162822804","News portal, Brokerage Services (""Bittiraha.fi""); Reseller of Bitcoin Security Products/Preloaded Paper Wallet (rebranded as ""BTCStore.eu"" in 2013, discontinued in Oct 2016); BTM Operator (""Bittimaatti.fi"", 2013); Physical Bitcoin (""Denarium"", 2015), Merchant Services and Exchange (""Coinmotion"", Feb 2016), Vault (""Vault"",2017-08-03)",2017-01-01:15,TRUE,https://www.invesdor.com/en/pitches/875
+2013-01-01:101011100,162812700,121611603;
+2015-01-01:101011100,162812700,162822804,121611603;
+2016-02-01:101011100,162812700,101001000,111301200,162822804,121611603;
+2016-10-01:101011100,162812700,101001000,111301200,162822804;
+2017-08-03:101011100,162812700,101001000,111301200,121601501,162822804","News portal, Brokerage Services (""Bittiraha.fi""); Reseller of Bitcoin Security Products/Preloaded Paper Wallet (rebranded as ""BTCStore.eu"" in 2013, discontinued in Oct 2016); BTM Operator (""Bittimaatti.fi"", 2013); Physical Bitcoin (""Denarium"", 2015), Merchant Services and Exchange (""Coinmotion"", Feb 2016), Vault (""Vault"",2017-08-03)",2017-01-01:15,TRUE,https://www.invesdor.com/en/pitches/875
 10439,Predictious,2013-07-01,Private,@Predictious,https://www.predictious.com/,2010-08-04,487310,,,,Dublin,Ireland,Dublin,Ireland,Ireland,Native,162822805,Bitcoin Prediction Market,,TRUE,
 10440,Primedice,2013-05-01,Private,@Primedice,https://primedice.com/,2013-01-01,,,,,N/A,N/A,N/A,Curacao,,Native,162822805,Online Casino,,TRUE,
 10441,Proof of Existence,2013-01-01,Private,@proofxstence,https://proofofexistence.com/,2012-10-01,,,,,Buenos Aires,Argentina,Hong Kong,Hong Kong,,Native,204003900,Timestamping Service,,TRUE,"Parent Company PoEX.io seems to be the new name of Canaan Creative: https://www.hkgbusiness.com/en/company/Poex-Co-Limited
 https://hkg.databasesets.com/gongsimingdan/number/2421531"
 10442,ProTip,2015-07-20,Private,@ProTipHQ,https://protip.is/,,,,,,,,,,,Native,111321401,Open-Source P2P Micropayment Chrome Browser Extension (plug-in) for automatically tipping content creators,,TRUE,
-10443,Purse,2013-10-09,Private,@PurseIO,https://purse.io/,2014-01-01,09/04/2014,,,,"San Francisco, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2014-06-01:111301202,121601500",Marketplace for Amazon Gift Cards; Escrow Service,2018-01-01:19,TRUE,
+10443,Purse,2013-10-09,Private,@PurseIO,https://purse.io/,2014-01-01,09/04/2014,,,,"San Francisco, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2013-01-01:111301202,121601500",Marketplace for Amazon Gift Cards; Escrow Service,2018-01-01:19,TRUE,
 10444,Quadriga CX,2013-12-01,Private,,www.quadrigacx.com,2014-11-12,74736Q,2019-02-05,"Very famous exit, Co-founder dead with private key, supposedly unfortunate coincidence",,"Vamcouver, British Columbia",Canada,"Vancouver, British Columbia",Canada,"British Columbia, Alberta",Native,"2013-12-01:101001000;
-2014-01-30:101001000,101011102,111301200,111311302",Exchange; Marchant services and Remittances (2014); Bitcoin ATM Operator (2014-01-30),,TRUE,More information about its current status here: https://www.quadrigacxtrustee.com/
+2014-01-30:101001000,111301200,111311302",Exchange; Marchant services and Remittances (2014); Bitcoin ATM Operator (2014-01-30),,TRUE,More information about its current status here: https://www.quadrigacxtrustee.com/
 10445,Quickwallet,2014-07-15,Private,,,2014-01-01,,2014-08-01,"Acquired by ""Huobi""",A,,China,,China,,Native,121601500,Wallet,,TRUE,
 10446,Qukuai.com,2014-07-01,Private,,,2014-01-01,,2014-08-01,"Acquired by ""Huobi""",A,,China,,China,,Native,152512303,Block Explorer,,TRUE,
 10447,Quedex Limited,2018-01-10,Private,@quedexnet,https://quedex.net/,2019-07-31,114763,,,,Gibraltar,Gibraltar,Gibraltar,Gibraltar,Gibraltar,Native,"2018-01-10:101001000,121601501","Bitcoin Options and Futures Exchange (Trading Platform), Custodian Services",,TRUE,Regulated under Gribraltar's DLT Providers license (06/2019) Multi-sig cold wallet
@@ -85,10 +84,10 @@ Partnership with LendingBlock:https://lendingblock.com/news/lendingblock/"
 2018-12-01:183423500","Oracle Service for smart contracts (""Realitio"",2018-12-01), Prediction market (""Reality Keys"", 2014-01-20-2018-12-01), ",,TRUE,Social Minds founded this subsidiary for entering into Bitcoin ecosystem
 10450,"2013-11-01:""Robocoin""
 2015-04-21:""Romit""
-",2013-11-01,Private,,,2014-07-15,5568873,2016-01-15,"Pivot in 2015 towards remittances platform, then discontinuation of Bitcoin services",R,"Las Vegas, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2013-11-01:101011102;
-2014-09-01:101011102,121601500;
-2015-04-21:101011102,121601500,111311302;","Bitcoin ATM Manufacturer (until 2015 included); Remittances (""Romit"", 2015-04-21), Wallet (""Robocoin Wallet, 2014-09-01)",,TRUE,
-10451,Rootstock,2015-11-19,Private,@RSKsmart,https://www.rsk.co/,2015-11-19,1895440,,,,Gibraltar,Gibraltar,Tortola,British Virgin Islands,BVI,Native,183403300,Open-Source P2P Smart-Contract Platform and Payment Network as Bitcoin sidechain (2-way peg & merged-mined with Bitcoin),,TRUE,"RSK Labs Ltd. is a subsidiary of RIF LABS Limited, a company incorporated in Gibraltar."
+",2013-11-01,Private,,,2014-07-15,5568873,2016-01-15,"Pivot in 2015 towards remittances platform, then discontinuation of Bitcoin services",R,"Las Vegas, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,"2013-11-01:101011101;
+2014-09-01:101011101,121601500;
+2015-04-21:101011101,121601500,111311302;","Bitcoin ATM Manufacturer (until 2015 included); Remittances (""Romit"", 2015-04-21), Wallet (""Robocoin Wallet, 2014-09-01)",,TRUE,
+10451,Rootstock,2015-11-19,Private,@RSKsmart,https://www.rsk.co/,2015-11-19,1895440,,,,Gibraltar,Gibraltar,Tortola,British Virgin Islands,British Virgin Islands,Native,183403300,Open-Source P2P Smart-Contract Platform and Payment Network as Bitcoin sidechain (2-way peg & merged-mined with Bitcoin),,TRUE,"RSK Labs Ltd. is a subsidiary of RIF LABS Limited, a company incorporated in Gibraltar."
 10452,RTBTC,2013-07-01,Private,,,2013-06-10,801798690,2014-03-04,"Acquired by ZeroBlock, owned by Blockchian.info",A,Texas,United States,Texas,United States,"Texas, United States",Native,"101001000,152512301","Trading Platform, Market visualisation",,TRUE,
 10453,SABR.io,2015-07-01,,,,2015-01-01,,2016-12-01,Defunct,R,New York,United States,N/A,N/A,,,152502200,Compliance/Analytics & Data: Blockchain forensics,,TRUE,
 10454,Safebit,2011-09-01,Private,@safebitio,https://safebit.io/,2011-01-01,514543479,2013-01-01,Development discontinued (lack of developers),R,Tel Aviv,Israel,Tel Aviv,Israel,Israel,Native,121601500,Software Wallet,,TRUE,Seems to have resume operations in 2018: https://medium.com/safebit/introducing-safebit-a75f2a231008
@@ -102,14 +101,14 @@ Partnership with LendingBlock:https://lendingblock.com/news/lendingblock/"
 2016-12-01:111311302,101011100,121601500;","Payment Processor ""Bitmarket.ph""/""Coinage"" (until end 2018); Remittances ""Rebit.ph""; Buy bitcoin via Prepaid Card ""PrepaidBitcoin.ph"" (until end 2018); Bitcoin Social Media (""BitStars"", until 05.2015) Bill Payment Provider ""Bills.Ninja"" (until 05.2015); Brokerage Services ""BuyBitcoin.ph"" (04.2015); Mobile Wallet ""Bitbit.cash"" (2016), Investment service (""KEZA"", 08.2016), News (""Lifebit"",2016)",,TRUE,SCI Ventures Inc.'s wholly-owned subsidiary - Rebittance Inc.
 10457,SatoshiDice,2012-04-01,Private,@SatoshiDICE,https://www.satoshidice.com/,2012-01-01,,,,,N/A,N/A,N/A,N/A,N/A,Native,162822805,Gambling Site,,TRUE,
 10458,SatoshiLabs,2013-12-12,Private,@satoshilabs,https://satoshilabs.com/,2013-12-12,2440032,,,,Prague,Czechia,Prague,Czechia,Czech Republic,Native,"2013-03-01:131901705,152512300;
-0.1.07.2014:131901705,152512300,121611602","""Coinmap"" Directory Service (2013-03-01); Slush Pool (2010); Trezor Wallet (first shipped in 07.2014)",,TRUE,
+2014-01-01:131901705,152512300,121611602","""Coinmap"" Directory Service (2013-03-01); Slush Pool (2010); Trezor Wallet (first shipped in 07.2014)",,TRUE,
 10459,SatoshiPay,2016-02-01,Private,@SatoshiPay,https://satoshipay.io/,2014-09-01,170212,,,,Berlin,Germany,Berlin,Germany,Germany,Native,111321401,Nanopayments for Content Publishers,,TRUE,
-10460,SatoshiTango,2014-05-01,Private,@SatoshiTango,https://www.satoshitango.com/en/,2015-06-17,012470V,,,,Buenos Aires,Argentina,Douglas,Isle of Man,Isle of Man,Native,"2014-05-01:101011100;
+10460,SatoshiTango,2014-05-01,Private,@SatoshiTango,https://www.satoshitango.com/en/,2015-06-17,012470V,,,,Buenos Aires,Argentina,Douglas,United Kingdom,Isle of Man,Native,"2014-05-01:101011100;
 2015-03-01:101011100,111311302,111301204,111301201","Brokerage Services; Remittances (""Coinnect"", 2015-03-01 - in partnership with Volabit); Debit Card Provider (2015); Bill payment",,TRUE,Parent company: Finantech Limited
 10461,Scorechain,2015-01-01,Private,@scorechain,https://www.scorechain.com/,2015-08-07,B199146,,,,Luxembourg,Luxembourg,Luxembourg,Luxembourg,,Native,"152502200,193703604","Blockchain Forensics, Compliance",,TRUE,
 10462,Seals with Clubs,2011-08-01,,@SealsWithClubs,sealswithclubs.eu,2011-01-01,,2015-02-01,"Shut down after regulatory issues in the end of 2014/beginning 2015, reopened as ""SwC Poker"" in February 2015",R,N/A,N/A,N/A,N/A,N/A,Native,162822805,Bitcoin Poker Casino,,TRUE,Seems to have resume activities in November 2018
 10463,"2014-09-01:""DigitalTangible"";
-2015-04-01:""Serica""",2014-09-01,,,,2014-01-01,,2016-01-01,Defunct,R,"San Francisco, California",United States,N/A,N/A,N/A,Native,,"Decentralized Gold-Bitcoin Marketplace on Counterparty; since 2015 global marketplace/trading platform for any digital asset --> however in 2016, seems like switch towards healthcare payment platform?",,TRUE,
+2015-04-01:""Serica""",2014-09-01,,,,2014-01-01,,2016-01-01,Defunct,R,"San Francisco, California",United States,N/A,N/A,N/A,Native,101001000,"Decentralized Gold-Bitcoin Marketplace on Counterparty; since 2015 global marketplace/trading platform for any digital asset --> however in 2016, seems like switch towards healthcare payment platform?",,TRUE,
 10464,SFOX,2014-07-01,Private,@SFox,https://www.sfox.com/,2015-05-05,802208789,,,,"Los Angeles, California",United States,"Austin, Texas",United States,"California, United States",Native,"101011100,152512301,101001003","Brokerage, 3rd party Trading Platform,Market Data","2016-01-01:3;
 2017-01-01:6;
 2018-01-01:17",TRUE,Entire name: San Francisco Open Exchange (SFOX)
@@ -124,9 +123,9 @@ Partnership with LendingBlock:https://lendingblock.com/news/lendingblock/"
 10469,Silk Road 2.0,2013-11-01,,,,2013-11-01,,2014-11-01,Shut down by the FBI,R,N/A,N/A,N/A,N/A,N/A,Native,111301203,Online Black Market,,TRUE,
 10470,Simplex,2015-01-01,Private,@SimplexCC,https://www.simplex.com/,2014-04-28,515073419,,,,N/A,Israel,Givatayim,Israel,Israel,Native,111301200,"Merchant Services, Credit Card Payments Platform (Processing + Fraud Detection) for Bitcoin Sellers and Buyers (Exchanges, Brokers, Businesses)",,TRUE,Legal name: SimplexCC Ltd.
 10471,SkyCoinLab,2014-04-01,Private,@skycoinlab,,2014-07-10,,2016-06-30,Defunct,R,"Sudbury, Ontario",Canada,"Sudbury, Ontario",Canada,,Native,131901703,Multi-Coin Cloud Mining,,TRUE,Legal name: SKYCOINLAB CRYPTOCURRENCY SERVICES
-10472,Skyhook,2014-05-01,Private,,,2013-01-01,854876-93,2015-01-01,Project not maintained/supported anymore,R,"Portland, Oregon",United States,"Portland, Oregon",United States,,Native,101011102,Open-Source Portable Bitcoin ATM Manufacturer,,TRUE,"Legal name: SKYHOOK, LLC"
+10472,Skyhook,2014-05-01,Private,,,2013-01-01,854876-93,2015-01-01,Project not maintained/supported anymore,R,"Portland, Oregon",United States,"Portland, Oregon",United States,,Native,101011101,Open-Source Portable Bitcoin ATM Manufacturer,,TRUE,"Legal name: SKYHOOK, LLC"
 10473,"2010-12-01:""Bitcoin.cz"";
-2014-06-01:""Slush Pool""",2010-12-01,,@slushpool,https://slushpool.com/,2010-01-01,,2013-04-01,"now owned by ""SatoshiLabs"", but still operating under own brand",,Prague,Czechia,Prague,Czechia,,Native,131901705,Mining Pool,,TRUE,Slushpool is not actually a legal entity but shifted hands from SatoshiLabs to Braiins
+2014-06-01:""Slush Pool""",2010-12-01,,@slushpool,https://slushpool.com/,2010-01-01,,,"now owned by ""SatoshiLabs"", but still operating under own brand",,Prague,Czechia,Prague,Czechia,,Native,131901705,Mining Pool,,TRUE,Slushpool is not actually a legal entity but shifted hands from SatoshiLabs to Braiins
 10474,Smartbit,2015-07-05,Private,@smartbithq,https://www.smartbit.com.au/,,,,,,Melbourne,Australia,N/A,N/A,"Victoria, Australia",Native,152512303,Block Explorer (including scripts and OP_Returns); Blockchain Data Provider (Stats and Charts),,TRUE,
 10475,"2013-11-01:""Snapcard"";
 2017-04-01:""Wyre""",2013-11-19,Private,@sendwyre,https://www.sendwyre.com/,2013-11-19,5435000,,,,"San Francisco, California",United States,Delaware,United States,United States,Native,"2013-11-19:111301202;
@@ -157,9 +156,9 @@ SolidX Management LLC (for Bitcoin Trust): Delaware, USA, 5962269"
 10487,TabTrader,2014-01-01,Private,@tabtraderpro,https://tab-trader.com/,2013-01-01,62976028,,,,Amsterdam,Netherlands,,Netherlands,England and Wales,Native,101001003,Mobile Trading Platform connecting to various exchanges,,TRUE,
 10488,TagPesa,2014-01-01,,,,2014-01-01,,2015-02-01,"Acquired by ""igot""",A,Nairobi,Kenya,Nairobi,Kenya,,Native,"101001000,111311302","Exchange; Payment Processor, Remittances",,TRUE,
 10489,Tangible Cryptography,2012-01-01,Private,,,2013-12-30,5457897,2014-12-01,"Ceased all services in December/January 2015, not enough volume to make the Business model work",R,"Columbia, South Carolina",United States,"Wilmington, Delaware",United States,"South Carolina, United States",Native,101011100,"Brokerage Services (""Cellcoin"" and ""BitcoinsDirect"" in 2012; ""FastCash4Bitcoins"" until 2013; ""BitSimple"" in 2014)",,TRUE,Subsidiary: BitSimple LLC
-10490,Tembusu,2014-02-01,Private,,www.tembusu.sg,2014-01-01,,2015-05-28,"Pivot towards ""TRUST Framework"" (not based on Bitcoin)",,Singapore,Singapore,Singapore,Singapore,Singapore,Native,101011102,"Bitcoin ATM Manufacturer and Operator; Pivot towards ""TRUST Framework"" (2015 )--> not related to Bitcoin anymore",,TRUE,Tembusu Terminals Pte Ltd. is a joint-venture between cryptocurrency consultancy firm Estates General and software/hardware development firm Red Steed Studios
+10490,Tembusu,2014-02-01,Private,,www.tembusu.sg,2014-01-01,,2015-05-28,"Pivot towards ""TRUST Framework"" (not based on Bitcoin)",,Singapore,Singapore,Singapore,Singapore,Singapore,Native,101011101,"Bitcoin ATM Manufacturer and Operator; Pivot towards ""TRUST Framework"" (2015 )--> not related to Bitcoin anymore",,TRUE,Tembusu Terminals Pte Ltd. is a joint-venture between cryptocurrency consultancy firm Estates General and software/hardware development firm Red Steed Studios
 10491,TeraExchange,2014-09-01,Private,@TeraExchange,https://www.teraexchange.com/,2013-07-11,5364863,,,,"New York, New York",United States,"Wilmington, Delaware",United States,,Native,"101001000,101001000","Bitcoin Derivatives Trading Platform; Market Data (Bitcoin Price Index ""TeraBit"")",,TRUE,"Founded in 2011, but started offering bitcoin-related services in 2014"
-10492,Tether,2014-01-01,,,https://tether.to/,2014-01-01,,,,,,,,British Virgin Islands,,,,"Fiat Currency Platform on the Bitcoin Blockchain via Omni Layer: store, send and receive currencies on the Blockchain as if it were bitcoins (100% backed tokens). The all time number 1 stablecoin for cryptocurrency trading. Shares same management team with Bitfinex. Suffered numerous controversies about 1:1 backing of issued funds. In 2019 revealed that tether is not always 100% backed by USD.",,TRUE,
+10492,Tether,2014-01-01,,,https://tether.to/,2014-01-01,,,,,,,,British Virgin Islands,,,"101011101,121601500","Fiat Currency Platform on the Bitcoin Blockchain via Omni Layer: store, send and receive currencies on the Blockchain as if it were bitcoins (100% backed tokens). The all time number 1 stablecoin for cryptocurrency trading. Shares same management team with Bitfinex. Suffered numerous controversies about 1:1 backing of issued funds. In 2019 revealed that tether is not always 100% backed by USD.",,TRUE,
 10493,The LTB Network,2013-04-01,,@TheLTBNetwork,https://letstalkbitcoin.com/,2013-01-01,,,,,California,United States,N/A,N/A,,Native,162822800,Education; Media/Blogs,,TRUE,
 10494,The Rock Trading,2011-06-07,Private,@TheRockTrading,https://www.therocktrading.com/,2011-06-07,"2013-07-01:C61326
 2018-02-01:2507359",,,,Milan,Italy,"2011-06-01:""Italy""
@@ -176,7 +175,7 @@ SolidX Management LLC (for Bitcoin Trust): Delaware, USA, 5962269"
 10498,"2013-01-01:""The Genesis Block"";
 2014-03-23:""TradeBlock""",2013-01-01,Private,@TradeBlock,https://tradeblock.com/,2016-12-16,6225173,,,,"New York, New York",United States,"Wilmington, Delaware",United States,"New York, United States",Native,"152512301,152532500","Market Data/Analytics/Research Provider for mainly institutional Clients, Research publication",,TRUE,
 10499,TradeHill,2011-06-01,,,,2011-01-01,,2013-01-01,"First shut down in 2012, then reopened beginning of 2013, but forced to shut down again due to regulatory reasons regarding their bank relationship",R,"San Francisco, California",United States,"Wilmington, Delaware",United States,"Delaware, United States",Native,101001000,Exchange,,TRUE,
-10500,Tradewave,2014-01-01,Private,@tradewavenet,,2015-07-02,5562461,2015-09-01,Defunct,,London,UK,"Wilmington, Delaware",United States,"New York, United States",Native,101001003,Platform for building automated trading strategy for cryptocurrencies,,TRUE,
+10500,Tradewave,2014-01-01,Private,@tradewavenet,,2015-07-02,5562461,2015-09-01,Defunct,,London,United Kingdom,"Wilmington, Delaware",United States,"New York, United States",Native,101001003,Platform for building automated trading strategy for cryptocurrencies,,TRUE,
 10501,Unisend,2014-01-01,Private,,,2014-01-01,,2015-09-26,"Acquired by ""BitPagos""",A,Buenos Aires,Argentina,Buenos Aires,Argentina,,Native,101001000,Exchange,,TRUE,
 10502,"2013-12-01:""CoinMonk"";
 2016-04-06:""Unocoin""",2013-12-01,Private,@unocoin,https://www.unocoin.com/in,2013-12-17,"2013-12-17:""072554"";

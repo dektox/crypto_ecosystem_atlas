@@ -8,6 +8,7 @@ import yaml
 import pandas as pd
 from sqlalchemy import create_engine
 from datetime import datetime as dt
+import numpy as np
 
 # Reading CONFIG file with DB credentials
 config_path = '../CONFIG.yml'
@@ -41,11 +42,11 @@ with psycopg2.connect(**config['atlas']) as connection:
     c.execute("DROP SCHEMA public CASCADE; CREATE SCHEMA public;")
     c.execute("CREATE TABLE IF NOT EXISTS countries (id INT PRIMARY KEY, code CHAR(2) NOT NULL, "
               "name VARCHAR(63) NOT NULL, flag VARCHAR(255));")
-    c.execute("CREATE TABLE IF NOT EXISTS organisations (id INT PRIMARY KEY, lastname VARCHAR(255) NOT NULL, "
+    c.execute("CREATE TABLE IF NOT EXISTS organisations (id INT PRIMARY KEY, "
               "edate DATE NOT NULL, twitter VARCHAR(63), link VARCHAR(255), incdate DATE, cdate DATE, creason "
               "VARCHAR(255), creasonx VARCHAR(1), cryptonative VARCHAR(63), verified BOOL, comments VARCHAR(2000));")
     c.execute("CREATE TABLE IF NOT EXISTS organisation_states (id INT PRIMARY KEY, organisation_id INT "
-              "REFERENCES organisations(id), year INT NOT NULL, name VARCHAR(255) NOT NULL, type VARCHAR(63), "
+              "REFERENCES organisations(id), year INT NOT NULL, name VARCHAR(255) NOT NULL, ctype VARCHAR(63), "
               "incnum VARCHAR(63), ophqcity VARCHAR(123), ophq INT REFERENCES countries(id), "
               "leghqcity VARCHAR(123), leghq INT REFERENCES countries(id), arbjur VARCHAR(123), "
               "description VARCHAR(511), fte INT);")
@@ -55,14 +56,14 @@ with psycopg2.connect(**config['atlas']) as connection:
               "seg_id INT REFERENCES segments(id), subsegment VARCHAR(123));")
     c.execute("CREATE TABLE IF NOT EXISTS categories (id INT PRIMARY KEY, "
               "subseg_id INT REFERENCES subsegments(id), category VARCHAR(123), examples VARCHAR(123));")
-    c.execute("CREATE TABLE IF NOT EXISTS states_categories (id INT PRIMARY KEY, organisation_state_id INT "
+    c.execute("CREATE TABLE IF NOT EXISTS state_categories (id INT PRIMARY KEY, organisation_state_id INT "
               "REFERENCES organisation_states(id), identifier INT REFERENCES categories(id));")
     c.execute("CREATE VIEW all_data AS "
-              "SELECT o.*, os.id AS os_id, os.year, os.name, os.type, os.incnum, os.ophqcity, os.ophq, os.leghqcity, "
+              "SELECT o.*, os.id AS os_id, os.year, os.name, os.ctype, os.incnum, os.ophqcity, os.ophq, os.leghqcity, "
               "os.leghq, os.arbjur, os.description, os.fte, cat.id as cat_id, cat.identifier "
               "FROM organisations AS o INNER JOIN organisation_states AS os "
               "ON os.organisation_id = o.id "
-              "INNER JOIN states_categories AS cat "
+              "INNER JOIN state_categories AS cat "
               "ON cat.organisation_state_id = os.id;")
     c.execute("CREATE VIEW taxonomy AS "
               "SELECT seg.*, subseg.id AS subseg_id, subseg.subsegment, c.id AS c_id, c.category, c.examples "
@@ -71,16 +72,12 @@ with psycopg2.connect(**config['atlas']) as connection:
               "INNER JOIN categories AS c "
               "ON c.subseg_id = subseg.id;")
 
-organisation = source_data[['id', 'edate']]
-organisation['lastname']=1
-organisations.to_sql
-
 # Filling in countries table from countries.csv
 countries_data = pd.read_csv("countries.csv") 
 countries_data.to_sql('countries', con=engine, if_exists='append', index=False)
     
-# Filling in segments, subsegment, categories tables
-segments_data = pd.read_csv("segments.csv") 
+# ============ Filling in segments, subsegment, categories tables =============
+segments_data = pd.read_csv("segments.csv")
 segments_data.to_sql('segments', con=engine, if_exists='append', index=False)
 
 subsegments_data = pd.read_csv("subsegments.csv") 
@@ -89,43 +86,104 @@ subsegments_data.to_sql('subsegments', con=engine, if_exists='append', index=Fal
 categories_data = pd.read_csv("categories.csv") 
 categories_data.to_sql('categories', con=engine, if_exists='append', index=False)
 
-# ===================== TEMPORARY FILLING IN BELOW =============================
-organisations_data = pd.read_csv("organisations.csv") 
+# =============================================================================
+# # ===================== TEMPORARY FILLING IN BELOW ============================
+# organisations_data = pd.read_csv("organisations.csv") 
+# organisations_data.to_sql('organisations', con=engine, if_exists='append', index=False)
+# organisation_states_data = pd.read_csv("organisation_states.csv") 
+# organisation_states_data.to_sql('organisation_states', con=engine, if_exists='append', index=False)
+# state_categories_data = pd.read_csv("state_categories.csv") 
+# state_categories_data.to_sql('state_categories', con=engine, if_exists='append', index=False)
+# 
+# =============================================================================
+# =================== Filling in organisations_data ===========================
+organisations_data = source_data[['id','edate','twitter','link','incdate','cdate','creason','creasonx','cryptonative','verified','comments']]
 organisations_data.to_sql('organisations', con=engine, if_exists='append', index=False)
-organisation_states_data = pd.read_csv("organisation_states.csv") 
-organisation_states_data.to_sql('organisation_states', con=engine, if_exists='append', index=False)
-states_categories_data = pd.read_csv("states_categories.csv") 
-states_categories_data.to_sql('states_categories', con=engine, if_exists='append', index=False)
 
-# =============================================================================
-#     insert_sql = "INSERT INTO source_table (id, name, edate, ctype, twitter, link, incdate, incnum, " \
-#                  "cdate, creason, creasonx, ophqcity, ophq, leghqcity, leghq, arbjur, " \
-#                  "cryptonative, classifier, description, fte, verified, comments) " \
-#                  "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"
-#     for item in zip(d["id"], d["name"], d["edate"], d["ctype"], d["twitter"], d["link"], d["incdate"], d["incnum"],
-#            d["cdate"], d["creason"], d["creasonx"], d["ophqcity"], d["ophq"], d["leghqcity"], d["leghq"], d["arbjur"],
-#            d["cryptonative"], d["classifier"], d["description"], d["fte"], d["verified"], d["comments"]):
-#         c.execute(insert_sql, item)
-# =============================================================================
-
+# =================== Filling in organisation_states ===========================
+source_data = pd.read_csv("source_table.csv") 
 sd=source_data
 sd['edate'] = pd.to_datetime(sd['edate'])
 sd['cdate'] = pd.to_datetime(sd['cdate'])
+sd['cdate_filled'] = sd['cdate'].fillna(dt.now()) # meaning that the company exists at the time of code launch
 sd['incdate'] = pd.to_datetime(sd['incdate'])
+res = pd.DataFrame(columns=['id', 'organisation_id', 'year', 'name', 'ctype', 'incnum', 'ophqcity', 'ophq', 'leghqcity', 'leghq', 'arbjur', 'description', 'fte'])
+# filling in 'name' column; initialising all the lines
 for i, row in enumerate(sd['name']):
+    years = list(range(int(sd['edate'][i].strftime("%Y")), int(sd['cdate_filled'][i].strftime("%Y"))+1))
     # if row doesn't contain neither \n nor semicolon:
-    if sd['cdate'][i]="":sd['cdate'][i]=
     if '\n' and ':' not in sd['name'][i]:
-        print(sd['id'][i],sd['edate'][i].strftime("%Y"),row.strip())
-    # this strip here ensures we removed extra \n at the end ^^
+        for year in years:
+            res=res.append({"organisation_id":sd['id'][i], "year":year, "name":row.strip()}, ignore_index = True)
     else:
-        for state in sd['name'][i].strip().split('\n'):
-            # ensures we don't have \n at the end ^^ and splits dates from each other
-            date, data = state.split(':') #split date from data
-            date = dt.strptime(date,'%Y-%m-%d')
-            year = date.strftime("%Y")
-            data = data.strip(';"') #remove extra ; and " from name
-            print(sd['id'][i],year,data)
+    # defining "company state changes" that are user-entered and delimited by \n
+        states = sd['name'][i].strip().split("\n")
+        change_years = []
+        for state in states: change_years.append(int(state.split(':')[0][0:4]))
+        #spliting list of years to monotone intervals:
+        change_years_idx = [{y:x for x, y in enumerate(years)}.get(elem) for elem in change_years]
+        intervals = [years[i : j] for i,j in zip(change_years_idx, change_years_idx[1:] + [None])]
+        # within each interval the names are the same:
+        for interval, state in zip (intervals, states):
+            for year in interval:
+                name = state.split(':')[1].strip(';"')
+                res=res.append({"organisation_id":sd['id'][i], "year":year, "name":name}, ignore_index = True)
+
+# setting multi index for res DataFrame: combination of organsiation_id and year is unique     
+res_idx = res.set_index(["organisation_id", "year"], verify_integrity=True)
+res_idx_cat = res_idx.copy()
+
+# filling in all other columns of organisation_states table
+columns_to_fill = ['ctype','incnum','ophqcity','ophq','leghqcity','leghq','arbjur','description','fte','classifier']
+for column in columns_to_fill:
+    for i, org_id in enumerate(sd['id']):
+        years = list(range(int(sd['edate'][i].strftime("%Y")), int(sd['cdate_filled'][i].strftime("%Y"))+1))
+        # working out all other columns
+        if sd[column][i] is not np.nan:
+            if '\n' and ':' not in sd[column][i]:
+               for year in years:
+                   if column == 'ophq' or column == 'leghq':
+                       res_idx.at[(org_id, year),column] = dict(zip(countries_data['name'], countries_data['id']))[sd[column][i]]
+                   elif column == 'classifier':
+                       res_idx_cat.at[(org_id, year),'classifier'] = sd[column][i]
+                   else:
+                       res_idx.at[(org_id, year),column] = sd[column][i]
+            else:
+                states = sd[column][i].strip().split("\n")
+                change_years = []
+                for state in states: 
+                    try:
+                        change_years.append(int(state.split(':')[0][0:4]))
+                    except:
+                        print("\nError occured at", org_id, year, column, "\nRaw text:", state)
+                #spliting list of years to monotone intervals:
+                change_years_idx = [{y:x for x, y in enumerate(years)}.get(elem) for elem in change_years]
+                intervals = [years[i : j] for i,j in zip(change_years_idx, change_years_idx[1:] + [None])]
+                # within each interval the *column* values are the same:
+                for interval, state in zip (intervals, states):
+                    for year in interval:
+                        data = state.split(':')[1].strip(';"')
+                        if column == 'ophq' or column == 'leghq':
+                            res_idx.at[(org_id, year),column] = dict(zip(countries_data['name'], countries_data['id']))[data]
+                        elif column == 'classifier':
+                            res_idx_cat.at[(org_id, year),'classifier'] = data
+                        else:
+                            res_idx.at[(org_id, year),column] = data
+                            
+res_idx['id'] = np.arange(len(res_idx))
+res_idx_cat['id'] = np.arange(len(res_idx_cat))
+res_idx.to_sql('organisation_states', con=engine, if_exists='append', index=True)
+
+# =================== Filling in state_categories ============================
+res_state_cats = pd.DataFrame(columns=['id', 'organisation_state_id', 'identifier'])
+for i, org_state_id in enumerate(res_idx_cat['id']):
+    try:
+        state_cats = res_idx_cat['classifier'][i].strip().split(",")
+        for state_cat in state_cats:
+            res_state_cats = res_state_cats.append({"organisation_state_id":int(org_state_id), "identifier":int(state_cat)}, ignore_index = True)
+    except:
+        print("Error in defining company category, check dates:",res_idx_cat['name'][i])
+res_state_cats['id'] = np.arange(len(res_state_cats))
+res_state_cats.to_sql('state_categories', con=engine, if_exists='append', index=False)
 
 
-    

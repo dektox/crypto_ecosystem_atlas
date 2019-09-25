@@ -37,7 +37,7 @@ def load_data():
         orgs = c.fetchall()
         c.execute('SELECT * FROM organisation_states')
         org_states = c.fetchall()
-        c.execute('SELECT * FROM states_categories')
+        c.execute('SELECT * FROM state_categories')
         states_cat = c.fetchall()
         c.execute('SELECT * FROM all_data')
         all_data = c.fetchall()

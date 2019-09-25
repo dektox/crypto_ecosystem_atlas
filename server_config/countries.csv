@@ -1,219 +1,219 @@
 id,code,name,flag
-1,NT,NOT,
-2,UI,Unidentified,
-3,DX,DAO,
-4,AF,Afghanistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AF-flag.gif
-5,AL,Albania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AL-flag.gif
-6,AG,Algeria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AG-flag.gif
-7,AQ,American Samoa,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AQ-flag.gif
-8,AN,Andorra,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AN-flag.gif
-9,AO,Angola,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AO-flag.gif
-10,AC,Antigua and Barbuda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AC-flag.gif
-11,AR,Argentina,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AR-flag.gif
-12,AM,Armenia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AM-flag.gif
-13,AA,Aruba,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AA-flag.gif
-14,AS,Australia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AS-flag.gif
-15,AU,Austria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AU-flag.gif
-16,AJ,Azerbaijan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AJ-flag.gif
-17,BA,Bahrain,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BA-flag.gif
-18,BG,Bangladesh,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BG-flag.gif
-19,BB,Barbados,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BB-flag.gif
-20,BO,Belarus,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BO-flag.gif
-21,BE,Belgium,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BE-flag.gif
-22,BH,Belize,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BH-flag.gif
-23,BN,Benin,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BN-flag.gif
-24,BD,Bermuda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BD-flag.gif
-25,BT,Bhutan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BT-flag.gif
-26,BL,Bolivia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BL-flag.gif
-27,BK,Bosnia and Herzegovina,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BK-flag.gif
-28,BC,Botswana,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BC-flag.gif
-29,BR,Brazil,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BR-flag.gif
-30,VI,British Virgin Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VI-flag.gif
-31,BX,Brunei,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BX-flag.gif
-32,BU,Bulgaria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BU-flag.gif
-33,UV,Burkina Faso,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UV-flag.gif
-34,BM,Burma,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BM-flag.gif
-35,BY,Burundi,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BY-flag.gif
-36,CV,Cabo Verde,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CV-flag.gif
-37,CB,Cambodia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CB-flag.gif
-38,CM,Cameroon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CM-flag.gif
-39,CA,Canada,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CA-flag.gif
-40,CJ,Cayman Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CJ-flag.gif
-41,CT,Central African Republic,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CT-flag.gif
-42,CD,Chad,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CD-flag.gif
-43,CI,Chile,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CI-flag.gif
-44,CH,China,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CH-flag.gif
-45,CO,Colombia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CO-flag.gif
-46,CN,Comoros,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CN-flag.gif
-47,CW,Cook Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CW-flag.gif
-48,CS,Costa Rica,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CS-flag.gif
-49,IV,Cote D'Ivoire,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IV-flag.gif
-50,HR,Croatia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HR-flag.gif
-51,CU,Cuba,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CU-flag.gif
-52,UC,Curacao,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UC-flag.gif
-53,CY,Cyprus,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CY-flag.gif
-54,EZ,Czechia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EZ-flag.gif
-55,CG,Democratic Republic of the Congo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CG-flag.gif
-56,DA,Denmark,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DA-flag.gif
-57,DJ,Djibouti,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DJ-flag.gif
-58,DO,Dominica,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DO-flag.gif
-59,DR,Dominican Republic,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DR-flag.gif
-60,EC,Ecuador,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EC-flag.gif
-61,EG,Egypt,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EG-flag.gif
-62,ES,El Salvador,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ES-flag.gif
-63,EK,Equatorial Guinea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EK-flag.gif
-64,ER,Eritrea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ER-flag.gif
-65,EN,Estonia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EN-flag.gif
-66,WZ,Eswatini,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WZ-flag.gif
-67,ET,Ethiopia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ET-flag.gif
-68,FK,Falkland Islands (Islas Malvinas),https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FK-flag.gif
-69,FO,Faroe Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FO-flag.gif
-70,FM,Federated States of Micronesia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FM-flag.gif
-71,FJ,Fiji,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FJ-flag.gif
-72,FI,Finland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FI-flag.gif
-73,FR,France,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FR-flag.gif
-74,FP,French Polynesia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FP-flag.gif
-75,GB,Gabon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GB-flag.gif
-76,GA,Gambia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GA-flag.gif
-77,GG,Georgia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GG-flag.gif
-78,GM,Germany,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GM-flag.gif
-79,GH,Ghana,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GH-flag.gif
-80,GI,Gibraltar,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GI-flag.gif
-81,GR,Greece,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GR-flag.gif
-82,GL,Greenland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GL-flag.gif
-83,GJ,Grenada,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GJ-flag.gif
-84,GQ,Guam,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GQ-flag.gif
-85,GT,Guatemala,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GT-flag.gif
-86,GV,Guinea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GV-flag.gif
-87,PU,Guinea-Bissau,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PU-flag.gif
-88,GY,Guyana,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GY-flag.gif
-89,HA,Haiti,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HA-flag.gif
-90,HO,Honduras,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HO-flag.gif
-91,HK,Hong Kong,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HK-flag.gif
-92,HU,Hungary,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HU-flag.gif
-93,IC,Iceland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IC-flag.gif
-94,IN,India,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IN-flag.gif
-95,ID,Indonesia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ID-flag.gif
-96,IR,Iran,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IR-flag.gif
-97,IZ,Iraq,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IZ-flag.gif
-98,EI,Ireland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EI-flag.gif
-99,IS,Israel,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IS-flag.gif
-100,IT,Italy,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IT-flag.gif
-101,JM,Jamaica,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JM-flag.gif
-102,JA,Japan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JA-flag.gif
-103,JE,Jersey,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JE-flag.gif
-104,JO,Jordan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JO-flag.gif
-105,KZ,Kazakhstan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KZ-flag.gif
-106,KE,Kenya,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KE-flag.gif
-107,KR,Kiribati,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KR-flag.gif
-108,KV,Kosovo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KV-flag.gif
-109,KU,Kuwait,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KU-flag.gif
-110,KG,Kyrgyzstan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KG-flag.gif
-111,LA,Laos,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LA-flag.gif
-112,LG,Latvia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LG-flag.gif
-113,LE,Lebanon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LE-flag.gif
-114,LT,Lesotho,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LT-flag.gif
-115,LI,Liberia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LI-flag.gif
-116,LY,Libya,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LY-flag.gif
-117,LS,Liechtenstein,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LS-flag.gif
-118,LH,Lithuania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LH-flag.gif
-119,LU,Luxembourg,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LU-flag.gif
-120,MC,Macau,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MC-flag.gif
-121,MK,Macedonia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MK-flag.gif
-122,MA,Madagascar,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MA-flag.gif
-123,MI,Malawi,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MI-flag.gif
-124,MY,Malaysia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MY-flag.gif
-125,MV,Maldives,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MV-flag.gif
-126,ML,Mali,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ML-flag.gif
-127,MT,Malta,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MT-flag.gif
-128,RM,Marshall Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RM-flag.gif
-129,MR,Mauritania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MR-flag.gif
-130,MP,Mauritius,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MP-flag.gif
-131,MX,Mexico,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MX-flag.gif
-132,MD,Moldova,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MD-flag.gif
-133,MG,Mongolia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MG-flag.gif
-134,MJ,Montenegro,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MJ-flag.gif
-135,MH,Montserrat,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MH-flag.gif
-136,MO,Morocco,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MO-flag.gif
-137,MZ,Mozambique,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MZ-flag.gif
-138,WA,Namibia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WA-flag.gif
-139,NR,Nauru,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NR-flag.gif
-140,NP,Nepal,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NP-flag.gif
-141,NL,Netherlands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NL-flag.gif
-142,NC,New Caledonia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NC-flag.gif
-143,NZ,New Zealand,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NZ-flag.gif
-144,NU,Nicaragua,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NU-flag.gif
-145,NG,Niger,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NG-flag.gif
-146,NI,Nigeria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NI-flag.gif
-147,NE,Niue,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NE-flag.gif
-148,KN,North Korea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KN-flag.gif
-149,NO,Norway,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NO-flag.gif
-150,MU,Oman,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MU-flag.gif
-151,PK,Pakistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PK-flag.gif
-152,PM,Panama,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PM-flag.gif
-153,PP,Papua New Guinea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PP-flag.gif
-154,PA,Paraguay,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PA-flag.gif
-155,PE,Peru,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PE-flag.gif
-156,RP,Philippines,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RP-flag.gif
-157,PL,Poland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PL-flag.gif
-158,PO,Portugal,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PO-flag.gif
-159,RQ,Puerto Rico,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RQ-flag.gif
-160,QA,Qatar,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/QA-flag.gif
-161,CF,Republic of the Congo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CF-flag.gif
-162,RO,Romania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RO-flag.gif
-163,RS,Russia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RS-flag.gif
-164,RW,Rwanda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RW-flag.gif
-165,SH,"Saint Helena, Ascension, And Tristan Da Cunha",https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SH-flag.gif
-166,SC,Saint Kitts and Nevis,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SC-flag.gif
-167,ST,Saint Lucia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ST-flag.gif
-168,SB,Saint Pierre and Miquelon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SB-flag.gif
-169,VC,Saint Vincent and the Grenadines,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VC-flag.gif
-170,WS,Samoa,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WS-flag.gif
-171,TP,Sao Tome and Principe,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TP-flag.gif
-172,SA,Saudi Arabia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SA-flag.gif
-173,SG,Senegal,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SG-flag.gif
-174,RI,Serbia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RI-flag.gif
-175,SE,Seychelles,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SE-flag.gif
-176,SL,Sierra Leone,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SL-flag.gif
-177,SN,Singapore,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SN-flag.gif
-178,LO,Slovakia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LO-flag.gif
-179,SI,Slovenia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SI-flag.gif
-180,BP,Solomon Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BP-flag.gif
-181,SO,Somalia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SO-flag.gif
-182,SF,South Africa,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SF-flag.gif
-183,KS,South Korea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KS-flag.gif
-184,OD,South Sudan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/OD-flag.gif
-185,SP,Spain,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SP-flag.gif
-186,CE,Sri Lanka,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CE-flag.gif
-187,SU,Sudan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SU-flag.gif
-188,NS,Suriname,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NS-flag.gif
-189,SW,Sweden,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SW-flag.gif
-190,SZ,Switzerland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SZ-flag.gif
-191,SY,Syria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SY-flag.gif
-192,TW,Taiwan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TW-flag.gif
-193,TI,Tajikistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TI-flag.gif
-194,TZ,Tanzania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TZ-flag.gif
-195,TH,Thailand,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TH-flag.gif
-196,BF,The Bahamas,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BF-flag.gif
-197,TO,Togo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TO-flag.gif
-198,TN,Tonga,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TN-flag.gif
-199,TD,Trinidad and Tobago,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TD-flag.gif
-200,TS,Tunisia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TS-flag.gif
-201,TU,Turkey,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TU-flag.gif
-202,TX,Turkmenistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TX-flag.gif
-203,TK,Turks and Caicos Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TK-flag.gif
-204,UG,Uganda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UG-flag.gif
-205,UP,Ukraine,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UP-flag.gif
-206,AE,United Arab Emirates,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AE-flag.gif
-207,UK,United Kingdom,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UK-flag.gif
-208,US,United States,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/US-flag.gif
-209,UY,Uruguay,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UY-flag.gif
-210,UZ,Uzbekistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UZ-flag.gif
-211,NH,Vanuatu,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NH-flag.gif
-212,VE,Venezuela,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VE-flag.gif
-213,VM,Vietnam,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VM-flag.gif
-214,VQ,Virgin Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VQ-flag.gif
-215,WE,West Bank,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WE-flag.gif
-216,YM,Yemen,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/YM-flag.gif
-217,ZA,Zambia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ZA-flag.gif
-218,ZI,Zimbabwe,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ZI-flag.gif
+0,NT,NOT,
+1,UI,Unidentified,
+2,DX,DAO,
+3,AF,Afghanistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AF-flag.gif
+4,AL,Albania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AL-flag.gif
+5,AG,Algeria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AG-flag.gif
+6,AQ,American Samoa,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AQ-flag.gif
+7,AN,Andorra,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AN-flag.gif
+8,AO,Angola,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AO-flag.gif
+9,AC,Antigua and Barbuda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AC-flag.gif
+10,AR,Argentina,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AR-flag.gif
+11,AM,Armenia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AM-flag.gif
+12,AA,Aruba,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AA-flag.gif
+13,AS,Australia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AS-flag.gif
+14,AU,Austria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AU-flag.gif
+15,AJ,Azerbaijan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AJ-flag.gif
+16,BA,Bahrain,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BA-flag.gif
+17,BG,Bangladesh,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BG-flag.gif
+18,BB,Barbados,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BB-flag.gif
+19,BO,Belarus,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BO-flag.gif
+20,BE,Belgium,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BE-flag.gif
+21,BH,Belize,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BH-flag.gif
+22,BN,Benin,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BN-flag.gif
+23,BD,Bermuda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BD-flag.gif
+24,BT,Bhutan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BT-flag.gif
+25,BL,Bolivia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BL-flag.gif
+26,BK,Bosnia and Herzegovina,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BK-flag.gif
+27,BC,Botswana,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BC-flag.gif
+28,BR,Brazil,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BR-flag.gif
+29,VI,British Virgin Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VI-flag.gif
+30,BX,Brunei,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BX-flag.gif
+31,BU,Bulgaria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BU-flag.gif
+32,UV,Burkina Faso,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UV-flag.gif
+33,BM,Burma,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BM-flag.gif
+34,BY,Burundi,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BY-flag.gif
+35,CV,Cabo Verde,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CV-flag.gif
+36,CB,Cambodia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CB-flag.gif
+37,CM,Cameroon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CM-flag.gif
+38,CA,Canada,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CA-flag.gif
+39,CJ,Cayman Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CJ-flag.gif
+40,CT,Central African Republic,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CT-flag.gif
+41,CD,Chad,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CD-flag.gif
+42,CI,Chile,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CI-flag.gif
+43,CH,China,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CH-flag.gif
+44,CO,Colombia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CO-flag.gif
+45,CN,Comoros,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CN-flag.gif
+46,CW,Cook Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CW-flag.gif
+47,CS,Costa Rica,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CS-flag.gif
+48,IV,Cote D'Ivoire,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IV-flag.gif
+49,HR,Croatia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HR-flag.gif
+50,CU,Cuba,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CU-flag.gif
+51,UC,Curacao,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UC-flag.gif
+52,CY,Cyprus,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CY-flag.gif
+53,EZ,Czechia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EZ-flag.gif
+54,CG,Democratic Republic of the Congo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CG-flag.gif
+55,DA,Denmark,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DA-flag.gif
+56,DJ,Djibouti,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DJ-flag.gif
+57,DO,Dominica,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DO-flag.gif
+58,DR,Dominican Republic,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/DR-flag.gif
+59,EC,Ecuador,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EC-flag.gif
+60,EG,Egypt,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EG-flag.gif
+61,ES,El Salvador,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ES-flag.gif
+62,EK,Equatorial Guinea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EK-flag.gif
+63,ER,Eritrea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ER-flag.gif
+64,EN,Estonia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EN-flag.gif
+65,WZ,Eswatini,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WZ-flag.gif
+66,ET,Ethiopia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ET-flag.gif
+67,FK,Falkland Islands (Islas Malvinas),https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FK-flag.gif
+68,FO,Faroe Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FO-flag.gif
+69,FM,Federated States of Micronesia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FM-flag.gif
+70,FJ,Fiji,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FJ-flag.gif
+71,FI,Finland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FI-flag.gif
+72,FR,France,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FR-flag.gif
+73,FP,French Polynesia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/FP-flag.gif
+74,GB,Gabon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GB-flag.gif
+75,GA,Gambia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GA-flag.gif
+76,GG,Georgia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GG-flag.gif
+77,GM,Germany,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GM-flag.gif
+78,GH,Ghana,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GH-flag.gif
+79,GI,Gibraltar,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GI-flag.gif
+80,GR,Greece,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GR-flag.gif
+81,GL,Greenland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GL-flag.gif
+82,GJ,Grenada,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GJ-flag.gif
+83,GQ,Guam,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GQ-flag.gif
+84,GT,Guatemala,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GT-flag.gif
+85,GV,Guinea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GV-flag.gif
+86,PU,Guinea-Bissau,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PU-flag.gif
+87,GY,Guyana,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/GY-flag.gif
+88,HA,Haiti,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HA-flag.gif
+89,HO,Honduras,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HO-flag.gif
+90,HK,Hong Kong,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HK-flag.gif
+91,HU,Hungary,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/HU-flag.gif
+92,IC,Iceland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IC-flag.gif
+93,IN,India,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IN-flag.gif
+94,ID,Indonesia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ID-flag.gif
+95,IR,Iran,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IR-flag.gif
+96,IZ,Iraq,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IZ-flag.gif
+97,EI,Ireland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/EI-flag.gif
+98,IS,Israel,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IS-flag.gif
+99,IT,Italy,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/IT-flag.gif
+100,JM,Jamaica,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JM-flag.gif
+101,JA,Japan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JA-flag.gif
+102,JE,Jersey,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JE-flag.gif
+103,JO,Jordan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/JO-flag.gif
+104,KZ,Kazakhstan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KZ-flag.gif
+105,KE,Kenya,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KE-flag.gif
+106,KR,Kiribati,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KR-flag.gif
+107,KV,Kosovo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KV-flag.gif
+108,KU,Kuwait,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KU-flag.gif
+109,KG,Kyrgyzstan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KG-flag.gif
+110,LA,Laos,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LA-flag.gif
+111,LG,Latvia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LG-flag.gif
+112,LE,Lebanon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LE-flag.gif
+113,LT,Lesotho,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LT-flag.gif
+114,LI,Liberia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LI-flag.gif
+115,LY,Libya,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LY-flag.gif
+116,LS,Liechtenstein,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LS-flag.gif
+117,LH,Lithuania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LH-flag.gif
+118,LU,Luxembourg,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LU-flag.gif
+119,MC,Macau,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MC-flag.gif
+120,MK,Macedonia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MK-flag.gif
+121,MA,Madagascar,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MA-flag.gif
+122,MI,Malawi,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MI-flag.gif
+123,MY,Malaysia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MY-flag.gif
+124,MV,Maldives,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MV-flag.gif
+125,ML,Mali,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ML-flag.gif
+126,MT,Malta,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MT-flag.gif
+127,RM,Marshall Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RM-flag.gif
+128,MR,Mauritania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MR-flag.gif
+129,MP,Mauritius,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MP-flag.gif
+130,MX,Mexico,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MX-flag.gif
+131,MD,Moldova,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MD-flag.gif
+132,MG,Mongolia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MG-flag.gif
+133,MJ,Montenegro,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MJ-flag.gif
+134,MH,Montserrat,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MH-flag.gif
+135,MO,Morocco,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MO-flag.gif
+136,MZ,Mozambique,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MZ-flag.gif
+137,WA,Namibia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WA-flag.gif
+138,NR,Nauru,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NR-flag.gif
+139,NP,Nepal,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NP-flag.gif
+140,NL,Netherlands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NL-flag.gif
+141,NC,New Caledonia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NC-flag.gif
+142,NZ,New Zealand,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NZ-flag.gif
+143,NU,Nicaragua,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NU-flag.gif
+144,NG,Niger,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NG-flag.gif
+145,NI,Nigeria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NI-flag.gif
+146,NE,Niue,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NE-flag.gif
+147,KN,North Korea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KN-flag.gif
+148,NO,Norway,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NO-flag.gif
+149,MU,Oman,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/MU-flag.gif
+150,PK,Pakistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PK-flag.gif
+151,PM,Panama,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PM-flag.gif
+152,PP,Papua New Guinea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PP-flag.gif
+153,PA,Paraguay,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PA-flag.gif
+154,PE,Peru,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PE-flag.gif
+155,RP,Philippines,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RP-flag.gif
+156,PL,Poland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PL-flag.gif
+157,PO,Portugal,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/PO-flag.gif
+158,RQ,Puerto Rico,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RQ-flag.gif
+159,QA,Qatar,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/QA-flag.gif
+160,CF,Republic of the Congo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CF-flag.gif
+161,RO,Romania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RO-flag.gif
+162,RS,Russia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RS-flag.gif
+163,RW,Rwanda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RW-flag.gif
+164,SH,"Saint Helena, Ascension, And Tristan Da Cunha",https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SH-flag.gif
+165,SC,Saint Kitts and Nevis,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SC-flag.gif
+166,ST,Saint Lucia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ST-flag.gif
+167,SB,Saint Pierre and Miquelon,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SB-flag.gif
+168,VC,Saint Vincent and the Grenadines,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VC-flag.gif
+169,WS,Samoa,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WS-flag.gif
+170,TP,Sao Tome and Principe,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TP-flag.gif
+171,SA,Saudi Arabia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SA-flag.gif
+172,SG,Senegal,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SG-flag.gif
+173,RI,Serbia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/RI-flag.gif
+174,SE,Seychelles,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SE-flag.gif
+175,SL,Sierra Leone,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SL-flag.gif
+176,SN,Singapore,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SN-flag.gif
+177,LO,Slovakia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/LO-flag.gif
+178,SI,Slovenia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SI-flag.gif
+179,BP,Solomon Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BP-flag.gif
+180,SO,Somalia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SO-flag.gif
+181,SF,South Africa,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SF-flag.gif
+182,KS,South Korea,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/KS-flag.gif
+183,OD,South Sudan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/OD-flag.gif
+184,SP,Spain,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SP-flag.gif
+185,CE,Sri Lanka,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/CE-flag.gif
+186,SU,Sudan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SU-flag.gif
+187,NS,Suriname,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NS-flag.gif
+188,SW,Sweden,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SW-flag.gif
+189,SZ,Switzerland,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SZ-flag.gif
+190,SY,Syria,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/SY-flag.gif
+191,TW,Taiwan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TW-flag.gif
+192,TI,Tajikistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TI-flag.gif
+193,TZ,Tanzania,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TZ-flag.gif
+194,TH,Thailand,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TH-flag.gif
+195,BF,The Bahamas,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/BF-flag.gif
+196,TO,Togo,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TO-flag.gif
+197,TN,Tonga,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TN-flag.gif
+198,TD,Trinidad and Tobago,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TD-flag.gif
+199,TS,Tunisia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TS-flag.gif
+200,TU,Turkey,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TU-flag.gif
+201,TX,Turkmenistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TX-flag.gif
+202,TK,Turks and Caicos Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/TK-flag.gif
+203,UG,Uganda,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UG-flag.gif
+204,UP,Ukraine,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UP-flag.gif
+205,AE,United Arab Emirates,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/AE-flag.gif
+206,UK,United Kingdom,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UK-flag.gif
+207,US,United States,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/US-flag.gif
+208,UY,Uruguay,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UY-flag.gif
+209,UZ,Uzbekistan,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/UZ-flag.gif
+210,NH,Vanuatu,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/NH-flag.gif
+211,VE,Venezuela,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VE-flag.gif
+212,VM,Vietnam,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VM-flag.gif
+213,VQ,Virgin Islands,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/VQ-flag.gif
+214,WE,West Bank,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/WE-flag.gif
+215,YM,Yemen,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/YM-flag.gif
+216,ZA,Zambia,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ZA-flag.gif
+217,ZI,Zimbabwe,https://www.cia.gov/library/publications/resources/the-world-factbook/attachments/flags/ZI-flag.gif
