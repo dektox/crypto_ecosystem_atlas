@@ -149,8 +149,8 @@ def all_data_func():
          response.append({
              'id': item[0],
              'name': item[13],
-             'os_id': item[12],
-             'year': item[13],
+             'os_id': item[11],
+             'year': item[12],
              'ophq': item[17],
              'leghq': item[19],
              'weight': 1,

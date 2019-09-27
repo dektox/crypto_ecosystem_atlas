@@ -180,10 +180,15 @@ for i, org_state_id in enumerate(res_idx_cat['id']):
     try:
         state_cats = res_idx_cat['classifier'][i].strip().split(",")
         for state_cat in state_cats:
-            res_state_cats = res_state_cats.append({"organisation_state_id":int(org_state_id), "identifier":int(state_cat)}, ignore_index = True)
-    except:
+            if int(state_cat) in categories_data['id'].tolist():
+                res_state_cats = res_state_cats.append({"organisation_state_id":int(org_state_id), "identifier":int(state_cat)}, ignore_index = True)
+            else:
+                print (f"error {state_cat} is not in taxonomy")
+    except: 
         print("Error in defining company category, check dates:",res_idx_cat['name'][i])
 res_state_cats['id'] = np.arange(len(res_state_cats))
-res_state_cats.to_sql('state_categories', con=engine, if_exists='append', index=False)
-
+try:
+    res_state_cats.to_sql('state_categories', con=engine, if_exists='append', index=False)
+except Exception as error:
+    print (f"error occured {error}")
 
