@@ -150,6 +150,7 @@ def all_data_func():
              'id': item[0],
              'name': item[13],
              'os_id': item[11],
+             'type': item[14],
              'year': item[12],
              'ophq': item[17],
              'leghq': item[19],
