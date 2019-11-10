@@ -200,6 +200,54 @@ def get_org(value):
             })
     return jsonify(response)
 
+@app.route("/api/feedback", methods=['POST'])
+def feedback():
+    content = flask.request.json
+    with psycopg2.connect(**config['atlas']) as conn:
+        c = conn.cursor()
+        c.execute("CREATE TABLE IF NOT EXISTS feedback (timestamp INT," 
+                  "name TEXT, organisation TEXT, email TEXT, message TEXT);")
+        insert_sql = "INSERT INTO feedback (timestamp, name, organisation, email, message) VALUES (%s, %s, %s, %s, %s)"
+        name = content['name']
+        organisation = content['organisation']
+        email = content['email']
+        message = content['message']
+        timestamp = int(time.time())
+        try:
+            c.execute(insert_sql, (timestamp, name, organisation, email, message))
+        except Exception as error:
+            return jsonify(data=content, status="fail", error=error.pgcode)
+        finally:
+            headers = {'Content-type': 'application/json', }
+            sl_d = {
+                "attachments": [
+                    {
+                        "fallback": "CBECI feedback recieved",
+                        "color": "#36a64f",
+                        "author_name": name,
+                        "author_link": "mailto:" + email,
+                        "title": organisation,
+                        "text": message,
+                        "footer": "cbeci.org",
+                        "footer_icon": "https://i.ibb.co/HPhL1xy/favicon.png",
+                        "ts": timestamp
+                    }
+                ]
+            }
+            sl_d = str(sl_d)
+            flask.g.slackmsg = (sl_d, headers)
+    return jsonify(data=content, status="success", error="")
+
+@app.teardown_request
+def teardown_request(_: Exception):
+    if hasattr(flask.g, 'slackmsg'):
+        try:
+            sl_d, headers = flask.g.slackmsg
+            requests.post(config['webhook'], headers=headers, data=sl_d)
+        except Exception as error:
+            app.logger.exception(str(error))
+
+
 # =============================================================================
 # @app.route("/api/all", methods=['GET', 'POST'])
 # def countries_btc():
