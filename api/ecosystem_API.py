@@ -58,7 +58,7 @@ def send_err_to_slack(err, name):
 
 app = Flask(__name__)
 CORS(app)
-app.config["DEBUG"] = False
+app.config["DEBUG"] = True
 
 # initialisation of cache vars:
 countries, seg, subseg, cat, orgs, org_states, states_cat, all_data, taxonomy = load_data()
@@ -182,11 +182,11 @@ def get_org(value):
             list_of_identifiers.append(item[24])
             response = {
                  'id': item[0],
-                 'edate': item[1],
+                 'edate': str(item[1]),
                  'twitter': item[2],
                  'link': item[3],
-                 'incdate': item[4],
-                 'cdate': item[5],
+                 'incdate': str(item[4]),
+                 'cdate': str(item[5]),
                  'creason': item[6],
                  'creasonx': item[7],
                  'cryptonative': item[8],
