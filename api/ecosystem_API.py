@@ -12,7 +12,6 @@ import time
 from flask_cors import CORS
 import psycopg2
 import yaml
-import numpy as np
 
 config_path = '../CONFIG.yml'
 if config_path:
