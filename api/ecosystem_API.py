@@ -171,9 +171,16 @@ def get_org(value):
         c = conn.cursor()
         c.execute('SELECT * FROM all_data WHERE id = {}'.format(org_id))
         company = c.fetchall()
+    list_of_identifiers = []
+    list_of_years = []
     response = []
     for item in company:
-         response.append({
+        list_of_years.append(item[12])
+    maxyear=max(list_of_years)
+    for item in company:
+        if item[12] == maxyear:
+            list_of_identifiers.append(item[24])
+        response = {
              'id': item[0],
              'edate': item[1],
              'twitter': item[2],
@@ -196,8 +203,8 @@ def get_org(value):
              'desc': item[21],
              'fte': item[22],
              'cat_id': item[23],
-             'identifier': item[24],
-            })
+             'identifier': list_of_identifiers,
+        }
     return jsonify(response)
 
 @app.route("/api/feedback", methods=['POST'])
@@ -276,7 +283,6 @@ def suggest():
         else:
             leghq = content['leghq']
         leghqcity = content['leghqcity']
-        ophq = content['ophq']
         if content['ophq'] == "None":
             ophq = None
         else:
