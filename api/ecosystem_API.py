@@ -12,6 +12,7 @@ import time
 from flask_cors import CORS
 import psycopg2
 import yaml
+import numpy as np
 
 config_path = '../CONFIG.yml'
 if config_path:
@@ -206,7 +207,7 @@ def feedback():
     with psycopg2.connect(**config['atlas']) as conn:
         c = conn.cursor()
         c.execute("CREATE TABLE IF NOT EXISTS feedback (timestamp INT," 
-                  "name TEXT, organisation TEXT, email TEXT, message TEXT);")
+                  "name VARCHAR(255), organisation VARCHAR(255), email VARCHAR(255), message VARCHAR(2047));")
         insert_sql = "INSERT INTO feedback (timestamp, name, organisation, email, message) VALUES (%s, %s, %s, %s, %s)"
         name = content['name']
         organisation = content['organisation']
@@ -222,13 +223,13 @@ def feedback():
             sl_d = {
                 "attachments": [
                     {
-                        "fallback": "CBECI feedback recieved",
+                        "fallback": "ATLAS feedback received",
                         "color": "#36a64f",
                         "author_name": name,
                         "author_link": "mailto:" + email,
                         "title": organisation,
                         "text": message,
-                        "footer": "cbeci.org",
+                        "footer": "https://ccaf.tech/",
                         "footer_icon": "https://i.ibb.co/HPhL1xy/favicon.png",
                         "ts": timestamp
                     }
@@ -244,6 +245,84 @@ def teardown_request(_: Exception):
         try:
             sl_d, headers = flask.g.slackmsg
             requests.post(config['webhook'], headers=headers, data=sl_d)
+        except Exception as error:
+            app.logger.exception(str(error))
+
+
+@app.route("/api/suggest", methods=['POST'])
+def suggest():
+    content = flask.request.json
+    with psycopg2.connect(**config['atlas']) as conn:
+        c = conn.cursor()
+        c.execute("CREATE TABLE IF NOT EXISTS suggest (timestamp INT," 
+                  "id INT REFERENCES organisations(id), name VARCHAR(255), legalname VARCHAR(255),  "
+                  "edate DATE, incdate DATE, leghq INT REFERENCES countries(id), leghqcity VARCHAR(123), "
+                  "ophq INT REFERENCES countries(id), ophqcity VARCHAR(123), link VARCHAR(255), twitter VARCHAR(63), "
+                  "x_segments VARCHAR(255), segments VARCHAR(511), "
+                  "x_categories VARCHAR(1023), categories VARCHAR(2047), onbehalf BOOLEAN);")
+        insert_sql = "INSERT INTO suggest (timestamp, id, name, legalname, edate, incdate, leghq, leghqcity, ophq, " \
+                     "ophqcity, link, twitter, x_segments, segments, x_categories, categories, onbehalf) " \
+                     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        timestamp = int(time.time())
+        if content['id'] == "None":
+            org_id = None
+        else:
+            org_id = content['id']
+        name = content['name']
+        legalname = content['legalname']
+        edate = content['edate']
+        incdate = content['incdate']
+        if content['leghq'] == "None":
+            leghq = None
+        else:
+            leghq = content['leghq']
+        leghqcity = content['leghqcity']
+        ophq = content['ophq']
+        if content['ophq'] == "None":
+            ophq = None
+        else:
+            ophq = content['ophq']
+        ophqcity = content['ophqcity']
+        link = content['link']
+        twitter = content['twitter']
+        x_segments = content['x_segments']
+        segments = content['segments']
+        x_categories = content['x_categories']
+        categories = content['categories']
+        onbehalf = content['onbehalf']
+
+        try:
+            c.execute(insert_sql, (timestamp, org_id, name, legalname, edate, incdate, leghq, leghqcity, ophq,
+                                   ophqcity, link, twitter, x_segments, segments, x_categories, categories, onbehalf))
+        except Exception as error:
+            return jsonify(data=content, status="fail", error=error.pgcode)
+        finally:
+            headers = {'Content-type': 'application/json', }
+            sugg = {
+                "attachments": [
+                    {
+                        "fallback": "ATLAS company suggestion received",
+                        "color": "#36a64f",
+                        "author_name": 'New suggestion/correction: ' + name,
+                        "author_link": 'http://' + link,
+                        "title": segments,
+                        "text": categories,
+                        "footer": "https://ccaf.tech",
+                        "footer_icon": "https://i.ibb.co/HPhL1xy/favicon.png",
+                        "ts": timestamp
+                    }
+                ]
+            }
+            sugg = str(sugg)
+            flask.g.slackmsg2 = (sugg, headers)
+    return jsonify(data=content, status="success", error="")
+
+@app.teardown_request
+def teardown_request2(_: Exception):
+    if hasattr(flask.g, 'slackmsg2'):
+        try:
+            sugg, headers = flask.g.slackmsg2
+            requests.post(config['webhook'], headers=headers, data=sugg)
         except Exception as error:
             app.logger.exception(str(error))
 
