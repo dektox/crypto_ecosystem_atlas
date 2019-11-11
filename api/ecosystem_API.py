@@ -6,6 +6,7 @@ Created on Thu May 16 14:24:16 2019
 """
 from flask import Flask, jsonify
 from datetime import datetime
+from datetime import date
 import flask
 import requests
 import time
@@ -180,6 +181,10 @@ def get_org(value):
     for item in company:
         if item[12] == maxyear:
             list_of_identifiers.append(item[24])
+            if str(item[5]) == "None":
+                active = True
+            else:
+                active = False
             response = {
                  'id': item[0],
                  'edate': str(item[1]),
@@ -203,6 +208,7 @@ def get_org(value):
                  'desc': item[21],
                  'fte': item[22],
                  'cat_id': item[23],
+                 'active': active,
                  'identifier': list_of_identifiers,
             }
     return jsonify(response)
