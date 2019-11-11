@@ -180,31 +180,31 @@ def get_org(value):
     for item in company:
         if item[12] == maxyear:
             list_of_identifiers.append(item[24])
-        response = {
-             'id': item[0],
-             'edate': item[1],
-             'twitter': item[2],
-             'link': item[3],
-             'incdate': item[4],
-             'cdate': item[5],
-             'creason': item[6],
-             'creasonx': item[7],
-             'cryptonative': item[8],
-             'os_id': item[11],
-             'year': item[12],
-             'name': item[13],
-             'type': str(item[14]).lower(),
-             'incnum': item[15],
-             'ophqcity': item[16],
-             'ophq': item[17],
-             'leghqcity': item[18],
-             'leghq': item[19],
-             'arbjur': item[20],
-             'desc': item[21],
-             'fte': item[22],
-             'cat_id': item[23],
-             'identifier': list_of_identifiers,
-        }
+            response = {
+                 'id': item[0],
+                 'edate': item[1],
+                 'twitter': item[2],
+                 'link': item[3],
+                 'incdate': item[4],
+                 'cdate': item[5],
+                 'creason': item[6],
+                 'creasonx': item[7],
+                 'cryptonative': item[8],
+                 'os_id': item[11],
+                 'year': item[12],
+                 'name': item[13],
+                 'type': str(item[14]).lower(),
+                 'incnum': item[15],
+                 'ophqcity': item[16],
+                 'ophq': item[17],
+                 'leghqcity': item[18],
+                 'leghq': item[19],
+                 'arbjur': item[20],
+                 'desc': item[21],
+                 'fte': item[22],
+                 'cat_id': item[23],
+                 'identifier': list_of_identifiers,
+            }
     return jsonify(response)
 
 @app.route("/api/feedback", methods=['POST'])
