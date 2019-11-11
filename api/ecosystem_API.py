@@ -58,7 +58,7 @@ def send_err_to_slack(err, name):
 
 app = Flask(__name__)
 CORS(app)
-app.config["DEBUG"] = True
+app.config["DEBUG"] = False
 
 # initialisation of cache vars:
 countries, seg, subseg, cat, orgs, org_states, states_cat, all_data, taxonomy = load_data()
