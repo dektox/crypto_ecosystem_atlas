@@ -14,7 +14,7 @@ import numpy as np
 config_path = '../CONFIG.yml'
 if config_path:
     with open(config_path) as fp:
-        config = yaml.load(fp, yaml.FullLoader)
+        config = yaml.load(fp)
 else:
     config = {}
 db_url = 'postgresql://'+config['atlas']['user']+":"+config['atlas']['password']+"@"+config['atlas']['host']+":"\
