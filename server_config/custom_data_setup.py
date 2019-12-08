@@ -15,6 +15,7 @@ config_path = '../CONFIG.yml'
 if config_path:
     with open(config_path) as fp:
         config = yaml.load(fp)
+       # config = yaml.load(fp, yaml.FullLoader)
 else:
     config = {}
 db_url = 'postgresql://'+config['atlas']['user']+":"+config['atlas']['password']+"@"+config['atlas']['host']+":"\
