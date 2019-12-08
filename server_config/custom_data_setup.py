@@ -126,7 +126,7 @@ for i, row in enumerate(sd['name']):
         # within each interval the names are the same:
         for interval, state in zip (intervals, states):
             for year in interval:
-                name = state.split(':')[1].strip(';"')
+                name = state.split(':')[1].strip().strip(';"')
                 res=res.append({"organisation_id":sd['id'][i], "year":year, "name":name}, ignore_index = True)
 
 # setting multi index for res DataFrame: combination of organsiation_id and year is unique     
@@ -162,7 +162,7 @@ for column in columns_to_fill:
                 # within each interval the *column* values are the same:
                 for interval, state in zip (intervals, states):
                     for year in interval:
-                        data = state.split(':')[1].strip(';"')
+                        data = state.split(':')[1].strip().strip('";')
                         if column == 'ophq' or column == 'leghq':
                             res_idx.at[(org_id, year),column] = dict(zip(countries_data['name'], countries_data['id']))[data]
                         elif column == 'classifier':

@@ -9,9 +9,6 @@ id,seg_id,subsegment
 12161,12,Self-custody
 13190,13,PoW mining
 13191,13,Staking
-14220,14,Token issuance (ICO)
-14221,14,Token sale hosting (IEO)
-14222,14,Initial lock offering (ILO)
 15250,15,Analytics
 15251,15,Data services
 15252,15,Rating
@@ -28,7 +25,8 @@ id,seg_id,subsegment
 19370,19,Legal & regulatory
 19371,19,Professional services
 19372,19,Marketing & Communication
-20400,20,Other services
+20400,20,Notarisation and Timestamping
 20401,20,Industry initiatives
+20402,20,Other services
 21430,21,Investment management
-21460,21,Financial product issuance
+21460,21,Issuance services

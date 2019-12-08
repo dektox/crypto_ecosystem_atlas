@@ -2,12 +2,13 @@ id,subseg_id,category,examples
 101001000,10100,Order-book,"Binance, Bittrex, Kraken"
 101001001,10100,DEX relayer,"Paradex (acquired by Coinbase, 2019), Radar relay"
 101001002,10100,Market Making,"Global Star, FBG"
-101001003,10100,3rd Party Trading Services,"Coinigy, 3 commas, HODLbot, Crypton"
+101001003,10100,3rd party trading services,"Coinigy, 3 commas, HODLbot, Crypton"
 101001004,10100,HFT services,Coinbase Markets (shutdown in April 2019)
 101011100,10101,Brokerage services,"Coinbase, eToro, Cash App, bitcoin sussie"
 101011101,10101,OTC services,"Genesis, Cumberland"
 101021200,10102,Bitcoin Teller Machines (BTM),Bitaccess
 101021201,10102,P2P marketplaces,"LocalBitcoins, Paxful"
+101021202,10102,Clearing,ErisX
 111301200,11130,Merchant services,"BitPay, Coinbase"
 111301201,11130,Bill payments,Volabit
 111301202,11130,Spending - Proxy-buyer service,"Purse, BitRefill"
@@ -32,11 +33,9 @@ id,subseg_id,category,examples
 131901705,13190,Pool operation,Antpool
 131901706,13190,Hardware procurement (resale),Blockware Solutions
 131901707,13190,Firmware development,Braiins
+131901708,13190,Software development,Honeyminer
 131911800,13191,Proprietary (individual),"Certus One, Staking Facilities"
 131911801,13191,Staking-as-a-Service,"Bitcoin suisse, Staking Lab"
-142201900,14220,N/A,
-142212000,14221,N/A,Binance Launchpad
-142222100,14222,N/A,
 152502200,15250,Blockchain forensics,"Chainalysis, Elliptic"
 152502201,15250,Market surveillance,Solidus Lab
 152512300,15251,Directories,"CryptoCompare, Messari"
@@ -47,6 +46,7 @@ id,subseg_id,category,examples
 152522400,15252,N/A,"CryptoCompare, ICO Bench, ICOholder"
 152532500,15253,Industry,"Circle Research, Binance Info, BitMEX Research"
 152532501,15253,Academia,"CCAF, UCL"
+152532502,15253,Government,
 162802600,16280,Forums,"bitcointalk.org, nimses"
 162812700,16281,Online newspaper,"Coindesk, The Block"
 162812701,16281,TV,Block.TV
@@ -58,14 +58,13 @@ id,subseg_id,category,examples
 162822804,16282,Collectible Production,Denarium
 162822805,16282,Gambling,Primedice
 173103000,17310,Lending/Borrowing,"ETHLend, SALT"
-173103001,17310,Credit,Ripio Credit Network
 173103002,17310,Margin lending,Fulcrum
 173113100,17311,Interest-bearing account,BlockFi Interest Account
 173123200,17312,N/A,"Etherisc, iXLedger"
 183403300,18340,Sub-segment protocols/construction,0x Lightning Labs
 183403301,18340,Application development,Forecast Foundation (Augur)
 183403302,18340,Main chain maintenance,"Block.one, Chaincode Labs, Bitstream, Ethereum Foundation, Parity"
-183403303,18340,Cross-chain project ,"Polkadot, Cosmos"
+183403303,18340,Cross-chain project,"Polkadot, Cosmos"
 183413400,18341,Security auditing,"ZeppelinOS, Crystal Blockchain"
 183423500,18342,Software oracle,Provable (former Oracalize)
 183423501,18342,Hardware oracle,Ledger IoT
@@ -81,13 +80,14 @@ id,subseg_id,category,examples
 193723800,19372,Public Relations,Wachsmann
 193723801,19372,Marketing services,CPA-networks?
 193723802,19372,Community management,"Amazix, Bountyhive"
-204003900,20400,Notarisation and Timestamping,Stampify
-204003901,20400,Mixing services,Helix
+204003900,20400,Notarisation,Stampify
+204003901,20400,Timestamping,
 204014000,20401,Standard-setting,Global Digital Finance (GDF)
 204014001,20401,Self-regulatory,JVCEA
 204014002,20401,Advocacy,"Fleishmann Hillard, Coin Center"
-214304100,21430,N/A,"Digital Currency Group, Blockchain Capital"
-214604200,21460,ETP/ETF,SIX
-214604201,21460,STO,Archax
-214604202,21460,Derivatives issuance,Amun Crypto Basket Index ETP
-214604203,21460,Futures contracts issuance,"CME Group, BitMEX, OKEx Futures"
+204024100,20402,Mixing services,Helix
+204024101,20402,Utility peering,
+214304100,21430,Portfolio management,"Digital Currency Group, Blockchain Capital"
+214304101,21430,Asset pooling,
+214604200,21460,Issuance,
+214604201,21460,Issuance hosting,Binance Launchpad
