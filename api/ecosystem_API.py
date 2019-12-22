@@ -149,6 +149,8 @@ def all_data_func():
     for item in all_data:
          response.append({
              'id': item[0],
+             'edate': str(item[1]),
+             'cdate': str(item[5]),
              'name': item[13],
              'os_id': item[11],
              'type': str(item[14]).lower(),
