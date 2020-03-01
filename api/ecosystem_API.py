@@ -423,19 +423,19 @@ def suggest():
                             },
                             {
                                 "name": "Segment(s):",
-                                "value": segments
+                                "value": str(segments)
                             },
                             {
                                 "name": "Segment(s) code(s):",
-                                "value": x_segments
+                                "value": str(x_segments)
                             },
                             {
                                 "name": "Category(ies):",
-                                "value": categories
+                                "value": str(categories)
                             },
                             {
                                 "name": "Category(ies) code(s)",
-                                "value": x_categories
+                                "value": str(x_categories)
                             },
                         ],
                     }
