@@ -4,6 +4,7 @@ id,subseg_id,category,examples
 101001002,10100,Market Making,"Global Star, FBG"
 101001003,10100,3rd party trading services,"Coinigy, 3 commas, HODLbot, Crypton"
 101001004,10100,HFT services,Coinbase Markets (shutdown in April 2019)
+101001005,10100,Advanced trading services,
 101011100,10101,Brokerage services,"Coinbase, eToro, Cash App, bitcoin sussie"
 101011101,10101,OTC services,"Genesis, Cumberland"
 101021200,10102,Bitcoin Teller Machines (BTM),Bitaccess
@@ -34,6 +35,7 @@ id,subseg_id,category,examples
 131901706,13190,Hardware procurement (resale),Blockware Solutions
 131901707,13190,Firmware development,Braiins
 131901708,13190,Software development,Honeyminer
+131901709,13190,Hardware manufacturing - Node,Casa
 131911800,13191,Proprietary (individual),"Certus One, Staking Facilities"
 131911801,13191,Staking-as-a-Service,"Bitcoin suisse, Staking Lab"
 152502200,15250,Blockchain forensics,"Chainalysis, Elliptic"
@@ -43,6 +45,7 @@ id,subseg_id,category,examples
 152512302,15251,Data aggregation,Mosaic
 152512303,15251,Block explorers,Blockchain.info
 152512304,15251,Network statistics,Coinmetrics.io
+152512305,15251,API Interface,
 152522400,15252,N/A,"CryptoCompare, ICO Bench, ICOholder"
 152532500,15253,Industry,"Circle Research, Binance Info, BitMEX Research"
 152532501,15253,Academia,"CCAF, UCL"
@@ -64,7 +67,7 @@ id,subseg_id,category,examples
 183403300,18340,Sub-segment protocols/construction,0x Lightning Labs
 183403301,18340,Application development,Forecast Foundation (Augur)
 183403302,18340,Main chain maintenance,"Block.one, Chaincode Labs, Bitstream, Ethereum Foundation, Parity"
-183403303,18340,Cross-chain project,"Polkadot, Cosmos"
+183403303,18340,Cross-chain project ,"Polkadot, Cosmos"
 183413400,18341,Security auditing,"ZeppelinOS, Crystal Blockchain"
 183423500,18342,Software oracle,Provable (former Oracalize)
 183423501,18342,Hardware oracle,Ledger IoT

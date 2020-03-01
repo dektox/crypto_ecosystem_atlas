@@ -329,7 +329,7 @@ Subsidiary: BitFury Group Limited (?), BitFury (Malta) Limited"
 10081,BitGo,2013-01-01,Private,@bitgo,https://www.bitgo.com/,2013-01-01,4976420,,,,"Palo Alto, California",United States,"Wilmington, Delaware",United States,United States,Native,"2013-01-01:121611601;
 2014-01-01:121611601,152512305;
 2018-01-01:121611601,152512305,121601501;
-2019-01-01:121611601,152512305,121601501,13191180,101021202","Non-custodial wallet; General API Provider/Security Platform (2014); Proof-of-Reserve Service ""Verified by BitGo"" (2015); Insured Accounts (2015); 0-Confirmation Service ""BitGo Instant"" (2016), Vault services (2018), Staking (Bitgo Staking, 2019-10-03); Off-Chain Clearing and Settlement (2019-05-14)",,TRUE,
+2019-01-01:121611601,152512305,121601501,131911801,101021202","Non-custodial wallet; General API Provider/Security Platform (2014); Proof-of-Reserve Service ""Verified by BitGo"" (2015); Insured Accounts (2015); 0-Confirmation Service ""BitGo Instant"" (2016), Vault services (2018), Staking (Bitgo Staking, 2019-10-03); Off-Chain Clearing and Settlement (2019-05-14)",,TRUE,
 10082,BitGold,2014-01-01,Public,@goldmoney,https://www.goldmoney.com/,2014-02-01,838387181,2015-05-22,Pivot towards blockchain-based solutions. Acquired Goldmoney and then took on the name.,P,"Toronto, Ontario",Canada,"Toronto, Ontario",Canada,Canada,Complete pivot,"101001000
 ",Bitcoin-Gold Exchange (until end of 2014); then pivot towards blockchain-based payment and savings system with gold. Pivoted out of blockchain entirely in March 2019.,,,
 10083,BitHalo,2014-01-01,Private,@BitHaloOfficial,https://bithalo.org/,,,,,,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,183403301,"Open-Source Decentralized Smart Contracting Software (Client) for Bitcoin and Blackcoin (""BlackHalo"")",5,TRUE,Can be used for decentralised escrow among others
@@ -705,15 +705,165 @@ Subsidary of Eris Exchange LLC (founded 2010-04-02)"
 10708,Coinschedule,2016-01-01,Private,@coinschedule,https://www.coinschedule.com/,2018-01-19,11158908,,,,Oxford,United Kingdom,Rickmansworth,United Kingdom,United Kingdom,Native,"152512302,152522400,162822801","News Aggregator, Rating,Event schedule","2017-01-01:12;
 2018-01-01:2",TRUE,
 10710,Woleet,2016-04-01,Private,@woleet,,2016-04-01,,,,,Rennes,France,Rennes,France,France,Native,204003901,Timestamping Service,,TRUE,
-10360,HolyTransaction,2014-01-01,Private,@holytransaction,https://holytransaction.com/,2013-07-19,"2013-07-19:5370491;
-2015-07-01:""B198022""",,,,"2013-07-19:""California"";
-2015-07-01:""Luxembourg""","2013-07-19:""United States"";
-2015-07-01:""Luxembourg""","2013-07-19:""Delaware"";
-2015-07-01:""Luxembourg""","2013-07-19:""United States"";
-2015-07-01:""Luxembourg""","2013-07-19:""United States"";
+10336,GHash.io,2013-07-01,Private,@ghash_io,http://ghash.io/,2013-11-01,08757996,2016-01-01,Defunct - DDOS attack on website,R,London ,United Kingdom,London ,United Kingdom,United Kingdom,Native,"131901703,131901705",Mining Pool; Cloud Mining,,TRUE,"Legal entity behind Ghash.io is CEX.IO LTD 
+
+Rekt: https://www.ccn.com/ghash-cex-scaling-back-mining-pool/
+
+Ceasation reason: 
+Ghash.io became too large and to quote one reddit user ""They felt the wrath of the masses. Their servers were DDOSed, websites has multiple hacking attempts, mass exodus form their pools."". Are more balanced reasoning comes form bitcoin.stackexchange user: ""Apparently they were hit with a massive denial of service attack in response to their growing hash rate. That combined with a subsequent drop in the price lead them to stop their cloud mining operation and focus on their exchange (cex.io)"" "
+10664,Jump Trading ,2017-01-01,Private,,https://www.jumptrading.com/,2006-09-29,4228316,,,,Chicago ,United States,Delaware,United States,United States,Partial pivot,"101001004,101001002",High-frequency trading firm; market making,,TRUE,
+10347,"2013-07-01:""HaoBTC"";
+2017-02-22:""Bixin""",2013-07-01,Private,@bixenIM,https://bixin.com/,2014-06-01,,,,,Beijing,China,"Unidentified
+",Unidentified,Unidentified,Native,"2013-07-01:152512301;
+2014-01-01:121601500,121601501,121611600,173113100,131901704;
+2016-01-01:121601500,121601501,121611600,173113100,131901704,101011100,131901703,131901705,152512303,101001000;
+2017-01-01:121601500,121601501,131901704,101011100,101001000,131901705,152512303;
+2018-01-01:121601501,101011100,152512303;
+2019-01-01:121601501,101011100,101011101","Market data (2013-2014); Hosted Wallet with interest-bearing accounts (2014 - 2017), Vault Service (2014); Key management Service (2014 -2016); PoW Mining propiertary hashing (2014-2017); Brokerage Services (2016-present); Cloud Mining and Datacenter (2016 only); Pool operation (2016-2017);  Block Explorer (2016-2018); Exchange and Trading Platform (04-2016 to 02-2017), OTC (2019)  ",,TRUE,"Former names: 
+2013 - Beijing HAOBTC stars Internet Technology Co. Ltd
+2016 - Beijing Inevitable Network Technologies Co., Ltd.
+""Given the fact that the prospect of regulatory policy for Chinese bitcoin exchange is not clear yet, to ensure the majority of users to use our wallet like always like always, after a reluctant deliberation, we decided to remove the exchange from our wallet and to cease the RMB deposits""
+2017-02-22: "
+10309,Elliptic,2014-01-01,Private,@elliptic,https://www.elliptic.co/,2013-03-22,08458210,,,,London,United Kingdom,London,United Kingdom,United Kingdom,Native,"2014-01-01:121601501;
+2015-01-01:152502200,193703603",Secure and Insured Cold Storage; Blockchain Intelligence (2015)/forensic; AML Compliance,,TRUE,Opening an office in Singapore (Q4 2019)
+10151,Blockstream,2015-01-01,Private,@Blockstream,https://blockstream.com/,2014-01-27,829216373,,,,"San Francisco, California",United States,Quebec,Canada,United States,Native,"2015-01-01:183403300;
+2018-01-01:183403300,152512301,152512303;
+2019-01-01:183403300,152512301,152512303,121601500,131901702,131901704,131901705;","Sidechains (""Liquid"", 2015); Block Explorer (2018-11-01); Market Data (""Cryptocurrency Data Feed, 2018-01-01); Custodial Wallet (""Blockstream Green"", 2019-03); Mining Facility Operator (Canada, USA, 2019-08-01); Mining Pool Operator (""Blockstream Mining"", 2019-08-01)","2016-01-01:20;
+2017-01-01:40;
+2019-08-19:64",TRUE,"Inactive business registered entry in Saint-Laurent, Quebec Canada, before relocating to California."
+10231,Coinffeine,2015-07-01,Private,@coinffeine,https://www.coinffeine.com/,2013-06-01,M-580921,,,,Madrid,Spain,Madrid,Spain,Spain,Native,"2015-07-01:101021201;
+2019-01-01:101021201,101011101","Open-Source Decentralized P2P Exchange and Wallet at the same time (≠ LocalBitcoins), (centralised) OTC (2019) ",,TRUE,
+10668,CryptoTrader,2013-06-01,Private,@cryptradr,https://cryptotrader.org/,,170111,,,,Vanuatu,Vanuatu,Belize,Belize,Unidentified,Native,101001003,Trading bot; API,,TRUE,Owned by Algocraft Ltd. 
+10319,FinalHash,2014-01-01,Private,@FinalHash,https://web.archive.org/web/20141217052008/http://finalhash.com/,2014-02-10,000658732,2016-04-10,Defunct,R,Texas,United States,Wyoming,United States,Unidentified,Native,"2014-01-01:193703600,193713700;
+2015-01-01:193703600,193703601,193713700",Mining contract company (Consulting),,TRUE,https://wyobiz.wy.gov/Business/FilingDetails.aspx?eFNum=245033129036077080064029030186160201095117150149
+10350,"2014-01-01:""HashCoins"";
+2020-01-01:""Burfa Tech"" ",2014-01-01,Private,@Hashcoins,https://www.hashcoins.com/,2013-06-13,12490015,,,,Tallinn,Estonia,Tallinn,Estonia,Estonia,Native,"2014-01-01:131901700,131901702;
+2015-01-01:131901700,131901703,183403301,193713701;
+2016-01-01:131901700,183403301,193713701","Mining Hardware Manufacturer (2014); Hosted Mining (2014-2015); Cloud Mining [""HashFlare""- in 2016 became independent company] (2015-2016); Application development (2015-2019); Investment Advisory (2015-2019) ",,TRUE,"The company has recently undergone a change in name end 2019. Yet it is unclear to me when they changed the company name and why. 
+Company file: https://ariregister.rik.ee/ettevotja"
+10357,HitBTC,2014-01-01,Private,@hitbtc,https://hitbtc.com/,2013-03-27,798713,,,,"2014-01-01:""Unidentified"";
+2018-12-12:""Hong Kong""","2014-01-01:""Unidentified"";
+2018-12-12:""Hong Kong""",Panama,Panama,Hong Kong,Native,"2014-01-01:101001000,101001002;
+2017-01-01:101001000,101001002,101011101,152512305","Multi-Coin Exchange, OTC (2017), Market making (2013); API (2017)",,TRUE,"Legal Name changes: 
+PAN: Ullus Corporation https://opencorporates.com/companies/pa/798713
+DEN: Ullus Corporation
+UK:Hit Tech Limited
+Belize:Beta Business Solutions Inc. (linked to BETA BUSINESS PARTNERS LLP - UK entity - OC401931)
+Hong:HIT Solution Limited
+
+Entity ID's
+2013-03-27:""798713"";
+2014-05-14:""35852492"";
+2015-01-30:""09414265"";
+2015-09-24:""156445"";
+2017-03-28:""2510720""
+
+History lesson hitbtc: https://web.archive.org/web/20140701221015/https://hitbtc.com/about-us"
+10366,"2013-07-01:""InPay"";
+2019-11-01:""Swap.ly""",2013-07-01,Private,@swaply_int_ou,https://swap.ly/en/,2006-02-01,14450623,,,,"2013-07-01:""Warsaw"";
+2018-01-01:""London"";
+2019-11-01:""Talinn""","2013-07-01:""Poland"";
+2018-01-01:""United Kingdom"";
+2019-11-01:""Estonia""","2013-07-01:""Warsaw"";
+2018-01-01:""London"";
+2019-11-01:""Talinn""","2013-07-01:""Poland"";
+2018-01-01:""United Kingdom"";
+2019-11-01:""Estonia""",United Kingdom,Native,"2013-07-01:111301200;
+2015-01-01:111301200,111301202;
+2016-01-01:111301200,111301202,111301201,101011100;
+2017-01-01:111301200,101011100;
+2018-01-01:111301200,101011100,111311302","Payment Processor (2013 - present) , Bill payment (2016 - 17). Phone top up (2015 - 17),   Merchant Services; Brokerage services (2016 - present), ATM withdraw service, Remittances (2019) ",,TRUE,"Legal Name: 
+2006-02-01:5213007141 (Open grid);
+2014-03-28:08965192 (InPay.to Ltd);
+2014-06-26:7010430929 (Inpay SA);
+2019-11-01:14450623 (swaply Int OÜ)
+
+Change in name and compnay register (due to Brexit): https://www.facebook.com/swaply.exchange/posts/2534059080045606
+Former Website: https://inpay.pl/en/
+
+Company file: https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=4e27e322-7e5c-4b1e-a435-8c7035a728d5
+
+Story: 
+1) The entity seems to start out as informal project faciliating crypto payments faciliating merchants to except crypto. (https://web.archive.org/web/20131106062037/https://inpay.pl/)
+2) The creator of inpay WILCZYNSKI, Lech already had an entity incorporated running since 2006 Open grid (https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=4e27e322-7e5c-4b1e-a435-8c7035a728d5) 
+3)He then incorporated in March 2014 in the UK Inpay.to ltd
+(https://beta.companieshouse.gov.uk/company/08965192/officers)
+4) In June 2014 he incorporated Inpay SA, a polish entity 
+(http://www.krs-online.com.pl/inpay-s-a-krs-1324698.html)
+This enity was displayed on the website until at least Feburary 24, 2018 
+(https://web.archive.org/web/20180224055447/https://inpay.pl/) 
+5) Between Febuary and August 2018 change of listed legal enity occured from Inpay SA to inpay.to ltd
+(https://web.archive.org/web/20180831143506/https://inpay.pl/)
+6) Name change to swaply must have followed with incorp in estonia 
+"
+10462,"2011-08-20:""Seals with Clubs"";
+2015-02-01:""SwCPoker""",2011-08-20,Private,@SealsWithClubs,sealswithclubs.eu,,,,,,Nevada,United States,"Unidentified
+",Unidentified,Unidentified,Native,162822805,Bitcoin Poker Casino,,TRUE,"Seems to have resume activities in November feburary 2015 under SwCPoker.eu 
+Shut down after regulatory issues in the end of 2014/beginning 2015, reopened as ""SwC Poker"" in February 2015
+http://ag.nv.gov/uploadedfiles/agnvgov/Content/News/PR/PR_Docs/2015/2015-04-27_Arrest_Affidavit_Micon.pdf"
+10497,"2014-11-01:""LTB CMS"";
+2014-07-01:""Tokenly""",2014-11-01,Private,@TokenlyInc,https://tekk.tokenly.com/about-us/,2015-05-22,5752471,,,,"San Francisco, California",United States,"2014-11-01:""Unidentified"";
+2015-05-22:""Wilmington, Delaware""","2014-11-01:""Unidentified"";
+2015-05-22:""United States""",United States,Native,"2014-11-01:183403301,152512305;
+2018-01-01:183403301,152512305,183403303","Open-Source Customized Cryptographic Token Platform on Counterparty; Sidechain (""Tokenly TEKK"", 2018); API",,TRUE,Founded after creating LTBCoin in June 2014 with the same team
+10522,Zebpay,2014-10-01,Private,@zebpay,https://web.archive.org/web/20190501000000*/https://www.zebpay.com/,2014-09-19,201427904D,,,,"2014-10-01:""Ahmdehabad, Gujarat"";
+2018-09-28:""Singapore""","2014-10-01:""India"";
+2018-09-28:""Singapore""",Singapore,Singapore,Singapore,Native,"2014-10-01:101011100,101011101,121601500;
+2019-01-01:101011100,101011101,121601500,152512305","Brokerage Services (2013); Wallet enabling transactions with mobile numbers (2014); Insured Deposits (2014), OTC (2014); API service (2019?)",,TRUE,"Recently opened its cryptocurrency exchange in Australia (May 2019), halted India operations on 28th September 2018 due to regulatory uncertainty. It also has presence in 20 plus european countries.
+Parent company for global operations: Awlencan Innovations Malta Limited [C-88318], a Maltese Registered Company with Office Address situated at: 48, Triq Stella Maris, Sliema, SLM 1765, Malta
+Australian subsidiary: Awlencan Innovations Australia Pty Ltd ACN 629 939 948, Melbourne, Australia
+https://opencorporates.com/companies/in/U72900GJ2015PTC083609
+https://opencorporates.com/companies/sg/201427904D
+https://web.archive.org/web/20150817010202/http://www.zebpay.com/"
+10136,Bity,2015-01-01,Private,@bity,https://bity.com/,2014-02-03,CHE-329.301.814,,,,Neuchatel,Switzerland,Neuchatel,Switzerland,Switzerland,Native,"2015-01-01:121611601,101011100,101011101;
+2018-01-01:121611601,101011100,101011101,101021200,111301201;
+2019-01-01:121611601,101011100,101011101,101021200,111301201,131911801,193703603",2015-01Bitcoin wallet; 2015-03Brokerage Services; 2015-09OTC Trading; 2018-12Bitcoin ATM Operator; 2018;Bill payment; 2019-02Staking services; 2019-02KYC/AML services,,TRUE,"Responded to email survey that they are ""not interested""."
+10645,Bitcoin Suisse ,2014-07-01,Private,@BitcoinSuisseAG,https://www.bitcoinsuisse.com/,2013-08-14,1150766,,,,Zug,Switzerland,Zug,Switzerland,Switzerland,Native,"2014-07-01:101011100,101021200,214304100,131911801,121611603;
+2017-01-01:101011100,101021200,214304100,131911801,121611603,193703603,193713700;
+2018-06-30:101011100,101021200,214304100,131911801,121611603,193703603,193713700,121601501;
+2019-01-01:101011100,101021200,214304100,131911801,121611603,193703603,193713700,121601501,173103000","Crypto Certificates (Paper wallet), Portfolio Selection, Stablecoins, Collateralized Lending, Crypto Financial Solutions, Staking, Storage, Trading & Prime Brokerage, ICO services, Bitcoin ATM","2015-12-08:7;
+2017-12-01:20;
+2018-08-01:65;
+2019-11-06:70",TRUE,"2019-09-06: Opens Lichtenstein Office
+2019-02-12: Colateral lending 
+
+Subsidiary: Swiss Crypto Vault AG, Swiss Crypto Tokens"
+10655,LMAX Digital,2018-05-01,Private,@LMAX,https://www.lmaxdigital.com/,,125453,,,,London,United Kingdom,St Helier,Jersey,Gibraltar,Partial pivot,2018-05-01:101001000,Exchange (with Vault solution),,TRUE,"LMAX Digital is a trading name of LMAX Digital Broker Limited
+LMAX Exchange Group Limited is a private company limited by shares, incorporated and domiciled in Jersey. Registered office:LMAX Exchange Group Limited  50 La Colomberie,  St Helier,  Jersey,  JE2 4QB
+
+LMAX Digital Broker Limited is part of the LMAX exchange group
+""LMAX Digital is a trading name of LMAX Digital Broker Limited, 
+authorised and regulated by the Gibraltar Financial Services Commission 
+(license number FSC1342B) and is a company registered in Gibraltar 
+(number 117528) | LMAX Digital is part of the LMAX Exchange Group, whose
+ registered address is Yellow Building, 1A Nicholas Road, London, W11 
+4AN""
+125453 according to open corporates. Apparently, LMAX Exchange Group is a
+ holding company for LMAX Broker Limited, LMAX limited and LMAX Digital 
+Exchange Limited."
+10680,Streami,2016-11-14,Private,,www.streami.co,2015-07-23,432-87-00120,,,,Seoul ,South Korea,Seoul,South Korea,South Korea,Native,"2016-11-14:111311302;
+2017-11-13:101001000,101011101,121601501","OTC, Exchange (""GOPAX), Remittance (""StreamWire"" suspended); Custodial Institutional Services (""DASK"")",,TRUE,"Legal Name: Streami, Inc. 
+https://vnx.io/wp-content/uploads/2019/11/VNX-Streami-Investor-deck-ENG.pdf"
+10687,Gnosis,2015-08-01,Private,@gnosisPM,https://gnosis.io/,2017-03-01,115571,,,,Berlin,Germany,"2015-08-01:""Unidentified"";
+2017-03-01:""Gibraltar""","2015-08-01:""Unidentified"";
+2017-03-01:""Gibraltar""",Unidentified,Native,"2015-08-01:183403301;
+2018-01-01:183403301,121611601,101001001;
+2019-01-01:183403301,121611601,101001001,152532500","Research (2019), Hunch Game (dApp/ Prediction market build on ethereum)(2016),  Prediction market ""Sight"" (beta to launch in 2020, regulated & non-custodial), Decentralised Trading Protocol ""DutchX"" (in production 2018),, Software wallet ""Gnosis Safe"" (self-custody) (2018) ",2018-11-24:36,TRUE,Former website: gnosis.pm https://web.archive.org/web/20171105115941/https://gnosis.pm/timeline
+10510,"2013-09-01:""Vogogo"";
+2019-07-31:""Cryptologic""",2013-09-01,Public,,https://vogogo.com/,2014-09-11,928583400,,,,Toronto,Canada,"Toronto, Ontario",Canada,Canada,Native,"2013-09-01:111311301;
+2018-01-01:131901704",B2B Payments (2016); Proprietary Mining (2018),,TRUE,"Founded in early 2008, but started offering regulatory compliance services to digital currency businesses after the demise of some exchanges in Canada and in the world.
+https://www.globenewswire.com/news-release/2019/07/31/1894571/0/en/Vogogo-Inc-Announces-Rebrand-to-Cryptologic-Corp.html
+https://www.sedar.com/DisplayProfile.do?lang=EN&issuerType=03&issuerNo=00032738
+https://www.cryptologic.com/wp-content/uploads/2019/07/Interim-MDA-June-30-2018.pdf"
+10360,HolyTransaction,2014-01-01,Private,@holytransaction,https://holytransaction.com/,2013-07-19,"2014-01-01:5370491;
+2015-07-01:""B198022""",,,,"2014-01-01:""California"";
+2015-07-01:""Luxembourg""","2014-01-01:""United States"";
+2015-07-01:""Luxembourg""","2014-01-01:""Delaware"";
+2015-07-01:""Luxembourg""","2014-01-01:""United States"";
+2015-07-01:""Luxembourg""","2014-01-01:""United States"";
 2015-07-01:""Luxembourg""",Native,"121611601,101011100",Multi-Coin Wallet and Brokerage Services,,TRUE,Legal Name: HOLYTRANSACTION S.A.
-10420,Newnote Financial,2013-12-01,"2010-01-01:""Private"";
-2014-08-24:""Public""",@puretradeexch,http://www.newnote.com/,2010-08-16,851426809,,,,Vancouver,Canada,Vancouver,Canada,Unidentified,Partial pivot,"2013-01-01:111301202;
+10420,Newnote Financial,2013-12-01,"2013-12-01:""Private"";
+2014-08-24:""Public""",@puretradeexch,http://www.newnote.com/,2010-08-16,851426809,,,,Vancouver,Canada,Vancouver,Canada,Unidentified,Partial pivot,"2013-12-01:111301202;
 2014-01-01:111301202,101001000,131901702,101021200;
 2015-01-01:111301202,101001000,101021200,131901703,111301200;
 2016-01-01:111301200","Exchange [2014 -2016] ,Giftcards [2013 -2016], Coin Charity mining CrypotAid (Each generated block gives 15% of the reward to the miner and the remaining 85% to charity.) [2013 -2016], Remote hosting services [2014 - 2015], Cloud mining [2015 -2016], BTM Operator [2014 - 2016], Point of Sale system CoinZero [2015-2016], CoinTrader (also exchange) [2015- 2016], Merchant Services ""CoinPayment"" [2015- present],Online Merchant System PayIvy [2015 -2016], Devlopement of own Crypto ""Vanity Coins"" (Custom Crypto Currency) ",,TRUE,"Founded in 2010 as ""Winrock Resources Inc"", rebranded in April 2014 and started focusing on Bitcoin and cryptocurrency-related services --> only included from 2014 onwards. Public company traded on stock marketshttp://www.fscwire.com/sites/default/files/news_release_pdf/winrock04082014.pdf
@@ -862,8 +1012,8 @@ BW is registered in Australia and is headquartered in Hong Kong, China. It has e
 2016-04-12:""Skry""
 ",2014-04-01,Private,@coinalytics,https://web.archive.org/web/20170218133205/https://skry.tech/solutions,2014-04-11,5515917,2017-02-28,Acquired by Bloq,A,California,United States,Delaware ,United States,"2014-04-01:152502200;
 2016-01-01:152502200,152512303,193703603,193703604",Native,"2014-04-01:152512304,152512302;
-2016-01-01:152512304,152512302;,152512301,152512300,152512303;
-2017-01-01:152512304,152512302;,152512301,152512300,152512303,152502200,152502201","Analytics & Data/Blockchain Intelligence (2014), AML Copliance  tool (2016); Block Explorer (2016)",2016-01-01:5,TRUE,More info here: https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id=03680525-24881738
+2016-01-01:152512304,152512302,152512301,152512300,152512303;
+2017-01-01:152512304,152512302,152512301,152512300,152512303,152502200,152502201","Analytics & Data/Blockchain Intelligence (2014), AML Copliance  tool (2016); Block Explorer (2016)",2016-01-01:5,TRUE,More info here: https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id=03680525-24881738
 10222,"2013-01-01:""CoinBR"";
 2017-01-01:""Stratum"";
 2019-01-01:""CoinBR""",2013-01-01,Private,@coinbrSA,https://coinbr.net/,2010-02-19,11768654000186,,,,Florianopolis,Brazil,Sao Paolo,Brazil,Brazil,Native,"2013-01-01:101011100,111301200,121601500,131901703;
@@ -886,7 +1036,7 @@ Note: Started of with the Domain coincheck.jp not .com "
 2019-05-30:""Tallinn""","2017-12-04:""Hong Kong"";
 2019-30-05:""Estonia""",Singapore,Native,"2017-12-01:101001000,101001005,101011101;
 2018-01-01:101001000,101001005;
-2019-11-11:101001000,101001005,101001001,183403300","Multi-Coin Orderbook(2017); Margin trading (2017),  OTC (2017-2018); Public Chain (CoinEx Chain) for decentralised exchnage (2019); (Indirect services: Mining Pool offered through viabtc (2018); Explorer offered through viabtc (2018);  Wallet through ViaWallet(2019))",,TRUE,"Legal Name: CoinEx Global Limited   
+2019-11-11:101001000,101001005,101001001,183403300","Multi-Coin Orderbook(2017) Margin trading (2017), OTC (2017-2018) Public Chain (CoinEx Chain) for decentralised exchnage (2019) (Indirect services Mining Pool offered through viabtc (2018) Explorer offered through viabtc (2018) Wallet through ViaWallet(2019))",,TRUE,"Legal Name: CoinEx Global Limited   
 Owned by viaBTC
 
 Since May 2019 incorporated in Estonia
@@ -907,24 +1057,20 @@ Rebranded to CoinHako in September 2014."
 2016-06-15:""Bitpanda""",2014-11-01,Private,@bitpanda,https://www.bitpanda.com/,2014-09-12,FN 423018k,,,,Vienna,Austria,Vienna,Austria,Austria,Partial pivot,"2014-11-01:101011100;
 2015-01-01:101011100,101021200;
 2018-01-01:101011100,101021200,101011101;
-2019-01-01:101011100,101021200,101011101,111301201","Multi-Coin Brokerage Service (BTC, ETH, NXT) (2014-present); Bill payment (""Bitpanda pay"", 2019 -present); BTM Operator (""BitPanda To-Go"", 2015~ present), OTC (""Bitpanda plus"", 2018 present) 
-Others: Bitpanda Savings (Saving plan for crypto - not interest bearing!!) (2019 -present) (not classified); Bitpanda metals (investment into rare metals); Bitpanda SWAP (swap of coins in wallet) (2018 - present); Storage and trading of metails (gold, silver) (2019 -present),",,TRUE,"https://www.unternehmen24.info/Firmeninformationen/%C3%96sterreich/Firma/2459628
+2019-01-01:101011100,101021200,101011101,111301201","Multi-Coin Brokerage Service (BTC, ETH, NXT) (2014-present) Bill payment (""Bitpanda pay"", 2019 -present) BTM Operator (""BitPanda To-Go"", 2015~ present), OTC (""Bitpanda plus"", 2018 present) Others Bitpanda Savings (Saving plan for crypto - not interest bearing!!) (2019 -present) (not classified) Bitpanda metals (investment into rare metals) Bitpanda SWAP (swap of coins in wallet) (2018 - present) Storage and trading of metails (gold, silver) (2019 -present)",,TRUE,"https://www.unternehmen24.info/Firmeninformationen/%C3%96sterreich/Firma/2459628
 
 Most useful site to get info on companies in austria "
 10239,CoinJar,2013-05-01,Private,@getcoinjar,https://www.coinjar.com/eu/,2013-05-01,43 163 543 824,,,,London,United Kingdom,Unidentified,Australia,United Kingdom,Native,"2013-05-01:101011100,111301200,121601500;
 2015-02-01:101011100,111301200,121601500,111301204;
 2018-01-01:101011100,111301200,121601500,111301204,214304100,101001000;
-2019-01-01:101011100,111301200,121601500,111301204,214304100,101001000,121601501,101011101,152512305","2013: Merchant Services, Wallet, Brokerage services
-2015: Debit Cards, Hedged Accounts 
-2016:Multicurrency wallet, store (ledger hardwallets, swag) 
-2018:cryptocurrency fund, Order-book exchange (CoinJar Exchange)
-2019: OTC,Instiutional (Vault & Asset managment), API
-
-No Services disappear (but get re-packaged  -e.g. hedged wallet) ","2016-01-01:6;
+2019-01-01:101011100,111301200,121601500,111301204,214304100,101001000,121601501,101011101,152512305","2013 Merchant Services, Wallet, Brokerage services
+2015 Debit Cards, Hedged Accounts 
+2016Multicurrency wallet, store (ledger hardwallets, swag) 
+2018cryptocurrency fund, Order-book exchange (CoinJar Exchange)
+2019 OTC,Instiutional (Vault & Asset managment), API No Services disappear (but get re-packaged  -e.g. hedged wallet) ","2016-01-01:6;
 2017-01-01:10;
 2018-01-01:15
-",TRUE,"Coinjar Pty Ltd - https://abr.business.gov.au/ABN/View?abn=43163543824
-"
+",TRUE,Coinjar Pty Ltd - https://abr.business.gov.au/ABN/View?abn=43163543824
 10242,Coinkite,2013-10-01,Private,@coinkite,https://coinkite.com/,2011-03-03,2276493,,,,Toronto,Canada,Toronto ,Canada,Canada,Native,"2013-10-01:111301200,121601500,111301204;
 2014-01-01:111301200,121601500,111301204;
 2016-01-01:111301200;
@@ -939,8 +1085,7 @@ Slight change in focus from web-based services to hardware products (2016)",,TRU
 2017-01-01:111301200,152512303,152512305,121601500",Multi-Coin Payment Processor; Block Explorer (2014); API (2017); Wallet (2017),,TRUE,
 10252,Coinplug,2014-10-01,Private,@coinplug,https://www.coinplug.com,2013-06-01,144-81-18100,,,,Gyeonggi-do,South Korea,Gyeonggi-do,South Korea,South Korea,Native,"2014-01-01:101011100,101021200,111301200;
 2015-01-01:101011100,101021200,111301200,111301204;
-2017-10-01:101011100,101021200,111301200,111301204,101001000","Brokerage services; Payment Processor; BTM Operator; Order-book (""CPDAX"", 2017-10-01); GiftCard (2015-01-01)
-Other: B2B Enterprise Blockchain Solutions",,TRUE,
+2017-10-01:101011100,101021200,111301200,111301204,101001000","Brokerage services; Payment Processor; BTM Operator; Order-book ""CPDAX"", 2017-10-01); GiftCard (2015-01-01) Other B2B Enterprise Blockchain solutions",,TRUE,
 10253,CoinPlus,"2017-01-01
 ",Private,@coinplus_sa,https://www.coinplus.com/,2014-07-07,B0188785,,,,Luxembourg,Luxembourg,Luxembourg,Luxembourg,Luxembourg,Native,"121611602
 ","Storage (Hardware Wallet ""SOLO"", 2017) (Exchange; Payment Processor seem to have never launched)",,TRUE,
@@ -958,7 +1103,7 @@ Other: B2B Enterprise Blockchain Solutions",,TRUE,
 10264,CoinSpace,2018-04-01,Private,@coinspacedotcom,https://coinspace.com/,2018-01-01,72620838,,,,Amsterdam,Netherlands,Amsterdam,Netherlands,Netherlands,Native,"162812700,152512303,152512301,193713702","Online newspaper, block explorer, directories, Market data, Education (""Academy"")",,TRUE,
 10789,Coinspeaker,2014-01-01,Private,@coinspeaker,https://www.coinspeaker.com/contact/,2014-01-01,,,,,Unidentified,United States,Unidentified,United States,United States,Native,162812700,Media Source for Bitcoin (News),,TRUE,"""STB Media"": https://www.coinspeaker.com/privacy-policy/"
 10265,CoinTap,2014-01-01,Private,@cointap,https://web.archive.org/web/20140216041734/https://cointap.co/,,,2015-07-01,No funds left and slow user adoption,R,Calgary,Canada,Unidentified,Unidentified,,Native,111301204,Gift Cards for Bitcoin (i.e. a card giving the right to claim a specific amount of bitcoin),,TRUE,
-10266,CoinTelegraph,2013-10-01,Private,@Cointelegraph,https://cointelegraph.com/,,,,,,NY,United States,Grand Cayman,Cayman Islands,United Kingdom,Native,162812700,"Crypto news and media site (second largest after coindesk: anecdotal, needs to be verified*)",,TRUE,"Cointelegraph is operated by Tabula Publishing Ltd., which is incorporated in Cayman Islands. Nice infograph: https://offshoreleaks.icij.org/nodes/14062484"
+10266,CoinTelegraph,2013-10-01,Private,@Cointelegraph,https://cointelegraph.com/,,,,,,NY,United States,Grand Cayman,Cayman Islands,United Kingdom,Native,162812700,"Crypto news and media site (second largest after coindesk anecdotal, needs to be verified)",,TRUE,"Cointelegraph is operated by Tabula Publishing Ltd., which is incorporated in Cayman Islands. Nice infograph: https://offshoreleaks.icij.org/nodes/14062484"
 10267,CoinTerra,2013-12-01,Private,@cointerra,http://cointerra.com,2013-06-09,0801844736,2015-01-24,Filed for Chapter VII bankruptcy,R,Texas,United States,Texas,United States,United States,Native,131901700,Mining Hardware Manufacturer,,,
 10268,CoinTrader.net,2014-01-01,Private,,https://web.archive.org/web/20150615000000*/https://www.cointrader.net/,2013-11-15,0985715,2016-03-30,"Acquired by ""Newnote Financial"" for CA$1'500'000 on March 2015, shut down unexepectedly in March 30th, 2016",R,Vancouver,Canada,Vancouver,Canada,Canada,Native,"101001000,101021200",Exchange; Bitcoin ATM Operator,,,
 10269,CoinTree,2014-06-01,Private,@cointreeaus,https://www.cointree.com/,2013-12-12,167203303,,,,Melbourne,Australia,Melbourne,Australia,Australia,Native,"2014-06-01:101001000,101011101;
@@ -991,8 +1136,8 @@ https://bitcointalk.org/index.php?topic=126954.0
 They also have multiple other companies in holding (koddos.com, Kovpslayer, Crypto-trade and more)"
 10286,CryptoCorp,2014-01-01,Private,@cryptocorp,http://crypto-corp.com/,2014-01-01,C3749095,2016-01-01,Defunct,R,California,United States,California,United States,United States,Native,152502201,Fraud Detection and Recoverability Software Services for Wallets and Exchanges; HDM Software focus on security; Market Surveillance,,TRUE,
 10287,Cryptonator,2014-02-01,Private,@cryptonatorcom,https://www.cryptonator.com/,,,,,,Moscow,Russia,Unidentified,Unidentified,Unidentified,Native,"2014-02-01:101011100,121601500;
-2015-11-05:101011100,121601500,111301200","2014: Multi-Coin Wallet with integrated real-time exchange/brokerage system (only crypto)
-2015: Added Merchant Services",,TRUE,"Legal name: OOO Kryptonator
+2015-11-05:101011100,121601500,111301200","2014 Multi-Coin Wallet with integrated real-time exchange/brokerage system (only crypto)
+2015 Added Merchant Services",,TRUE,"Legal name: OOO Kryptonator
 "
 10288,Cryptopay,2014-02-01,Private,@cryptopay,https://cryptopay.me/about/,2013-10-14,8730592,,,,London,United Kingdom,London,United Kingdom,United Kingdom,Native,"2014-02-01:111301200,121601500,101011100;
 2015-01-01:111301200,121601500,101011100,111301204","Payment Processor (Merchant Services, ""CryptoPay for Business""; Wallet; Brokerage Services, Debit Card (2015); Hedged Accounts/Money Transfer Platform (2015)",,TRUE,
@@ -1063,7 +1208,7 @@ https://www.factom.com/terms-of-service/"
 10320,Flexcoin,2011-06-01,Private,@flexcoin,https://web.archive.org/web/2019*/http://www.flexcoin.com/,,,2014-03-03,Closed after being hacked and losing $600'000 worth of customer funds,R,Alberta,Canada,Unidentified,Unidentified,Unidentified,Native,121601500,Hot/Cold-Storage Wallet (Custodian),,TRUE,"Owned and operated since 2012 by James Gray
 https://web.archive.org/web/20140305073448/http://www.flexcoin.com/"
 10321,FXBTC,2013-11-01,Private,,https://web.archive.org/web/20140106175033/http://www.fxbtc.com/,,,2014-05-02,"Shut down after ""pressure” from the People’s Bank of China (PBOC)",R,Shanghai,China,Unidentified,Unidentified,Unidentified,Native,101001000,Exchange,,TRUE,
-10322,FYB,2013-04-11,Private,@FYBSG,https://www.fybsg.com/,,,2019-02-01,"Defunct, closed down",R,Singapore,Singapore,Unidentified,Unidentified,Unidentified,Native,101001000,"Exchange: ""FYB-SG"" (Singapore) and ""FYB-SE"" (Sweden, launched in July 2013)",,,
+10322,FYB,2013-04-11,Private,@FYBSG,https://www.fybsg.com/,,,2019-02-01,"Defunct, closed down",R,Singapore,Singapore,Unidentified,Unidentified,Unidentified,Native,101001000,"Exchange FYB-SG (Singapore) and FYB-SE (Sweden, launched in July 2013)",,,
 10323,"2014-08-01:""GABI"";
 2017-10-01:""Coinshares""",2014-08-01,Private,@coinsharesco,https://coinsharesgroup.com/,1997-04-25,3269801,,,,London,United Kingdom,London,United Kingdom,United Kingdom,Partial pivot,"2014-08-01:214304100;
 2017-10-01:214304100,152532500",Bitcoin Investment Fund; Research (2017),,TRUE,
@@ -1279,7 +1424,7 @@ Production in portugal: https://www.nasdaq.com/articles/lamassus-zach-harvey-sha
 Legal name: Modernity Financial Holdings, Ltd.
 Exchange launch: https://news.cnyes.com/news/id/4127698"
 10407,Monetsu,2014-01-01,Private,@monetsutech,https://web.archive.org/web/20150101000000*/http://monetsu.com/,,,2015-10-01,"Project on halt, domain parked. Defunct.",R,San Francisco,United States,Unidentified,Unidentified,Unidentified,Native,"111301200,121611600","Merchant payment, Multi Sig wallet",,TRUE,https://bitcointalk.org/index.php?topic=697483.0
-10412,MultiSigna,2015-02-13,Private,@multisigna,https://web.archive.org/web/20160304014749/https://www.multisigna.com/,,,2017-07-01,Defunct,R,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,101021201,"Multi-Sig Exchange: trades directly between users, doesn't control private keys/bank deposits",,TRUE,
+10412,MultiSigna,2015-02-13,Private,@multisigna,https://web.archive.org/web/20160304014749/https://www.multisigna.com/,,,2017-07-01,Defunct,R,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,101021201,"Multi-Sig Exchange trades directly between users, doesn't control private keys/bank deposits",,TRUE,
 10431,Paylance,2014-01-01,Private,@PaylancePH,https://paylance.com/,,,,,,Quezon City,Philippines,Unidentified,Unidentified,Singapore,Native,"111311300,111311302,101011100",Brokerage Services; Remittances/Money Transfer Platform; Local Bitcoin Shopping; Merchant services; Payroll,,TRUE,"Note - There is an US entity called Paylance, there website is Paylance.us - they are not related to this entity "
 10440,Primedice,2013-05-01,Private,@Primedice,https://primedice.com/,2017-01-01,145353,,,,Unidentified,Unidentified,Willemstad,Curacao,Unidentified,Native,162822805,Online Casino,,TRUE,"Primedice is owned and operated by Slice Media N.V., registration number: 145353, registered address: Dr. M.J. Hugenholtzweg Z/N UTS Building.
 
@@ -1312,13 +1457,6 @@ Suffered numerous controversies about 1:1 backing of issued funds. In
 Insightful Law Case: https://www.morrisoncohen.com/siteFiles/files/2018_01_10%20-%20Shaw%20v_%20Vircurex.pdf 
 https://www.scribd.com/document/368950570/Vircurex-Class-Action#from_embed"
 10509,Virtex,2014-07-01,Private,,https://web.archive.org/web/2019*/https://www.virtex.com/,,,2015-01-08,"Shut down, most likely another scam by Tadas Kasputis (EgoPay) and his associate Paulius Meskauskas",R,Kaunas,Lithuania,Unidentified,Unidentified,Seychelles,Native,101001000,Exchange,,TRUE,
-10510,"2013-09-01:""Vogogo"";
-2019-07-31:""Cryptologic""",2013-09-01,Public,,https://vogogo.com/,2014-09-11,928583400,,,,Toronto,Canada,"Toronto, Ontario",Canada,Canada,Native,"2013-09-01:111311301;
-2016-09-01:
-2018-01-01:131901704",B2B Payments (2016); Proprietary Mining (2018),,TRUE,"Founded in early 2008, but started offering regulatory compliance services to digital currency businesses after the demise of some exchanges in Canada and in the world.
-https://www.globenewswire.com/news-release/2019/07/31/1894571/0/en/Vogogo-Inc-Announces-Rebrand-to-Cryptologic-Corp.html
-https://www.sedar.com/DisplayProfile.do?lang=EN&issuerType=03&issuerNo=00032738
-https://www.cryptologic.com/wp-content/uploads/2019/07/Interim-MDA-June-30-2018.pdf"
 10511,"2014-01-01:""Coincove"";
 2014-06-01:""Volabit""",2014-05-01,Private,,"https://www.volabit.com/
 ",2014-01-01,,,,,"San Francisco, California",United States,Jalisco,Mexico,Mexico,Native,"2014-01-01:111311302,111301204;
@@ -1343,7 +1481,7 @@ https://www.sec.gov/Archives/edgar/data/1086745/000114420416115014/v442269_10k.h
 10527,Yellowcard,2016-01-01,Private,@yellowcardio,https://www.yellowcard.io/,2019-06-08,19111215,,,,"2016-01-01:""Unidentified"";
 2019-01-01:""Lagos""","2016-01-01:""United States"";
 2019-01-01:""Nigeria""",Alabama,United States,United States,Native,"2016-01-01:101011100,101011101,111301204;
-2019-01-01:101011100,101011101,111301204,",Brokerage Services (2016); OTC (2016); Merchant Services (2019); Gift Card (2016),,TRUE,
+2019-01-01:101011100,101011101,111301204",Brokerage Services (2016); OTC (2016); Merchant Services (2019); Gift Card (2016),,TRUE,
 10528,Swarm Fund,2018-01-29,Private,@SWARM,https://www.swarm.fund/,2018-01-10,201802510715,2020-01-13,https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id=201802510715-23576176 and https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id=201802510715-27534794,,California,United States,California,United States,United States,Native,183403301,"Crowdfunding application on top of Bitcoin
 ",,TRUE,
 10530,Kuna,2017-05-01,Private,@KunaExchange,https://kuna.io/en/,2019-02-19,11834168,,,,Kyiv City,Ukraine,British Virgin Island,British Virgin Islands,British Virgin Islands,Native,101001000,Cryptocurrency exchange,,TRUE,"https://www.dropbox.com/s/oi28hjsh4t9hxqi/Ceritificate%20of%20incorporation.PDF?dl=0
@@ -1396,7 +1534,7 @@ Investor Pitch deck:
 https://www.lykke.com/Investor_deck.pdf"
 10537,BlockFi,2018-06-01,Private,@therealblockfi,https://blockfi.com/,2017-08-01,6498541,,,,"Jersey City, New Jersey",United States,Delaware,United States,United States,Native,"2018-06-01:173103000;
 2019-04-01:173103000,173113100;
-2020-01-01:173103000,173113100;101001000","Lending company, Interest account, Loans","2019-01-01:40;
+2020-01-01:173103000,173113100,101001000","Lending company, Interest account, Loans","2019-01-01:40;
 2019-12-01:60",TRUE,Legal name: BlockFi Lending LLC.
 10538,Trading Technologies,2018-05-01,Private,@Trading_Tech,https://www.tradingtechnologies.com/crypto/,1996-09-03,2658506,,,,"Chicago, Illinois",United States,Delaware,United States,United States,Partial pivot,"101001003,101001005","Trading software provider, 3rd party Trading services (TT Crypto, launched in 05/2018); Advanced trading services",350,TRUE,"TT initially partnered with cryptocurrency exchange Coinbase’s Global Digital Asset Exchange (GDAX) to allow its customers to access both spot and futures bitcoin trading. Over the last year, TT also integrated its platform with BitMEX and CoinFLEX.Trading Technologies International Inc.
 
@@ -1494,7 +1632,6 @@ Developing since April 2018 apparently"
 10603,Square,2019-03-20,Private,@sqcrypto,https://squareup.com/,2017-05-26,583287,,,,"San Francisco, California",United States,Dublin,Ireland,England and Wales,Partial pivot,111301200,"Payments (""Square Crypto""), Brokerages (CashApp)",,,"Parent company: Squareup International Ltd (Dublin, Ireland).
 Subsidiary: Squareup Europe Limited (London, England and Wales)
 CashApp"
-10604,Loanbase (UK),2018-01-01,Private,@Loanbase1,https://loanbase.io/,2018-05-27,11487694,,,,London,United Kingdom,London,United Kingdom,,Native,101011103,Tokenized P2P Debt Marketplace,,TRUE,Incorporated by the name of Cognito Technologies Limited
 10606,Line,2019-09-09,Private,@LINE_Global,https://linecorp.com/en/,2011-06-01,9010601036573,,,,Tokyo,Japan,Tokyo,Japan,Japan,Partial pivot,101001000,Trading services,,TRUE,Subsidiary offering trading services: LVC Corporation. Line is the biggest messenger app in Japan
 10608,Btitbank.cc,2017-05-01,Private,@bitbank_inc,bitbank.cc,2017-05-01,,,,,Tokyo,Japan,Tokyo,Japan,Japan,Native,101001000,Exchange,,TRUE,
 10611,Adamant Capital,2018-08-05,Private,"@TuurDemeester
@@ -1549,7 +1686,7 @@ https://blog.dx.exchang",R,Tallinn,Estonia,Tallinn,Estonia,Unidentified,Native,1
 ",,TRUE,"Legal Name: Fidelity Digital Asset Services, LLC
 
 "
-10668,Sygnum,2019-09-23,Private,@sygnumofficial,https://www.sygnum.com/,2018-05-16,1349697,,,,Zurich ,Switzerland,Zurich,Switzerland,Switzerland,Partial pivot,"101011100,121611600,173103000,214604200","Custody, Brokerage, Tokenization, Asset management, Credit, B2B Banking ",,TRUE,"Legal Name: Sygnum Bank AG
+10791,Sygnum,2019-09-23,Private,@sygnumofficial,https://www.sygnum.com/,2018-05-16,1349697,,,,Zurich ,Switzerland,Zurich,Switzerland,Switzerland,Partial pivot,"101011100,121611600,173103000,214604200","Custody, Brokerage, Tokenization, Asset management, Credit, B2B Banking ",,TRUE,"Legal Name: Sygnum Bank AG
 
 Asset Management: Sygnum Pte Ltd which holds a Capital Markets Services (CMS) Licence for asset management activities, and is regulated by the Monetary Authority of Singapore (MAS)."
 10669,OnChain Custodian,2019-04-12,Private,@oncustodian,https://oncustodian.com/,2018-07-31,201826040W,,,,Singapore,Singapore,Singapore,Singapore,Singapore,Native,121611600,"Institutional Custody (""SAFE™ Digital Asset Custody Platform"", 2019-04-11)",,TRUE,"Legal Name: Onchain Custodian® Pte. Ltd.
@@ -1558,19 +1695,19 @@ Supported by Chinese firm OnChain"
 10671,Blockchain Capital,2013-01-01,Private,@blockchaincap,https://blockchain.capital/,2014-10-01,5613656,,,,San Francisco,United States,Delaware ,United States,United States,Native,"214304100,193713701",Venture Capital in Blockchain Industry & Advisory Services,,TRUE,"Legal Name: Blockchain Capital, LLC"
 10672,Bitmax,2018-08-01,Private,@BitMax_Official,https://bitmax.io/#/,2018-07-03,201822565E,,,,Singapore,Singapore,Singapore,Singapore,Singapore,Native,"101011101,101001000,101001005,152512305","Exchange; Advanced trading services (Margin Trading, Derivatives); API; OTC",,TRUE,"Legal Name: BMXDM Technology Pte. Ltd (or Bitmax Foundation Ltdo?)
 https://bitmaxhelp.zendesk.com/hc/en-us/articles/360040268633-Beginner-s-Guide-to-BitMax-io-Part-One-Getting-Started"
-10674,CipherTrace,2016-01-01,Private,@ciphertrace,https://ciphertrace.com/,2015-09-04,5817112,,,,Menlo Park,United States,Delaware ,United States,United States,Native,"193703603,193703604,152502200","2016: bitcoin investigative product 
-2017: Blockchain intelligence API product, Professional services for ICO compliance 
-2018:CipherTrace Cryptocurrency AML services,Cryptocurrency Monitoring and Supervision 
-2019: Blockchain Threat-Intel ",,TRUE,"Legal Name: CIPHERTRACE, INC."
+10674,CipherTrace,2016-01-01,Private,@ciphertrace,https://ciphertrace.com/,2015-09-04,5817112,,,,Menlo Park,United States,Delaware ,United States,United States,Native,"193703603,193703604,152502200","2016 bitcoin investigative product 
+2017 Blockchain intelligence API product, Professional services for ICO compliance 
+2018CipherTrace Cryptocurrency AML services,Cryptocurrency Monitoring and Supervision 
+2019 Blockchain Threat-Intel ",,TRUE,"Legal Name: CIPHERTRACE, INC."
 10675,Bitwise,2017-01-01,Private,@BitwiseInvest,https://www.bitwiseinvestments.com/,2016-10-20,6182601,,,,San Francisco,United States,Delaware ,United States,United States,Native,"152532500,214304100",ETF for Crypto and advisory services; Industry Research,,TRUE,"Legal Name: Bitwise Asset Management, Inc.
 
 Subsidiaries: Bitwise 10 Private Index Fund, LLC,  Bitwise 10 Index Offshore Fund, Ltd. (Cayman Islands) "
 10676,Union Square Venture,2013-10-01,Private,@usv,https://www.usv.com/,2004-10-20,3870329,,,,New York ,United States,Delaware ,United States,United States,Partial pivot,214304100,Venture Capital among other crypto & blockchain ,,TRUE,https://www.usv.com/writing/2013/10/bitcoin-as-protocol/
-10677,TrustWallet,2017-09-01,Private,@TrustWalletApp,https://trustwallet.com/,2018-03-19,	6805989,2018-07-31,Acquired by Binance ,A,San Francisco,United States,Delaware ,United States,United States,Native,"2017-01-01:121611601
-2018-09-27:121611601,131911801 
-2019-01-01:121611601,131911801,101001000","2017:Wallet provider
-2018:Staking
-2019:Crypto buying with credit card",,TRUE,"Legal Name: DApps Platform, Inc.
+10677,TrustWallet,2017-09-01,Private,@TrustWalletApp,https://trustwallet.com/,2018-03-19,	6805989,2018-07-31,Acquired by Binance ,A,San Francisco,United States,Delaware ,United States,United States,Native,"2017-01-01:121611601;
+2018-09-27:121611601,131911801;
+2019-01-01:121611601,131911801,101001000","2017Wallet provider
+2018Staking
+2019Crypto buying with credit card",,TRUE,"Legal Name: DApps Platform, Inc.
 Parent organisation: Binance Holdings Limited"
 10678,Coinstats,2017-07-01,Private,@coinstats_,https://coinstats.app/en/,,,,,,Yerevan ,Armenia,Unidentified,Unidentified,Unidentified,Partial pivot,"152512302
 ","Wallet (outsourced to SignKeys), Data aggregation (Portfolio tracker)",,TRUE,"Legal Name: Inomma LLC (286.110.857373)
@@ -1582,13 +1719,13 @@ App Store --> offered through Inomma
 Play Store --> offered through Coin Stats, Inc.
 
 Inomma offers other services "
-10679,The Block,2018-04-05,Private,@TheBlock__,https://www.theblockcrypto.com/,2018-04-05,6831825,,,,New York ,United States,Dover,United States,United States,Native,"2018-04-05:162812700
+10679,The Block,2018-04-05,Private,@TheBlock__,https://www.theblockcrypto.com/,2018-04-05,6831825,,,,New York ,United States,Dover,United States,United States,Native,"2018-04-05:162812700;
 2019-04-23:162812700,162822800","News outlet, research report, podcast ",,,"Legal Name: The Block Crypto, Inc"
 10681,CoinList,2017-05-25,Private,@CoinList,https://coinlist.co,2017-09-29,6561524,,,,San Francisco,United States,Wilmington ,United States,United States,Native,214604201,Tokensale platform ,,,"Main Enity Name: Amalgamated Token Services Inc.(6561524) 
 
 Subsidiaries: CoinList Services LLC,  CoinList Lend LLC, CoinList Markets LLC, CoinList Capital L LLC
 "
-10682,3commas,2017-01-01,Private,@3commas_io,https://3commas.io/,2016-10-03,14125515,,,,Vancouver,Canada,Tallinn,Estonia,Estonia,Native,"101001003,214304000,152512305",Trading Bot; Automatic Investment Management; API,2019-11-12:18,TRUE,Legal Name: Trendlux OÜ
+10682,3commas,2017-01-01,Private,@3commas_io,https://3commas.io/,2016-10-03,14125515,,,,Vancouver,Canada,Tallinn,Estonia,Estonia,Native,"101001003,214304100,152512305",Trading Bot; Automatic Investment Management; API,2019-11-12:18,TRUE,Legal Name: Trendlux OÜ
 10684,Valr,2018-12-06,Private,@valrdotcom,https://www.valr.com/,2018-07-01,2018/211274/07,,,,Johannesburg ,South Africa,Sandton,South Africa,South Africa,Native,101001000,Exchange,,TRUE,Legal Name: VALR (Pty) Ltd
 10685,Block.one,2017-06-26 ,Private,@block_one_,https://block.one/,,,,,,Arlington,United States,Grand Cayman,Cayman Islands,United Kingdom,Native,183403302,Blockchain Infrastructure,200,TRUE,"Legal Name: BLOCK ONE LLC
 But Parent Company seems to be in Cayman Islands
@@ -1639,7 +1776,6 @@ https://web.archive.org/web/20150319024523/https://anxbtc.com/"
 10706,Summa,2018-04-18,Private,@summa_one,https://summa.one/,2018-03-01,6777727,,,,"San Francisco, California",United States,"Wilmington, Delaware",United States,United States,Native,183403303,"Cross-chain auctions (""Summa Auctions""), ""Riemann Toolkit""",,,Legal name: Indefinite Integral Incorporated
 10008,Abraxas Market,2014-12-13,Private,@abraxas_market,https://abraxasmarket.wordpress.com/,,,2015-11-01,"Apparently under heavy DDoS attacks, has not reappeared since.",R,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,111301203,"2015-01-01 ""Online Black Marketplace""",,TRUE,"""Abraxas Marketplace is the biggest and the most reliable darknet/deepweb anonymous marketplace at the moment. There you can buy legal or illegal things like drugs, guns, fake money, etc. and receive them at your home by post. The buying process is completely anonymous cause of using the anonymous Tor Browser and paying by internet currency Bitcoin."""
 10010,Agora,2013-01-01,Private,,agorahooawayyfoe.onion,,,2015-08-01,"""Temporarily shut down"", but not opened since",R,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,111301203,"2013-01-01 ""Online Black Marketplace""",,TRUE,
-10013,Alpha BTC,2014-01-01,Private,@Alphabtc,https://alphabtc.com/,2013-12-30,	10186326,,,,"Papillion, Nebraska",United States,"Papillion, Nebraska",United States,United States,Native,"193713700,193713702,102011200","Consulting Services; Education and Training, Bitcoin ATM provider - largest in the US Midwest",,TRUE,https://www.nebraska.gov/sos/corp/corpsearch.cgi?acct-number=10186326
 10015,AlphaBay,2014-12-01,Private,,,,,2017-07-01,Seized and closed by Multinational Law Enforcement,R,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,111301203,Online Black Market,,TRUE,
 10018,Andromeda,2014-04-01,Private,,,,,2014-11-01,"Shut down, probably exit scam",R,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,111301203,Online Black Market,,TRUE,"Run by admins of ""DarkBay"" after site was shut down"
 10027,Athena Bitcoin,2015-08-01,Private,@AthenaBitcoin,https://www.athenabitcoin.com/,,,,,,"Chicago, Illinois",United States,"Chicago, Illinois",United States,United States,Native,101021200,"2015-01-01 ""Pan American Bitcoin ATM Operator""",,TRUE,
@@ -1648,8 +1784,8 @@ https://web.archive.org/web/20150319024523/https://anxbtc.com/"
 10037,Bitaccess,2014-01-01,Private,@bitaccess,https://bitaccess.ca/,2013-11-01,823256235,,,,"Ottawa, Ontario",Canada,"Ottawa, Ontario",Canada,Canada,Native,"2014-01-01:101021200;
 2017-01-01:101021200,101001000,101001002;
 2018-01-01:101021200,101001000,101001002,101011100,121611601,183403300,193703603","Bitcoin ATM Manufacturer, Portfolio Platform (12.2017 Faast), Bitcoin brokerage (2018-02-23 Buy Bitcoin Canada ), Blockchain software suite (2018-01-01 Catena), Enterprise Wallet, KYC, Smart Contracts",,TRUE,"Other subsidiary:DNABC, INC"
-10211,Coin Republic,2013-05-01,Private,,https://coinrepublic.com/,2009-03-19,200904860H,2015-08-01,"Acquired by ""meXBT""",A,Singapore,Singapore,Singapore,Singapore,Singapore,Native,"2013-01-01:162812700.101011100;
-2014-01-01:162812700.101011100,101021200,193713700,193713702;",Media outlet (2013 - 2016); Exchange [Brokerage] (2013- 2016); Business Consulting (2014 - 2016); Education (2014 - 2016);  BTM (2014-2016),,TRUE,"https://coinrepublic.com/rnp-compliance.pdf
+10211,Coin Republic,2013-05-01,Private,,https://coinrepublic.com/,2009-03-19,200904860H,2015-08-01,"Acquired by ""meXBT""",A,Singapore,Singapore,Singapore,Singapore,Singapore,Native,"2013-05-01:162812700,101011100;
+2014-01-01:162812700,101011100,101021200,193713700,193713702",Media outlet (2013 - 2016); Exchange [Brokerage] (2013- 2016); Business Consulting (2014 - 2016); Education (2014 - 2016);  BTM (2014-2016),,TRUE,"https://coinrepublic.com/rnp-compliance.pdf
 Parent company: Rapid Net Profits Pte. Ltd."
 10425,"2013-07-31:""Mastercoin"";
 2015-01-18:""Omni Layer""",2013-07-31,Private,@Omni_layer,https://www.omnilayer.org/,,,,,,Unidentified,Unidentified,Unidentified,Unidentified,Unidentified,Native,"2013-07-31:183403300;
@@ -1698,3 +1834,52 @@ Incorp: http://egov.sos.state.or.us/br/pkg_web_name_srch_inq.do_name_srch?p_name
 First enity: Seoventus GmbH (HRB 7233) 
 
 https://www.northdata.de/Bitcoin+Deutschland+AG,+Herford/Amtsgericht+Bad+Oeynhausen+HRB+13917"
+10686,SaBi,2017-12-01,Private,@SaBiexchange,https://www.sabiii.com/,,,,,,Lagos,Nigeria,Unidentified,Unidentified,Singapore,Native,"101001000,101011101","OTC,Order-book",,TRUE,Partnership with Huobi - https://www.coindesk.com/huobi-cloud-aims-for-80-more-exchange-partners-in-bid-for-revenue-growth
+10531,"2017-05-18:""Monaco"";
+2018-07-06:""Crypto.com""",2017-05-18,Private,@cryptocom,https://crypto.com/,2016-06-30,C88392,,,,"Sai Wan, Hong Kong",Hong Kong,Victoria,Seychelles,Unidentified,Native,"2017-05-18:101001000,111301204;
+2019-01-01:101001000,111301204,173103000,173113100,111301200,214304100","Crypto-card, OTC-market, lending, depositing, investing, staking","2019-01-01:180
+",TRUE,"Legal name CRO DAX Limited
+2016-01-01:
+2017-05-17:Monaco Technology GmbH
+Apparently also know as ""Monaco, Foris LTD, MCO Pay Limited, MCO Digital Asset Group, Foris Asia Pte Ltd, Foris Inc""
+
+Former websites: 
+""www.foris.co""
+""www.mona.co""
+""https://mco.crypto.com/en/""
+""www.crypto.com""
+
+Deep dive of a reddit user: 
+https://www.reddit.com/r/CryptoCurrency/comments/biaud9/monaco_mco_raised_26_million_in_ico_and_promised/
+But it a tricky one - foris.co is headquartered in Hong Kong (http://www.foris.co/contact-us). It is difficult to find out the HQ mona.co/crypto
+ because they don't provide an address. If you look at the job offerings
+ - you find they mainly in Hong Kong, China, Bulgaria, Malta, Singapore 
+(interestingly not in Switzerland, with the Sub-sidary Monaco 
+Technologies GmbH through which they raised the ICO)
+
+Update:
+ I cross checked the other legal entities that are apparently associated
+ with this entity according to crunch base (i.e.Monaco, Foris LTD, MCO 
+Pay Limited, MCO Digital Asset Group, Foris Asia Pte Ltd, Foris Inc 
+& MCO Malta DAX Limited). Most of them a registed in either Malta or
+ Hong Kong. 
+
+I noticed that Foris Ltd seems to be the oldest 
+entity with (Hurrayyy) 30 June 2016 - which is coherent with claims made
+ by multiple websites and the founder 
+
+https://www.hkgbusiness.com/en/company/Foris-Limited
+
+If
+ you google Foris and monaco in connection an enlighting story is 
+revealed through the thread in reddit discussing whether Monaco is a 
+scam, which build the link between Foris Ltd and the Monaco project: 
+https://www.reddit.com/r/ethtrader/comments/6dbkui/scam_warning_monaco_ico/
+(the user build the connection so for more info check out what they have written by Crtl + F ""Foris"") 
+
+Nutshell:
+ Proejct about ""multi-currency wallet, tied to a Visa card, to let 
+people send and spend money at the best interbank exchange rate"" - note I
+ could not find the connection to crypto
+
+tbcShow lessThomas Eisermann4:44 PM Feb 15Update 2: One reddit user"
