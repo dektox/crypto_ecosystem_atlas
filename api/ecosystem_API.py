@@ -422,16 +422,8 @@ def suggest():
                                 "value": twitter
                             },
                             {
-                                "name": "Segment(s):",
-                                "value": str(segments)
-                            },
-                            {
                                 "name": "Segment(s) code(s):",
                                 "value": str(x_segments)
-                            },
-                            {
-                                "name": "Category(ies):",
-                                "value": str(categories)
                             },
                             {
                                 "name": "Category(ies) code(s)",
