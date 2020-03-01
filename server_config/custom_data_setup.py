@@ -50,7 +50,7 @@ with psycopg2.connect(**config['atlas']) as connection:
               "REFERENCES organisations(id), year INT NOT NULL, name VARCHAR(255) NOT NULL, ctype VARCHAR(63), "
               "incnum VARCHAR(63), ophqcity VARCHAR(123), ophq INT REFERENCES countries(id), "
               "leghqcity VARCHAR(123), leghq INT REFERENCES countries(id), arbjur VARCHAR(123), "
-              "description VARCHAR(511), fte INT);")
+              "description VARCHAR(999), fte INT);")
     c.execute("CREATE TABLE IF NOT EXISTS segments (id INT PRIMARY KEY, "
               "segment VARCHAR(123), description VARCHAR(255));")
     c.execute("CREATE TABLE IF NOT EXISTS subsegments (id INT PRIMARY KEY, "
@@ -74,9 +74,9 @@ with psycopg2.connect(**config['atlas']) as connection:
               "ON c.subseg_id = subseg.id;")
 
 # Filling in countries table from countries.csv
-countries_data = pd.read_csv("countries.csv") 
+countries_data = pd.read_csv("countries.csv")
 countries_data.to_sql('countries', con=engine, if_exists='append', index=False)
-    
+
 # ============ Filling in segments, subsegment, categories tables =============
 segments_data = pd.read_csv("segments.csv")
 segments_data.to_sql('segments', con=engine, if_exists='append', index=False)

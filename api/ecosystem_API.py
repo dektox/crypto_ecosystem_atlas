@@ -249,8 +249,37 @@ def feedback():
                     }
                 ]
             }
+
+            date_for_ms = datetime.utcfromtimestamp(timestamp).isoformat()
+            ms_d = {
+                "summary": "ATLAS feedback received",
+                "themeColor": "FFB81C",
+                "title": "ATLAS feedback received",
+                "sections": [
+                    {
+                        "activityTitle": name,
+                        "activitySubtitle": date_for_ms,
+                        "activityImage": "https://i.ibb.co/0B6NSnK/user.jpg",
+                        "facts": [
+                            {
+                                "name": "Organisation:",
+                                "value": organisation
+                            },
+                            {
+                                "name": "Email:",
+                                "value": email
+                            }
+                        ],
+                        "text": message
+                    }
+                ]
+            }
+
             sl_d = str(sl_d)
+            ms_d = str(ms_d)
             flask.g.slackmsg = (sl_d, headers)
+            flask.g.msmsg = (ms_d, headers)
+
     return jsonify(data=content, status="success", error="")
 
 @app.teardown_request
@@ -261,7 +290,12 @@ def teardown_request(_: Exception):
             requests.post(config['webhook'], headers=headers, data=sl_d)
         except Exception as error:
             app.logger.exception(str(error))
-
+    if hasattr(flask.g, 'msmsg'):
+        try:
+            ms_d, headers = flask.g.msmsg
+            requests.post(config['webhook_ms'], headers=headers, data=ms_d)
+        except Exception as error:
+            app.logger.exception(str(error))
 
 @app.route("/api/suggest", methods=['POST'])
 def suggest():
@@ -285,7 +319,10 @@ def suggest():
         name = content['name']
         legalname = content['legalname']
         edate = content['edate']
-        incdate = content['incdate']
+        if content['incdate'] == "None":
+            incdate = None
+        else:
+            incdate = content['incdate']
         if content['leghq'] == "None":
             leghq = None
         else:
@@ -316,7 +353,7 @@ def suggest():
                     {
                         "fallback": "ATLAS company suggestion received",
                         "color": "#36a64f",
-                        "author_name": 'New suggestion/correction: ' + name,
+                        "author_name": 'New suggestion/edit: ' + name,
                         "author_link": 'http://' + link,
                         "title": segments,
                         "text": categories,
@@ -328,6 +365,88 @@ def suggest():
             }
             sugg = str(sugg)
             flask.g.slackmsg2 = (sugg, headers)
+
+            date_for_ms = datetime.utcfromtimestamp(timestamp).isoformat()
+            ms_sugg = {
+                "summary": "ATLAS entity suggestion received",
+                "themeColor": "FFB81C",
+                "title": "ATLAS entity suggestion received",
+                "sections": [
+                    {
+                        "activityTitle": name,
+                        "activitySubtitle": date_for_ms,
+                        "activityImage": "https://i.ibb.co/L0mWNPn/entity.png",
+                        "facts": [
+                            {
+                                "name": "ID ('None' for new)",
+                                "value": content['id']
+                            },
+                            {
+                                "name": "Colloquial name:",
+                                "value": name
+                            },
+                            {
+                                "name": "Legal name:",
+                                "value": legalname
+                            },
+                            {
+                                "name": "Launch date:",
+                                "value": edate
+                            },
+                            {
+                                "name": "Incorporation date:",
+                                "value": content['incdate']
+                            },
+                            {
+                                "name": "Operational HQ (country)",
+                                "value": content['ophq']
+                            },
+                            {
+                                "name": "Operational HQ (city)",
+                                "value": ophqcity
+                            },
+                            {
+                                "name": "Legal HQ (country)",
+                                "value": content['leghq']
+                            },
+                            {
+                                "name": "Legal HQ (city)",
+                                "value": leghqcity
+                            },
+                            {
+                                "name": "Website:",
+                                "value": link
+                            },
+                            {
+                                "name": "Twitter:",
+                                "value": twitter
+                            },
+                            {
+                                "name": "Segment(s):",
+                                "value": segments
+                            },
+                            {
+                                "name": "Segment(s) code(s):",
+                                "value": x_segments
+                            },
+                            {
+                                "name": "Category(ies):",
+                                "value": categories
+                            },
+                            {
+                                "name": "Category(ies) code(s)",
+                                "value": x_categories
+                            },
+                        ],
+                    }
+                ]
+            }
+
+            sugg = str(sugg)
+            ms_sugg = str(ms_sugg)
+            flask.g.slackmsg2 = (sugg, headers)
+            flask.g.msmsg2 = (ms_sugg, headers)
+            
     return jsonify(data=content, status="success", error="")
 
 @app.teardown_request
@@ -336,6 +455,12 @@ def teardown_request2(_: Exception):
         try:
             sugg, headers = flask.g.slackmsg2
             requests.post(config['webhook'], headers=headers, data=sugg)
+        except Exception as error:
+            app.logger.exception(str(error))
+    if hasattr(flask.g, 'msmsg2'):
+        try:
+            ms_d, headers = flask.g.msmsg2
+            requests.post(config['webhook_ms'], headers=headers, data=ms_d)
         except Exception as error:
             app.logger.exception(str(error))
 
