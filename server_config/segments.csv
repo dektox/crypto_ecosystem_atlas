@@ -2,7 +2,7 @@ id,segment,description
 10,Exchange,Activities related to the exchange of cryptoassets for other assets
 11,Payments,Activities concerning the use of cryptoassets for payments
 12,Storage/Custody,Activities specifically relating to the secure storage of cryptoassets as a service
-13,Consensus services ,Activities related to transaction ordering and processing at a given cryptoasset's base layer 
+13,Consensus services,Activities related to transaction ordering and processing at a given cryptoasset's base layer 
 15,Data & Analytics,"Activities related to the collection, aggregation, analysis, and dissemination of cryptoasset-focused data"
 16,"Media, Events & Entertainment",Activities related to the provision of news and other informational services regarding cryptoasset networks and the surrounding ecosystem
 17,Banking & Insurance,Activities related to the provision of financial services using cryptoasset networks and/or tokens
