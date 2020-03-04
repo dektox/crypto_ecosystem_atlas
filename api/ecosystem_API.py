@@ -6,6 +6,8 @@ Created on Thu May 16 14:24:16 2019
 """
 from flask import Flask, jsonify
 from datetime import datetime
+from flask import Flask
+from flask_compress import Compress
 from datetime import date
 import flask
 import requests
@@ -58,6 +60,7 @@ def send_err_to_slack(err, name):
 
 
 app = Flask(__name__)
+Compress(app)
 CORS(app)
 app.config["DEBUG"] = False
 
