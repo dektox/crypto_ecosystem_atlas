@@ -166,6 +166,38 @@ def all_data_func():
     return jsonify(response)
 
 
+@app.route("/api/db", methods=['GET', 'POST'])
+def db_func():
+    response = []
+    for item in all_data:
+         response.append({
+             'id': item[0],
+             'edate': str(item[1]),
+             'twitter': item[2],
+             'link': item[3],
+             'incdate': str(item[4]),
+             'cdate': str(item[5]),
+             'creason': item[6],
+             'creasonx': item[7],
+             'cryptonative': item[8],
+             'verified': item[9],
+             'comments': item[10],
+             'year': item[12],
+             'name': item[13],
+             'ctype': str(item[14]).lower(),
+             'incnum': item[15],
+             'ophqcity': item[16],
+             'ophq': item[17],
+             'leghqcity': item[18],
+             'leghq': item[19],
+             'arbjur': item[20],
+             'description': item[21],
+             'fte': item[22],
+             'identifier': item[24],
+            })
+    return jsonify(response)
+
+
 @app.route("/api/getorg/<value>")
 def get_org(value):
     try:
